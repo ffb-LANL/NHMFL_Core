@@ -1,0 +1,13 @@
+FP-front Panel
+PRM - Parameters (of Application, Measurement, Hardware)
+
+
+PRM HANDLING:
+on Open FP: from HDW (through PRM?) to FP
+on start of action (measurement(s)): from FP to internal PRM field
+on Load CFG: from file to FP (through PRM?)
+on Save CFG: from FP to file (through PRM?)
+
+COMPOUND MEASUREMENT
+-can encapsulate other MSRMTs
+-multiple copies of the same class can be active

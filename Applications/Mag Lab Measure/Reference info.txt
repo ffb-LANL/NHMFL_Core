@@ -1,0 +1,72 @@
+Call chain:
+
+UI Run message Common Meas.Start measurements
+Common Meas.Start measurements:
+	Stats file, calls parent's, tells open graphs of file
+Controller.Start measurements:
+	Records names, rep times, calls init with own name
+Controller.Initialize:
+	if Requestee is us, 
+		call parent
+	else
+		dispatch message requestee init with same requestor (us)
+			
+Compound.Initialize:
+	if Requestee is us, 
+		forward message to all measurements (and flag it) with us as requestor, which brings  the chain back up to child
+	else
+		ignore
+			"Typical order
+
+			1) Controller (child) sends init to self as both requestee and requestor
+			2) When we get it here, ask caller (can be self) to dispatch init requests to compouned measurements, with us as a requestor now"
+Measure Base.Initialize:
+	Take Front Panel parameters snapshot, save to params, call parent
+Root.Initialize:
+	reply Requestor with asc init - end of init chain
+Controller.Rec Asc init
+	end of init chain
+	if Requestee is us, 
+		call Rec Request result from requestor with us as requestor - start "get result" chain
+	esle 
+		if requestor is us
+			call parent
+		else
+			dispatch message to requestor 
+Compound.Rec Asc init
+	if requestor is us
+		unflag requestee
+		if all unflagged
+			forward message to requestor ( if its us, it brings back in child )
+Controller.Rec Request result
+	if Requestee is us
+		call parent
+Compound.Rec Request result
+	if Requestee is us and no flagged requests
+		forward message to all measurements (and flag it) 
+	else 
+		ignore
+Hardware.Rec Request result
+	call get result and message requestor back with it
+Common.Rec Response
+	call parent
+	if from Timer, message update timer on UI
+Controller.Rec Response		
+	if requestor is us
+		if requestee us
+			if counter not expired
+				call Rec Request result from requestor with us as requestor (next measure cycle)
+			else
+				ignore
+		else  
+			call parent
+			call Rec Result (log in Common.Rec Result)
+Compound.Rec Response
+	if Requestor is us
+		find Requstee index
+
+Starting application:
+Launch -> Load App ->Read CFG file -> Launch actor
+Base's Actor Core calls Pre Init, which calls Configure, 
+
+			

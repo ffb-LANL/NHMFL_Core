@@ -1,0 +1,15 @@
+Sequence:
+
+Run Launch Cap Bank Server.vi 
+->  starts Cap Bank Server:Load App.vi  thread
+	-> launches Cap Bank Server:Actor Core
+	-> parent Mag Lab Measure Base(MLMB):Acror Core calls
+		->  MLMB:Pre Init calls
+			-> CBS:Initialize calls
+				->  MLMC:Initialize calls
+					-> MLMC:Scan for hardware
+				-> launches Idot Measurement and calls
+					-> MLMC:Start Measurement for IM with repeat poll 100ms, calls
+						->Measurement:Start Measurement
+						
+
