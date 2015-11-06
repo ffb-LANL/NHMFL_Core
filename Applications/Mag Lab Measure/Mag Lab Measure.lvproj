@@ -401,6 +401,8 @@
 			<Item Name="Get LR700 R &amp; X_VISA.vi" Type="VI" URL="../../../Libraries/Instruments/LR-700/Get LR700 R &amp; X_VISA.vi"/>
 			<Item Name="Select multiplexer LR700.vi" Type="VI" URL="../../../Libraries/Instruments/LR-700/Select multiplexer LR700.vi"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="Is DAQmx installed.vi" Type="VI" URL="../../../Libraries/NI-DAQ/Is DAQmx installed.vi"/>
+			<Item Name="Is gage installed.vi" Type="VI" URL="../../../Libraries/GaGe-DAQ/Is gage installed.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test Path" Type="EXE">
@@ -447,78 +449,41 @@
 			</Item>
 			<Item Name="Measure" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{74E3EB79-9FCC-463F-828B-46D545E77EA9}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{4650B108-6B39-42F3-AF88-DDCE39F5150A}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{DDCAB1E5-1C90-49EA-B983-C4E34BE01DC3}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{BA14F6A9-1849-4E24-A983-BFDAC7BB20D3}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{E4DB5862-03E5-44B7-96C2-5E328FF2AD90}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F2E167CE-DE24-4F05-88D9-20E660DFA468}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Measure</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/D/ProjectLocker/NHMFL/LANL/Builds/PulsedMagnetDAQ</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Measure</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{7DE083C3-5271-4425-AC29-30E53AD52A79}</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{671217FE-C50E-4253-BB59-9D25976E9F62}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Measure.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/D/ProjectLocker/NHMFL/LANL/Builds/PulsedMagnetDAQ/Measure.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure/Measure.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/D/ProjectLocker/NHMFL/LANL/Builds/PulsedMagnetDAQ/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{086233BE-0242-4AB9-A938-26F260A6D1FB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5EB82016-DB36-462D-B518-CB2AEACE268B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Common Measurements.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Error Handler</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Common application</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Graph</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Abstract classes</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Hardware</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Measurements</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Los Alamos National Laboratory</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Measure</Property>
 				<Property Name="TgtF_internalName" Type="Str">Measure</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Los Alamos National Laboratory</Property>
 				<Property Name="TgtF_productName" Type="Str">Measure</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{E10C166A-825B-4F5E-836D-8306BB775B45}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{CE70DB28-4BE2-4B5C-B0DF-4A2B6EDE19A1}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Measure.exe</Property>
 			</Item>
 		</Item>
