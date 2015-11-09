@@ -11,7 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Cell gas meter display.vi" Type="VI" URL="../Cell gas meter display.vi"/>
-		<Item Name="readmeterremotely_xw.vi" Type="VI" URL="../readmeterremotely_xw.vi"/>
+		<Item Name="Read Helium Meters Remotely.vi" Type="VI" URL="../Read Helium Meters Remotely.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -84,7 +84,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{29A8E83B-E20F-4870-81F5-F08C119AA489}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/readmeterremotely_xw.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Read Helium Meters Remotely.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
