@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Draft//EN">
+<HTML>
+<HEAD>
+<Script Language="JavaScript">
+var userAgent = navigator.userAgent;
+var versionOffset = userAgent.indexOf("Chrome");
+
+if (versionOffset != -1)
+{
+    var fullVersion = userAgent.substring(versionOffset+7);
+    var majorVersion = parseInt(''+fullVersion,10);
+    if (majorVersion >= 42)
+    {
+	var plugins = navigator.plugins;
+	var hasNIPlugin = false;
+	for (var i = 0; i < plugins.length; i++) {
+		if (plugins[i].name.indexOf("National Instruments") != -1) {
+			hasNIPlugin = true;
+		}
+	}
+	if (hasNIPlugin == false) {
+        	document.write('<strong><em>NI has detected that your ' +
+                               'browser might be blocking a plug-in.  '+
+                               'Visit ni.com/info and enter the following '+
+                               'Info Code for more information: '+
+                               'BlockedPlugin</em></strong>')
+	}
+    }
+}
+</Script>
+<TITLE>Title of Web Page</TITLE>
+</HEAD>
+<BODY >
+<H1>Title of Web Page</H1>
+Text that is going to be displayed before the VI panel image.<P>
+<TABLE BORDER=1 BORDERCOLOR = #000000><TR><TD>
+<OBJECT ID="LabVIEWControl" CLASSID="CLSID:A40B0AD4-B50E-4E58-8A1D-8544233807B7" WIDTH=1515 HEIGHT=1013 CODEBASE="ftp://ftp.ni.com/support/labview/runtime/windows/2015/LVRTE2015min.exe">
+<PARAM name="LVFPPVINAME" value="Monitor.lvproj/My Computer/Monitor.vi">
+<PARAM name="REQCTRL" value=true>
+<EMBED SRC=".LV_FrontPanelProtocol.rpvi150" LVFPPVINAME="Monitor.lvproj/My Computer/Monitor.vi" REQCTRL=true TYPE="application/x-labviewrpvi150" WIDTH=1515 HEIGHT=1013  PLUGINSPAGE="http://digital.ni.com/express.nsf/bycode/exck2m">
+</EMBED>
+</OBJECT>
+</TD></TR></TABLE>
+<P>
+Text that is going to be displayed after the VI panel image.
+</BODY>
+</HTML>
