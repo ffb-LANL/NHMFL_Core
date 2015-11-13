@@ -233,6 +233,8 @@
 			<Item Name="Test Interface.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Test/Test Interface/Test Interface.lvclass"/>
 		</Item>
 		<Item Name="Launch Common Measurements.vi" Type="VI" URL="../Launch Common Measurements.vi"/>
+		<Item Name="Untitled 10.vi" Type="VI" URL="../../../Libraries/Red Pitaya/Untitled 10.vi"/>
+		<Item Name="Any file exists.vi" Type="VI" URL="../../../Libraries/File/Any file exists.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -359,7 +361,6 @@
 				<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
 				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 			</Item>
-			<Item Name="File formats.ctl" Type="VI" URL="../../../Libraries/File/Controls/File formats.ctl"/>
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../../Libraries/File/File LLB/MakeDataFileNames.vi"/>
 			<Item Name="Obtain top dispatch vi.vi" Type="VI" URL="../../../Libraries/Utilities/Obtain top dispatch vi.vi"/>
 			<Item Name="Filter Device List.vi" Type="VI" URL="../../../Libraries/OO Devices/Dynamic Device List/Filter Device List.vi"/>
@@ -460,6 +461,7 @@
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="Is DAQmx installed.vi" Type="VI" URL="../../../Libraries/NI-DAQ/Is DAQmx installed.vi"/>
 			<Item Name="Is gage installed.vi" Type="VI" URL="../../../Libraries/GaGe-DAQ/Is gage installed.vi"/>
+			<Item Name="File formats.ctl" Type="VI" URL="../../../Libraries/File/Controls/File formats.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test Path" Type="EXE">
