@@ -1,0 +1,2 @@
+"NHMFL User Bank" application runs as a windows server on a "nhmflbank" computer.
+The app contains a TCP/IP server that responds to 
