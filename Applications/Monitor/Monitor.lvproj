@@ -11,11 +11,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="web" Type="Folder">
-			<Item Name="TestMonitor.html" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2015/www/TestMonitor.html"/>
-		</Item>
+		<Item Name="Monitor Viewer.vi" Type="VI" URL="../Monitor Viewer.vi"/>
 		<Item Name="Monitor.vi" Type="VI" URL="../Monitor.vi"/>
-		<Item Name="Test Monitor.vi" Type="VI" URL="../Test Monitor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -261,49 +258,6 @@
 			<Item Name="Shot data.ctl" Type="VI" URL="../../../Libraries/User Cap Bank/Labview/Library/Shot data.ctl"/>
 			<Item Name="TryAgain.vi" Type="VI" URL="../../../Libraries/File/File LLB/TryAgain.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Test Monitor" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{9D44E823-415E-4D58-9212-047B3DCC57BA}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{B4E4DAB1-A1EE-4033-BA55-45CC369BC4DA}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{762ADA83-41AB-47B9-BC2B-84FD72B12292}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Test Monitor</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TestMonitor</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{3716D523-3D28-4238-97E8-6D9E168191D0}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">TestMonitor.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestMonitor/TestMonitor.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TestMonitor/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{17C6DE2D-F2E0-4A91-A9AD-C1EBD0047417}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Test Monitor.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/web/TestMonitor.html</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">LANL</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Test Monitor</Property>
-				<Property Name="TgtF_internalName" Type="Str">Test Monitor</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 LANL</Property>
-				<Property Name="TgtF_productName" Type="Str">Test Monitor</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{661C9005-A0B6-482B-A5AC-D2DCED60CE4F}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">TestMonitor.exe</Property>
-			</Item>
-		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
