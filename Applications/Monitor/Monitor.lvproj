@@ -248,6 +248,7 @@
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../../Libraries/File/File LLB/MakeDataFileNames.vi"/>
 			<Item Name="MakePath.vi" Type="VI" URL="../../../Libraries/File/File LLB/MakePath.vi"/>
 			<Item Name="Match idot to shot utility.vi" Type="VI" URL="../../../Libraries/User Cap Bank/Labview/Library/Match idot to shot utility.vi"/>
+			<Item Name="mount share.vi" Type="VI" URL="../../../Libraries/Utilities/mount share.vi"/>
 			<Item Name="NI-DAQ digitizer parameters.ctl" Type="VI" URL="../../../Libraries/NI-DAQ/NI-DAQ digitizer parameters.ctl"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
