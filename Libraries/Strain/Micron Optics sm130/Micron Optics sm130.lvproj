@@ -15,6 +15,7 @@
 			<Item Name="Micron Optics sm130.bin3" Type="Document" URL="../Examples/Micron Optics sm130.bin3"/>
 		</Item>
 		<Item Name="Micron Optics sm130.lvlib" Type="Library" URL="../Micron Optics sm130.lvlib"/>
+		<Item Name="Record strain.vi" Type="VI" URL="../../../../Applications/Strain/Record strain.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -49,12 +50,27 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			</Item>
+			<Item Name="Graph.ctl" Type="VI" URL="../../Graph.ctl"/>
+			<Item Name="Save strain data.vi" Type="VI" URL="../../Save strain data.vi"/>
+			<Item Name="File formats.ctl" Type="VI" URL="../../../File/Controls/File formats.ctl"/>
+			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../../File/File LLB/MakeDataFileNames.vi"/>
+			<Item Name="MakePath.vi" Type="VI" URL="../../../File/File LLB/MakePath.vi"/>
+			<Item Name="Generate mounth year strings.vi" Type="VI" URL="../../../File/File LLB/Generate mounth year strings.vi"/>
+			<Item Name="Create folder if not exist.vi" Type="VI" URL="../../../File/File LLB/Create folder if not exist.vi"/>
+			<Item Name="AppendPathSeparator.vi" Type="VI" URL="../../../File/File LLB/AppendPathSeparator.vi"/>
+			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../../File/File LLB/GenerateUniqueFilename.vi"/>
+			<Item Name="Any file exists.vi" Type="VI" URL="../../../File/Any file exists.vi"/>
+			<Item Name="CheckFileExist.vi" Type="VI" URL="../../../File/File LLB/CheckFileExist.vi"/>
+			<Item Name="TryAgain.vi" Type="VI" URL="../../../File/File LLB/TryAgain.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

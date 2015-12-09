@@ -11,10 +11,10 @@ Micron Opics sm130 Optical Sensing Interrogator.</Property>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Action-Status" Type="Folder">
-			<Item Name="Action-Status.mnu" Type="Document" URL="../Public/Action-Status/Action-Status.mnu"/>
 			<Item Name="Reboot.vi" Type="VI" URL="../Public/Action-Status/Reboot.vi"/>
 			<Item Name="Send Start Trigger.vi" Type="VI" URL="../Public/Action-Status/Send Start Trigger.vi"/>
 			<Item Name="Send Stop Trigger.vi" Type="VI" URL="../Public/Action-Status/Send Stop Trigger.vi"/>
+			<Item Name="Action-Status.mnu" Type="Document" URL="../Public/Action-Status/Action-Status.mnu"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
