@@ -12,7 +12,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Red Pitaya Control.vi" Type="VI" URL="../Red Pitaya Control.vi"/>
 		<Item Name="RP proccess data.vi" Type="VI" URL="../RP proccess data.vi"/>
-		<Item Name="TDMS delete channel.vi" Type="VI" URL="../../File/TDMS delete channel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -124,6 +123,7 @@
 			<Item Name="RP Read Status.vi" Type="VI" URL="../RP Read Status.vi"/>
 			<Item Name="RP Write Command.vi" Type="VI" URL="../RP Write Command.vi"/>
 			<Item Name="RP write file.vi" Type="VI" URL="../RP write file.vi"/>
+			<Item Name="TDMS delete channel.vi" Type="VI" URL="../../File/TDMS delete channel.vi"/>
 			<Item Name="TryAgain.vi" Type="VI" URL="../../File/File LLB/TryAgain.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -184,7 +184,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8A2274A9-500D-4F4F-B812-08885153BCFB}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Red Pitaya Process Data64.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Red Pitaya Process Data64.exe</Property>
