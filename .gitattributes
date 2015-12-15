@@ -13,11 +13,11 @@
 *.png binary
 *.jpg binary
 *.vi binary
-*.lvproj
-*.lvlps
-*.llb
-*.exe
-*.ctl
-*.lvclass
-*.lvlib
-*.xctl
+*.lvproj binary
+*.lvlps binary
+*.llb binary
+*.exe binary
+*.ctl binary
+*.lvclass binary
+*.lvlib binary
+*.xctl binary
