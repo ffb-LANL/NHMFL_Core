@@ -233,8 +233,7 @@
 			<Item Name="Test Interface.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Test/Test Interface/Test Interface.lvclass"/>
 		</Item>
 		<Item Name="Launch Common Measurements.vi" Type="VI" URL="../Launch Common Measurements.vi"/>
-		<Item Name="Untitled 10.vi" Type="VI" URL="../../../Libraries/Red Pitaya/Untitled 10.vi"/>
-		<Item Name="Any file exists.vi" Type="VI" URL="../../../Libraries/File/Any file exists.vi"/>
+		<Item Name="Launch Two Common Measurements.vi" Type="VI" URL="../Launch Two Common Measurements.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -462,6 +461,7 @@
 			<Item Name="Is DAQmx installed.vi" Type="VI" URL="../../../Libraries/NI-DAQ/Is DAQmx installed.vi"/>
 			<Item Name="Is gage installed.vi" Type="VI" URL="../../../Libraries/GaGe-DAQ/Is gage installed.vi"/>
 			<Item Name="File formats.ctl" Type="VI" URL="../../../Libraries/File/Controls/File formats.ctl"/>
+			<Item Name="Any file exists.vi" Type="VI" URL="../../../Libraries/File/Any file exists.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test Path" Type="EXE">
@@ -521,7 +521,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{671217FE-C50E-4253-BB59-9D25976E9F62}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Measure.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure/Measure.exe</Property>
@@ -544,6 +544,87 @@
 				<Property Name="TgtF_productName" Type="Str">Measure</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{CE70DB28-4BE2-4B5C-B0DF-4A2B6EDE19A1}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Measure.exe</Property>
+			</Item>
+			<Item Name="Measure Two" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{E82D3B5D-A956-4C0C-9EE6-546A970B7B2B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{8DF8F857-C73C-429B-AE5F-5EAAE037F498}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{8098F02C-2DC4-4BC5-B5A8-97826A6DC178}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Measure Two</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Measure Two</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B0395AE4-C237-4733-B544-229F6E3192BB}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Measure Two.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure Two/Measure Two.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure Two/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{15346EAF-741C-43F2-A2E3-FEA203F29CDD}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Common Measurements.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Launch Two Common Measurements.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Los Alamos National Laboratory</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Measure</Property>
+				<Property Name="TgtF_internalName" Type="Str">Measure</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Los Alamos National Laboratory</Property>
+				<Property Name="TgtF_productName" Type="Str">Measure</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0BBA2081-2B29-48A0-B92E-9E2D6314FB0A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Measure Two.exe</Property>
+			</Item>
+			<Item Name="Measure64" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{2C6303D7-D100-4998-BC35-9754F4F2EC8C}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1AB8B71B-AA0B-4DEF-923F-621E20A80AD2}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{514618CE-2C2C-4F41-888C-0C7641D915BA}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Measure64</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Measure64</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9A9AE827-1372-43E1-8BF0-0E073CF23DB3}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Measure64.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure64/Measure64.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure64/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{05EC7239-284B-4F2C-B44A-F8B7CCE4B569}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Common Measurements.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Los Alamos National Laboratory</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Measure</Property>
+				<Property Name="TgtF_internalName" Type="Str">Measure</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Los Alamos National Laboratory</Property>
+				<Property Name="TgtF_productName" Type="Str">Measure</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0F726DDA-FCA6-4EA3-9951-F008602AE239}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Measure64.exe</Property>
 			</Item>
 		</Item>
 	</Item>
