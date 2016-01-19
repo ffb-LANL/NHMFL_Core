@@ -19,7 +19,9 @@
 		<Item Name="Red Pitaya Actor" Type="Folder">
 			<Item Name="Red Pitaya.lvclass" Type="LVClass" URL="../Red Pitaya.lvclass"/>
 		</Item>
-		<Item Name="Red Pitaya Control.vi" Type="VI" URL="../Red Pitaya Control.vi"/>
+		<Item Name="Calibrate from file.vi" Type="VI" URL="../Calibrate from file.vi"/>
+		<Item Name="FIR calculator.vi" Type="VI" URL="../FIR calculator.vi"/>
+		<Item Name="Magnet Idot Monitor.vi" Type="VI" URL="../../../Applications/Monitor/Magnet Idot Monitor.vi"/>
 		<Item Name="Red Pitaya Parameters.ctl" Type="VI" URL="../Red Pitaya Parameters.ctl"/>
 		<Item Name="RP proccess data.vi" Type="VI" URL="../RP proccess data.vi"/>
 		<Item Name="RP Read Subset.vi" Type="VI" URL="../RP Read Subset.vi"/>
@@ -417,7 +419,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{F71FC750-E580-4884-856B-F2C59A96AFE9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Red Pitaya Control.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Magnet Idot Monitor.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
@@ -459,7 +461,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E619321B-8C22-4DB5-97C5-107A9B550CD2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Red Pitaya Control.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Magnet Idot Monitor.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
