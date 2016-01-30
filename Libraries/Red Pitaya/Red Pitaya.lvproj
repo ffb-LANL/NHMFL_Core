@@ -19,15 +19,7 @@
 		<Item Name="Red Pitaya Actor" Type="Folder">
 			<Item Name="Red Pitaya.lvclass" Type="LVClass" URL="../Red Pitaya.lvclass"/>
 		</Item>
-		<Item Name="Calibrate from file.vi" Type="VI" URL="../Calibrate from file.vi"/>
-		<Item Name="FIR calculator.vi" Type="VI" URL="../FIR calculator.vi"/>
-		<Item Name="Magnet Idot Monitor.vi" Type="VI" URL="../../../Applications/Monitor/Magnet Idot Monitor.vi"/>
-		<Item Name="Red Pitaya Parameters.ctl" Type="VI" URL="../Red Pitaya Parameters.ctl"/>
-		<Item Name="RP proccess data.vi" Type="VI" URL="../RP proccess data.vi"/>
-		<Item Name="RP Read Subset.vi" Type="VI" URL="../RP Read Subset.vi"/>
-		<Item Name="RP Read Temperature.vi" Type="VI" URL="../RP Read Temperature.vi"/>
-		<Item Name="RP recorder.vi" Type="VI" URL="../RP recorder.vi"/>
-		<Item Name="RP Save Data.vi" Type="VI" URL="../RP Save Data.vi"/>
+		<Item Name="Red Pitaya Control.vi" Type="VI" URL="../Red Pitaya Control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -80,8 +72,6 @@
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
-				<Item Name="Check for multiple of dt.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for multiple of dt.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -91,21 +81,15 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
-				<Item Name="DTbl Digital Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Subset.vi"/>
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
-				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
 				<Item Name="DWDT Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Final Time Value.vi"/>
-				<Item Name="DWDT Get Waveform Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Waveform Subset.vi"/>
 				<Item Name="DWDT Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Waveform Duration.vi"/>
-				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="ex_Modify Signal Name.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signal Name.vi"/>
-				<Item Name="ex_Modify Signals Names.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signals Names.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
@@ -116,10 +100,10 @@
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="Get Waveform Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Waveform Subset.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -139,7 +123,6 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="subResample.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/AlignandResampleBlock.llb/subResample.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -165,17 +148,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
-				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Duration.vi"/>
-				<Item Name="WDT Find First Error and Warning.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Find First Error and Warning.vi"/>
 				<Item Name="WDT Get Final Time Value DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Final Time Value DBL.vi"/>
-				<Item Name="WDT Get Waveform Subset CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset CDB.vi"/>
-				<Item Name="WDT Get Waveform Subset DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset DBL.vi"/>
-				<Item Name="WDT Get Waveform Subset EXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset EXT.vi"/>
-				<Item Name="WDT Get Waveform Subset I8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset I8.vi"/>
-				<Item Name="WDT Get Waveform Subset I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset I16.vi"/>
-				<Item Name="WDT Get Waveform Subset I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset I32.vi"/>
-				<Item Name="WDT Get Waveform Subset SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset SGL.vi"/>
 				<Item Name="WDT Number of Waveform Samples CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples CDB.vi"/>
 				<Item Name="WDT Number of Waveform Samples DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples DBL.vi"/>
 				<Item Name="WDT Number of Waveform Samples EXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples EXT.vi"/>
@@ -200,7 +174,6 @@
 			<Item Name="ChangeFileExtention.vi" Type="VI" URL="../../File/File LLB/ChangeFileExtention.vi"/>
 			<Item Name="CheckFileExist.vi" Type="VI" URL="../../File/File LLB/CheckFileExist.vi"/>
 			<Item Name="Clear GPIB Timeout.vi" Type="VI" URL="../../Instruments/GPIB/Clear GPIB Timeout.vi"/>
-			<Item Name="ClearErrorNum.vi" Type="VI" URL="../../Utilities/ClearErrorNum.vi"/>
 			<Item Name="Close Front Panel Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Root Messages/Close Front Panel Msg/Close Front Panel Msg.lvclass"/>
 			<Item Name="Common Measurements Interface.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface/Common Measurements Interface.lvclass"/>
 			<Item Name="Common Measurements.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements.lvclass"/>
@@ -222,9 +195,7 @@
 			<Item Name="File formats.ctl" Type="VI" URL="../../File/Controls/File formats.ctl"/>
 			<Item Name="File updated Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/File updated Msg/File updated Msg.lvclass"/>
 			<Item Name="Filter Device List.vi" Type="VI" URL="../../OO Devices/Dynamic Device List/Filter Device List.vi"/>
-			<Item Name="Filter.vi" Type="VI" URL="../../Utilities/Waveform/Filter.vi"/>
 			<Item Name="Find control by label.vi" Type="VI" URL="../../Mag Lab Measure/Controls/Find control by label.vi"/>
-			<Item Name="FIR Filter.vi" Type="VI" URL="../../Utilities/Waveform/FIR Filter.vi"/>
 			<Item Name="Generate mounth year strings.vi" Type="VI" URL="../../File/File LLB/Generate mounth year strings.vi"/>
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../File/File LLB/GenerateUniqueFilename.vi"/>
 			<Item Name="Get HP 53132 Data.vi" Type="VI" URL="../../Instruments/HP/HP53132/Get HP 53132 Data.vi"/>
@@ -251,7 +222,6 @@
 			<Item Name="IdentifyAndReadInstr.vi" Type="VI" URL="../../Instruments/IdentifyAndReadInstr.vi"/>
 			<Item Name="IdentifyEG_G_Lockin.vi" Type="VI" URL="../../Instruments/EG_G/IdentifyEG_G_Lockin.vi"/>
 			<Item Name="IdentifyHP5385A.vi" Type="VI" URL="../../Instruments/HP/HP5385/IdentifyHP5385A.vi"/>
-			<Item Name="IIR Filter parameters.ctl" Type="VI" URL="../../Utilities/Waveform/IIR Filter parameters.ctl"/>
 			<Item Name="Increment mode.ctl" Type="VI" URL="../../Utilities/Increment mode.ctl"/>
 			<Item Name="Initialize Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Root Messages/Initialize Msg/Initialize Msg.lvclass"/>
 			<Item Name="Interface Log Status Update Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Interface Messages/Log Status Update Msg/Interface Log Status Update Msg.lvclass"/>
@@ -272,10 +242,8 @@
 			<Item Name="Letter to number.vi" Type="VI" URL="../../Utilities/Letter to number.vi"/>
 			<Item Name="Linear Research Parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Hardware/Linear Research/Linear Research Parameters.ctl"/>
 			<Item Name="Linear Research.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Linear Research/Linear Research.lvclass"/>
-			<Item Name="Lock-in detector.vi" Type="VI" URL="../Lock-in detector.vi"/>
 			<Item Name="Log Status Update Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Log Status Update Msg/Log Status Update Msg.lvclass"/>
 			<Item Name="Log time.ctl" Type="VI" URL="../../Mag Lab Measure/Measurement Timer/Log time.ctl"/>
-			<Item Name="LowPassFilter.vi" Type="VI" URL="../../Utilities/Waveform/LowPassFilter.vi"/>
 			<Item Name="LR 700 convert responce.vi" Type="VI" URL="../../Instruments/LR-700/LR 700 convert responce.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Mag Lab Error Handler.lvlib" Type="Library" URL="../../Mag Lab Measure/Mag Lab Error Handler/Mag Lab Error Handler.lvlib"/>
@@ -340,11 +308,10 @@
 			<Item Name="Recieve Response with Result Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Root Messages/Recieve Response with Result Msg/Recieve Response with Result Msg.lvclass"/>
 			<Item Name="Recieve Result Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Recieve Result Msg/Recieve Result Msg.lvclass"/>
 			<Item Name="Recieve Timer Tick Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Base Messages/Recieve Timer Tick Msg/Recieve Timer Tick Msg.lvclass"/>
+			<Item Name="Red Pitaya Parameters.ctl" Type="VI" URL="../Red Pitaya Parameters.ctl"/>
 			<Item Name="Reduce WFRM.vi" Type="VI" URL="../../Utilities/Reduce WFRM.vi"/>
 			<Item Name="Replot Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Replot Msg/Replot Msg.lvclass"/>
 			<Item Name="Result to DBL.vi" Type="VI" URL="../../Mag Lab Measure/Mag Lab Result/Result to DBL.vi"/>
-			<Item Name="Reverse waveform.vi" Type="VI" URL="../../Utilities/Waveform/Reverse waveform.vi"/>
-			<Item Name="ReverseWaveforms.vi" Type="VI" URL="../../Utilities/Waveform/ReverseWaveforms.vi"/>
 			<Item Name="Ring plots update.vi" Type="VI" URL="../../Utilities/Ring plots update.vi"/>
 			<Item Name="RP 32 ADC to Volts 1D.vi" Type="VI" URL="../RP 32 ADC to Volts 1D.vi"/>
 			<Item Name="RP ADC to Volts 1D.vi" Type="VI" URL="../RP ADC to Volts 1D.vi"/>
@@ -355,8 +322,10 @@
 			<Item Name="RP convert raw data.vi" Type="VI" URL="../RP convert raw data.vi"/>
 			<Item Name="RP get info.vi" Type="VI" URL="../RP get info.vi"/>
 			<Item Name="RP info.ctl" Type="VI" URL="../RP info.ctl"/>
-			<Item Name="RP read signal channel.vi" Type="VI" URL="../RP read signal channel.vi"/>
 			<Item Name="RP Read Status.vi" Type="VI" URL="../RP Read Status.vi"/>
+			<Item Name="RP Read Subset.vi" Type="VI" URL="../RP Read Subset.vi"/>
+			<Item Name="RP Read Temperature.vi" Type="VI" URL="../RP Read Temperature.vi"/>
+			<Item Name="RP Save Data.vi" Type="VI" URL="../RP Save Data.vi"/>
 			<Item Name="RP Write Command.vi" Type="VI" URL="../RP Write Command.vi"/>
 			<Item Name="RP write file.vi" Type="VI" URL="../RP write file.vi"/>
 			<Item Name="Save defaults Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Save defaults Msg/Save defaults Msg.lvclass"/>
@@ -374,7 +343,6 @@
 			<Item Name="Stop all measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Stop all measurements Msg/Stop all measurements Msg.lvclass"/>
 			<Item Name="T controller parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Hardware/Temperarture Controller/T controller parameters.ctl"/>
 			<Item Name="TDMS channel info.ctl" Type="VI" URL="../../File/Controls/TDMS channel info.ctl"/>
-			<Item Name="TDMS delete channel.vi" Type="VI" URL="../../File/TDMS delete channel.vi"/>
 			<Item Name="Thermopower Measurement.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Thermopower/Termopower Measurement/Thermopower Measurement.lvclass"/>
 			<Item Name="Tick count to time stamp.vi" Type="VI" URL="../../Mag Lab Measure/Measurement Timer/Tick count to time stamp.vi"/>
 			<Item Name="Timer Parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Measurement Timer/Timer Parameters.ctl"/>
@@ -419,7 +387,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{F71FC750-E580-4884-856B-F2C59A96AFE9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Magnet Idot Monitor.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
@@ -461,13 +429,13 @@
 				<Property Name="Source[0].itemID" Type="Str">{E619321B-8C22-4DB5-97C5-107A9B550CD2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Magnet Idot Monitor.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/RP proccess data.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
