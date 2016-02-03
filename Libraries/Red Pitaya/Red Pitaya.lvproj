@@ -19,6 +19,10 @@
 		<Item Name="Red Pitaya Actor" Type="Folder">
 			<Item Name="Red Pitaya.lvclass" Type="LVClass" URL="../Red Pitaya.lvclass"/>
 		</Item>
+		<Item Name="Red Pitaya Tester" Type="Folder">
+			<Item Name="Launch RP Tester.vi" Type="VI" URL="../Actors/Launch RP Tester.vi"/>
+			<Item Name="Red Pitaya Tester.lvclass" Type="LVClass" URL="../Actors/Red Pitaya Tester/Red Pitaya Tester.lvclass"/>
+		</Item>
 		<Item Name="Red Pitaya Control.vi" Type="VI" URL="../Red Pitaya Control.vi"/>
 		<Item Name="Red Pitaya Lockin Sweep.vi" Type="VI" URL="../Red Pitaya Lockin Sweep.vi"/>
 		<Item Name="Red Pitaya Lockin.vi" Type="VI" URL="../Red Pitaya Lockin.vi"/>
@@ -248,6 +252,7 @@
 			<Item Name="Letter to number.vi" Type="VI" URL="../../Utilities/Letter to number.vi"/>
 			<Item Name="Linear Research Parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Hardware/Linear Research/Linear Research Parameters.ctl"/>
 			<Item Name="Linear Research.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Linear Research/Linear Research.lvclass"/>
+			<Item Name="Linear step array.vi" Type="VI" URL="../../Utilities/Linear step array.vi"/>
 			<Item Name="Log Status Update Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Log Status Update Msg/Log Status Update Msg.lvclass"/>
 			<Item Name="Log time.ctl" Type="VI" URL="../../Mag Lab Measure/Measurement Timer/Log time.ctl"/>
 			<Item Name="LR 700 convert responce.vi" Type="VI" URL="../../Instruments/LR-700/LR 700 convert responce.vi"/>
@@ -328,6 +333,7 @@
 			<Item Name="RP convert raw data.vi" Type="VI" URL="../RP convert raw data.vi"/>
 			<Item Name="RP get info.vi" Type="VI" URL="../RP get info.vi"/>
 			<Item Name="RP info.ctl" Type="VI" URL="../RP info.ctl"/>
+			<Item Name="RP Lockin Continuous Sweeper.vi" Type="VI" URL="../RP Lockin Continuous Sweeper.vi"/>
 			<Item Name="RP Read Status.vi" Type="VI" URL="../RP Read Status.vi"/>
 			<Item Name="RP Read Subset.vi" Type="VI" URL="../RP Read Subset.vi"/>
 			<Item Name="RP Read Temperature.vi" Type="VI" URL="../RP Read Temperature.vi"/>
