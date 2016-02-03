@@ -20,8 +20,11 @@
 			<Item Name="Red Pitaya.lvclass" Type="LVClass" URL="../Red Pitaya.lvclass"/>
 		</Item>
 		<Item Name="Red Pitaya Control.vi" Type="VI" URL="../Red Pitaya Control.vi"/>
+		<Item Name="Red Pitaya Lockin Sweep.vi" Type="VI" URL="../Red Pitaya Lockin Sweep.vi"/>
 		<Item Name="Red Pitaya Lockin.vi" Type="VI" URL="../Red Pitaya Lockin.vi"/>
+		<Item Name="RP Lockin Sweeper.vi" Type="VI" URL="../RP Lockin Sweeper.vi"/>
 		<Item Name="RP Read RX FIFO.vi" Type="VI" URL="../RP Read RX FIFO.vi"/>
+		<Item Name="RP set frequency.vi" Type="VI" URL="../RP set frequency.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -104,6 +107,7 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
