@@ -17,7 +17,13 @@
 			<Item Name="Mag Lab Digitizer.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Digitizer/Mag Lab Digitizer.lvclass"/>
 		</Item>
 		<Item Name="Red Pitaya Actor" Type="Folder">
-			<Item Name="Red Pitaya.lvclass" Type="LVClass" URL="../Red Pitaya.lvclass"/>
+			<Item Name="Messages" Type="Folder">
+				<Item Name="Record Msg.lvclass" Type="LVClass" URL="../Actors/Red Pitaya Messages/Record Msg/Record Msg.lvclass"/>
+			</Item>
+			<Item Name="Result" Type="Folder">
+				<Item Name="Recording.lvclass" Type="LVClass" URL="../Actors/Recording/Recording.lvclass"/>
+			</Item>
+			<Item Name="Red Pitaya.lvclass" Type="LVClass" URL="../Actors/Red Pitaya/Red Pitaya.lvclass"/>
 		</Item>
 		<Item Name="Red Pitaya Tester" Type="Folder">
 			<Item Name="Launch RP Tester.vi" Type="VI" URL="../Actors/Launch RP Tester.vi"/>
@@ -26,6 +32,7 @@
 		<Item Name="Red Pitaya Control.vi" Type="VI" URL="../Red Pitaya Control.vi"/>
 		<Item Name="Red Pitaya Lockin Sweep.vi" Type="VI" URL="../Red Pitaya Lockin Sweep.vi"/>
 		<Item Name="Red Pitaya Lockin.vi" Type="VI" URL="../Red Pitaya Lockin.vi"/>
+		<Item Name="RP compress sweep.vi" Type="VI" URL="../RP compress sweep.vi"/>
 		<Item Name="RP Lockin Sweeper.vi" Type="VI" URL="../RP Lockin Sweeper.vi"/>
 		<Item Name="RP Read RX FIFO.vi" Type="VI" URL="../RP Read RX FIFO.vi"/>
 		<Item Name="RP set frequency.vi" Type="VI" URL="../RP set frequency.vi"/>
@@ -331,13 +338,16 @@
 			<Item Name="RP calculate subset.vi" Type="VI" URL="../RP calculate subset.vi"/>
 			<Item Name="RP Command.ctl" Type="VI" URL="../RP Command.ctl"/>
 			<Item Name="RP convert raw data.vi" Type="VI" URL="../RP convert raw data.vi"/>
+			<Item Name="RP convert sweep.vi" Type="VI" URL="../RP convert sweep.vi"/>
 			<Item Name="RP get info.vi" Type="VI" URL="../RP get info.vi"/>
 			<Item Name="RP info.ctl" Type="VI" URL="../RP info.ctl"/>
-			<Item Name="RP Lockin Continuous Sweeper.vi" Type="VI" URL="../RP Lockin Continuous Sweeper.vi"/>
+			<Item Name="RP Lockin Fast Continuous Sweeper.vi" Type="VI" URL="../RP Lockin Fast Continuous Sweeper.vi"/>
+			<Item Name="RP Read RX FIFO Fast.vi" Type="VI" URL="../RP Read RX FIFO Fast.vi"/>
 			<Item Name="RP Read Status.vi" Type="VI" URL="../RP Read Status.vi"/>
 			<Item Name="RP Read Subset.vi" Type="VI" URL="../RP Read Subset.vi"/>
 			<Item Name="RP Read Temperature.vi" Type="VI" URL="../RP Read Temperature.vi"/>
 			<Item Name="RP Save Data.vi" Type="VI" URL="../RP Save Data.vi"/>
+			<Item Name="RP set frequency batch.vi" Type="VI" URL="../RP set frequency batch.vi"/>
 			<Item Name="RP Write Command.vi" Type="VI" URL="../RP Write Command.vi"/>
 			<Item Name="RP write file.vi" Type="VI" URL="../RP write file.vi"/>
 			<Item Name="Save defaults Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Save defaults Msg/Save defaults Msg.lvclass"/>
