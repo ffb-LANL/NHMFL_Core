@@ -213,11 +213,11 @@
 			<Item Name="DBL Payload.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/Payload/DBL Payload/DBL Payload.lvclass"/>
 			<Item Name="DBL Result.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/DBL Result/DBL Result.lvclass"/>
 			<Item Name="DBL to Result.vi" Type="VI" URL="../../Mag Lab Measure/Mag Lab Result/DBL to Result.vi"/>
-			<Item Name="Device type.ctl" Type="VI" URL="../../OO Devices/Device/Device type.ctl"/>
+			<Item Name="Device type.ctl" Type="VI" URL="../../Instruments/Device/Device type.ctl"/>
 			<Item Name="Empty buffer.vi" Type="VI" URL="../../Instruments/GPIB/Empty buffer.vi"/>
 			<Item Name="File formats.ctl" Type="VI" URL="../../File/Controls/File formats.ctl"/>
 			<Item Name="File updated Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/File updated Msg/File updated Msg.lvclass"/>
-			<Item Name="Filter Device List.vi" Type="VI" URL="../../OO Devices/Dynamic Device List/Filter Device List.vi"/>
+			<Item Name="Filter Device List.vi" Type="VI" URL="../../Instruments/Device/Filter Device List.vi"/>
 			<Item Name="Find control by label.vi" Type="VI" URL="../../Mag Lab Measure/Controls/Find control by label.vi"/>
 			<Item Name="Generate mounth year strings.vi" Type="VI" URL="../../File/File LLB/Generate mounth year strings.vi"/>
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../File/File LLB/GenerateUniqueFilename.vi"/>
@@ -242,7 +242,6 @@
 			<Item Name="HPNeworkAnalyzer.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/HP/HPNetworkAnalyzer/HPNeworkAnalyzer.lvclass"/>
 			<Item Name="Identify Neocera.vi" Type="VI" URL="../../Instruments/Neocera/Identify Neocera.vi"/>
 			<Item Name="Identify Oxford.vi" Type="VI" URL="../../Instruments/Oxford/Identify Oxford.vi"/>
-			<Item Name="Identify peaks.vi" Type="VI" URL="../../Mag Lab Measure/Measurements/RUS Measurement/Identify peaks.vi"/>
 			<Item Name="IdentifyAndReadInstr.vi" Type="VI" URL="../../Instruments/IdentifyAndReadInstr.vi"/>
 			<Item Name="IdentifyEG_G_Lockin.vi" Type="VI" URL="../../Instruments/EG_G/IdentifyEG_G_Lockin.vi"/>
 			<Item Name="IdentifyHP5385A.vi" Type="VI" URL="../../Instruments/HP/HP5385/IdentifyHP5385A.vi"/>
@@ -364,7 +363,6 @@
 			<Item Name="Select multiplexer LR700.vi" Type="VI" URL="../../Instruments/LR-700/Select multiplexer LR700.vi"/>
 			<Item Name="Send Receive.vi" Type="VI" URL="../../Instruments/GPIB/Send Receive.vi"/>
 			<Item Name="Sequencer Measurement.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Measurements/Sequencer Measurement/Sequencer Measurement.lvclass"/>
-			<Item Name="Set controls.vi" Type="VI" URL="../../Mag Lab Measure/Measurements/RUS Measurement/Set controls.vi"/>
 			<Item Name="Set LakeShore 340 Ramp.vi" Type="VI" URL="../../Instruments/LakeShore/LakeShore340/Set LakeShore 340 Ramp.vi"/>
 			<Item Name="Set LakeShore 340 Set Point.vi" Type="VI" URL="../../Instruments/LakeShore/LakeShore340/Set LakeShore 340 Set Point.vi"/>
 			<Item Name="Settle Output.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Source/Settle output/Settle Output.lvclass"/>
@@ -372,7 +370,6 @@
 			<Item Name="Stanford Research.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Stanford Research/Stanford Research.lvclass"/>
 			<Item Name="Start measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Start measurements Msg/Start measurements Msg.lvclass"/>
 			<Item Name="Stop all measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Stop all measurements Msg/Stop all measurements Msg.lvclass"/>
-			<Item Name="Sweep settings.ctl" Type="VI" URL="../../RUS/Controls/Sweep settings.ctl"/>
 			<Item Name="T controller parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Hardware/Temperarture Controller/T controller parameters.ctl"/>
 			<Item Name="TDMS channel info.ctl" Type="VI" URL="../../File/Controls/TDMS channel info.ctl"/>
 			<Item Name="Thermopower Measurement.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Thermopower/Termopower Measurement/Thermopower Measurement.lvclass"/>

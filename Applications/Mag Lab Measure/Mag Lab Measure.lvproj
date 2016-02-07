@@ -363,7 +363,6 @@
 			</Item>
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../../Libraries/File/File LLB/MakeDataFileNames.vi"/>
 			<Item Name="Obtain top dispatch vi.vi" Type="VI" URL="../../../Libraries/Utilities/Obtain top dispatch vi.vi"/>
-			<Item Name="Filter Device List.vi" Type="VI" URL="../../../Libraries/OO Devices/Dynamic Device List/Filter Device List.vi"/>
 			<Item Name="Write menu object array values.vi" Type="VI" URL="../../../Libraries/Mag Lab Measure/Menu object array/Write menu object array values.vi"/>
 			<Item Name="Read object names.vi" Type="VI" URL="../../../Libraries/Mag Lab Measure/Menu object array/Read object names.vi"/>
 			<Item Name="Write object names.vi" Type="VI" URL="../../../Libraries/Mag Lab Measure/Menu object array/Write object names.vi"/>
@@ -394,7 +393,6 @@
 			<Item Name="Create plots - ring selector.vi" Type="VI" URL="../../../Libraries/File/Create plots - ring selector.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Get ring selector waveform.vi" Type="VI" URL="../../../Libraries/File/Get ring selector waveform.vi"/>
-			<Item Name="Device type.ctl" Type="VI" URL="../../../Libraries/OO Devices/Device/Device type.ctl"/>
 			<Item Name="VISA  Send Receive.vi" Type="VI" URL="../../../Libraries/Instruments/GPIB/VISA  Send Receive.vi"/>
 			<Item Name="GPIB Send Receive.vi" Type="VI" URL="../../../Libraries/Instruments/GPIB/GPIB Send Receive.vi"/>
 			<Item Name="Send Receive.vi" Type="VI" URL="../../../Libraries/Instruments/GPIB/Send Receive.vi"/>
@@ -463,6 +461,8 @@
 			<Item Name="Is gage installed.vi" Type="VI" URL="../../../Libraries/GaGe-DAQ/Is gage installed.vi"/>
 			<Item Name="File formats.ctl" Type="VI" URL="../../../Libraries/File/Controls/File formats.ctl"/>
 			<Item Name="Any file exists.vi" Type="VI" URL="../../../Libraries/File/Any file exists.vi"/>
+			<Item Name="Filter Device List.vi" Type="VI" URL="../../../Libraries/Instruments/Device/Filter Device List.vi"/>
+			<Item Name="Device type.ctl" Type="VI" URL="../../../Libraries/Instruments/Device/Device type.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test Path" Type="EXE">
