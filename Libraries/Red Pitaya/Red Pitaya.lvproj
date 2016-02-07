@@ -29,6 +29,12 @@
 			<Item Name="Launch RP Tester.vi" Type="VI" URL="../Actors/Launch RP Tester.vi"/>
 			<Item Name="Red Pitaya Tester.lvclass" Type="LVClass" URL="../Actors/Red Pitaya Tester/Red Pitaya Tester.lvclass"/>
 		</Item>
+		<Item Name="RP RUS" Type="Folder">
+			<Item Name="RP RUS.lvclass" Type="LVClass" URL="../Actors/RP RUS/RP RUS.lvclass"/>
+		</Item>
+		<Item Name="RUS" Type="Folder">
+			<Item Name="RUS Measurement.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Measurements/RUS Measurement/RUS Measurement.lvclass"/>
+		</Item>
 		<Item Name="Red Pitaya Control.vi" Type="VI" URL="../Red Pitaya Control.vi"/>
 		<Item Name="Red Pitaya Lockin Sweep.vi" Type="VI" URL="../Red Pitaya Lockin Sweep.vi"/>
 		<Item Name="Red Pitaya Lockin.vi" Type="VI" URL="../Red Pitaya Lockin.vi"/>
@@ -236,6 +242,7 @@
 			<Item Name="HPNeworkAnalyzer.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/HP/HPNetworkAnalyzer/HPNeworkAnalyzer.lvclass"/>
 			<Item Name="Identify Neocera.vi" Type="VI" URL="../../Instruments/Neocera/Identify Neocera.vi"/>
 			<Item Name="Identify Oxford.vi" Type="VI" URL="../../Instruments/Oxford/Identify Oxford.vi"/>
+			<Item Name="Identify peaks.vi" Type="VI" URL="../../Mag Lab Measure/Measurements/RUS Measurement/Identify peaks.vi"/>
 			<Item Name="IdentifyAndReadInstr.vi" Type="VI" URL="../../Instruments/IdentifyAndReadInstr.vi"/>
 			<Item Name="IdentifyEG_G_Lockin.vi" Type="VI" URL="../../Instruments/EG_G/IdentifyEG_G_Lockin.vi"/>
 			<Item Name="IdentifyHP5385A.vi" Type="VI" URL="../../Instruments/HP/HP5385/IdentifyHP5385A.vi"/>
@@ -350,12 +357,14 @@
 			<Item Name="RP set frequency batch.vi" Type="VI" URL="../RP set frequency batch.vi"/>
 			<Item Name="RP Write Command.vi" Type="VI" URL="../RP Write Command.vi"/>
 			<Item Name="RP write file.vi" Type="VI" URL="../RP write file.vi"/>
+			<Item Name="RUS Parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Measurements/RUS Measurement/RUS Parameters.ctl"/>
 			<Item Name="Save defaults Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Save defaults Msg/Save defaults Msg.lvclass"/>
 			<Item Name="Save keep old plots Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Save keep old plots Msg/Save keep old plots Msg.lvclass"/>
 			<Item Name="Select menu measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Select menu measurements Msg/Select menu measurements Msg.lvclass"/>
 			<Item Name="Select multiplexer LR700.vi" Type="VI" URL="../../Instruments/LR-700/Select multiplexer LR700.vi"/>
 			<Item Name="Send Receive.vi" Type="VI" URL="../../Instruments/GPIB/Send Receive.vi"/>
 			<Item Name="Sequencer Measurement.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Measurements/Sequencer Measurement/Sequencer Measurement.lvclass"/>
+			<Item Name="Set controls.vi" Type="VI" URL="../../Mag Lab Measure/Measurements/RUS Measurement/Set controls.vi"/>
 			<Item Name="Set LakeShore 340 Ramp.vi" Type="VI" URL="../../Instruments/LakeShore/LakeShore340/Set LakeShore 340 Ramp.vi"/>
 			<Item Name="Set LakeShore 340 Set Point.vi" Type="VI" URL="../../Instruments/LakeShore/LakeShore340/Set LakeShore 340 Set Point.vi"/>
 			<Item Name="Settle Output.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Source/Settle output/Settle Output.lvclass"/>
@@ -363,6 +372,7 @@
 			<Item Name="Stanford Research.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Stanford Research/Stanford Research.lvclass"/>
 			<Item Name="Start measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Start measurements Msg/Start measurements Msg.lvclass"/>
 			<Item Name="Stop all measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Stop all measurements Msg/Stop all measurements Msg.lvclass"/>
+			<Item Name="Sweep settings.ctl" Type="VI" URL="../../RUS/Controls/Sweep settings.ctl"/>
 			<Item Name="T controller parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Hardware/Temperarture Controller/T controller parameters.ctl"/>
 			<Item Name="TDMS channel info.ctl" Type="VI" URL="../../File/Controls/TDMS channel info.ctl"/>
 			<Item Name="Thermopower Measurement.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Thermopower/Termopower Measurement/Thermopower Measurement.lvclass"/>
