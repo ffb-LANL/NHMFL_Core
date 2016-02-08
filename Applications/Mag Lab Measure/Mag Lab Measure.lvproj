@@ -124,6 +124,9 @@
 					<Item Name="Software Lock-in.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Software Lock-in/Software Lock-in.lvclass"/>
 					<Item Name="Lock-in worker.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Software Lock-in/Lock-in worker/Lock-in worker.lvclass"/>
 				</Item>
+				<Item Name="Spectrum Analyzer" Type="Folder">
+					<Item Name="Spectrum Analyzer.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Spectrum Analyzer/Spectrum Analyzer.lvclass"/>
+				</Item>
 				<Item Name="Mag Lab Hardware.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Mag Lab Hardware.lvclass"/>
 				<Item Name="Mag Lab Digitizer.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Digitizer/Mag Lab Digitizer.lvclass"/>
 				<Item Name="Counter.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Counter/Counter.lvclass"/>
@@ -177,6 +180,9 @@
 			<Item Name="Cryo-Con" Type="Folder">
 				<Item Name="Cryo-Con.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Cryo-Con/Cryo-Con.lvclass"/>
 			</Item>
+			<Item Name="Red Pitaya" Type="Folder">
+				<Item Name="Red Pitaya.lvclass" Type="LVClass" URL="../../../Libraries/Red Pitaya/Actors/Red Pitaya/Red Pitaya.lvclass"/>
+			</Item>
 			<Item Name="LakeShore T Controller.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/LakeShore/Lake Shore Temperature Controller/LakeShore T Controller.lvclass"/>
 			<Item Name="Neocera.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Neocera/Neocera.lvclass"/>
 			<Item Name="Stanford Research.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Stanford Research/Stanford Research.lvclass"/>
@@ -219,6 +225,9 @@
 				<Item Name="Compound Measurement.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Compound Measurement/Compound Measurement.lvclass"/>
 			</Item>
 			<Item Name="Lock-in" Type="Folder"/>
+			<Item Name="RUS" Type="Folder">
+				<Item Name="RUS Measurement.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Measurements/RUS Measurement/RUS Measurement.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Measurement Controller App" Type="Folder">
 			<Item Name="Measurement Controller UI" Type="Folder">
@@ -463,6 +472,13 @@
 			<Item Name="Any file exists.vi" Type="VI" URL="../../../Libraries/File/Any file exists.vi"/>
 			<Item Name="Filter Device List.vi" Type="VI" URL="../../../Libraries/Instruments/Device/Filter Device List.vi"/>
 			<Item Name="Device type.ctl" Type="VI" URL="../../../Libraries/Instruments/Device/Device type.ctl"/>
+			<Item Name="RUS Parameters.ctl" Type="VI" URL="../../../Libraries/Mag Lab Measure/Measurements/RUS Measurement/RUS Parameters.ctl"/>
+			<Item Name="Arm Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Mag Lab Digitizer Messages/Arm Msg/Arm Msg.lvclass"/>
+			<Item Name="RP Command.ctl" Type="VI" URL="../../../Libraries/Red Pitaya/RP Command.ctl"/>
+			<Item Name="RP Write Command.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP Write Command.vi"/>
+			<Item Name="RP Read RX FIFO.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP Read RX FIFO.vi"/>
+			<Item Name="RP Read Status.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP Read Status.vi"/>
+			<Item Name="Record Msg.lvclass" Type="LVClass" URL="../../../Libraries/Red Pitaya/Actors/Red Pitaya Messages/Record Msg/Record Msg.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test Path" Type="EXE">
