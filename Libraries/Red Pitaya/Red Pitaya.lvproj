@@ -359,6 +359,7 @@
 			<Item Name="RUS Parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Measurements/RUS Measurement/RUS Parameters.ctl"/>
 			<Item Name="Save defaults Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Save defaults Msg/Save defaults Msg.lvclass"/>
 			<Item Name="Save keep old plots Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Save keep old plots Msg/Save keep old plots Msg.lvclass"/>
+			<Item Name="Scaled I32 Array Result.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/Scaled I32 Array Result/Scaled I32 Array Result.lvclass"/>
 			<Item Name="Select menu measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Select menu measurements Msg/Select menu measurements Msg.lvclass"/>
 			<Item Name="Select multiplexer LR700.vi" Type="VI" URL="../../Instruments/LR-700/Select multiplexer LR700.vi"/>
 			<Item Name="Send Receive.vi" Type="VI" URL="../../Instruments/GPIB/Send Receive.vi"/>
@@ -367,6 +368,7 @@
 			<Item Name="Set LakeShore 340 Set Point.vi" Type="VI" URL="../../Instruments/LakeShore/LakeShore340/Set LakeShore 340 Set Point.vi"/>
 			<Item Name="Settle Output.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Source/Settle output/Settle Output.lvclass"/>
 			<Item Name="Source.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Source/Source.lvclass"/>
+			<Item Name="Spectrum Analyzer.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Spectrum Analyzer/Spectrum Analyzer.lvclass"/>
 			<Item Name="Stanford Research.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Stanford Research/Stanford Research.lvclass"/>
 			<Item Name="Start measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Start measurements Msg/Start measurements Msg.lvclass"/>
 			<Item Name="Stop all measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Stop all measurements Msg/Stop all measurements Msg.lvclass"/>
@@ -375,6 +377,7 @@
 			<Item Name="Thermopower Measurement.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Thermopower/Termopower Measurement/Thermopower Measurement.lvclass"/>
 			<Item Name="Tick count to time stamp.vi" Type="VI" URL="../../Mag Lab Measure/Measurement Timer/Tick count to time stamp.vi"/>
 			<Item Name="Timer Parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Measurement Timer/Timer Parameters.ctl"/>
+			<Item Name="Transmit Message Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Base Messages/Transmit Message Msg/Transmit Message Msg.lvclass"/>
 			<Item Name="TryAgain.vi" Type="VI" URL="../../File/File LLB/TryAgain.vi"/>
 			<Item Name="Update time Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Update time Msg/Update time Msg.lvclass"/>
 			<Item Name="VISA  Send Receive.vi" Type="VI" URL="../../Instruments/GPIB/VISA  Send Receive.vi"/>
@@ -383,7 +386,9 @@
 			<Item Name="Waveform Array Result.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/Waveform Array Result/Waveform Array Result.lvclass"/>
 			<Item Name="Write CFG File Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Root Messages/Write CFG File Msg/Write CFG File Msg.lvclass"/>
 			<Item Name="Write Default channels Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements Messages/Write Default channels Msg/Write Default channels Msg.lvclass"/>
+			<Item Name="Write Duration Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Spectrum Analyzer Messages/Write Duration Msg/Write Duration Msg.lvclass"/>
 			<Item Name="Write File Path Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Write File Path Msg/Write File Path Msg.lvclass"/>
+			<Item Name="Write Frequencies Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Spectrum Analyzer Messages/Write Frequencies Msg/Write Frequencies Msg.lvclass"/>
 			<Item Name="Write menu object array values.vi" Type="VI" URL="../../Mag Lab Measure/Menu object array/Write menu object array values.vi"/>
 			<Item Name="Write menu object names Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Menu object array Messages/Write menu object names Msg/Write menu object names Msg.lvclass"/>
 			<Item Name="Write object names.vi" Type="VI" URL="../../Mag Lab Measure/Menu object array/Write object names.vi"/>
