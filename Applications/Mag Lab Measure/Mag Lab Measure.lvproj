@@ -254,6 +254,9 @@
 			<Item Name="Test CFG file.vi" Type="VI" URL="../../../Libraries/Mag Lab Measure/Test/Test CFG file.vi"/>
 			<Item Name="Test Interface.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Test/Test Interface/Test Interface.lvclass"/>
 		</Item>
+		<Item Name="Meassure Pulse" Type="Folder">
+			<Item Name="Measure Pulse.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Measure Pulse/Measure Pulse.lvclass"/>
+		</Item>
 		<Item Name="Launch Common Measurements.vi" Type="VI" URL="../Launch Common Measurements.vi"/>
 		<Item Name="Launch Two Common Measurements.vi" Type="VI" URL="../Launch Two Common Measurements.vi"/>
 		<Item Name="Test format.vi" Type="VI" URL="../../../Libraries/Mag Lab Measure/Mag Lab Result/Scaled I32 Array Result/Test format.vi"/>
@@ -611,7 +614,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{671217FE-C50E-4253-BB59-9D25976E9F62}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Measure.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure/Measure.exe</Property>
@@ -717,7 +720,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D3F997A8-BB5D-4246-8954-850E0EA3524A}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Measure Two.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure Two/Measure Two.exe</Property>
