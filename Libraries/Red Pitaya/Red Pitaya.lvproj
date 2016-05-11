@@ -12,7 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Digitizer Actor" Type="Folder">
 			<Item Name="Messages" Type="Folder">
-				<Item Name="Arm Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Mag Lab Digitizer Messages/Arm Msg/Arm Msg.lvclass"/>
+				<Item Name="Arm Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Root Messages/Arm Msg/Arm Msg.lvclass"/>
 			</Item>
 			<Item Name="Mag Lab Digitizer.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Digitizer/Mag Lab Digitizer.lvclass"/>
 		</Item>
@@ -34,6 +34,11 @@
 		</Item>
 		<Item Name="RUS" Type="Folder">
 			<Item Name="RUS Measurement.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Measurements/RUS Measurement/RUS Measurement.lvclass"/>
+		</Item>
+		<Item Name="Waveform generator" Type="Folder">
+			<Item Name="Set current step.vi" Type="VI" URL="../Waform generation/Set current step.vi"/>
+			<Item Name="Waveform parameters.ctl" Type="VI" URL="../Waform generation/Waveform parameters.ctl"/>
+			<Item Name="Write COE file.vi" Type="VI" URL="../Waform generation/Write COE file.vi"/>
 		</Item>
 		<Item Name="Frequency to phase word DBL.vi" Type="VI" URL="../Frequency to phase word DBL.vi"/>
 		<Item Name="Lock-in detector.vi" Type="VI" URL="../Lock-in detector.vi"/>
@@ -251,6 +256,7 @@
 			<Item Name="Find peaks.vi" Type="VI" URL="../../RUS/Find peaks.vi"/>
 			<Item Name="FIR Filter.vi" Type="VI" URL="../../Utilities/Waveform/FIR Filter.vi"/>
 			<Item Name="Generate mounth year strings.vi" Type="VI" URL="../../File/File LLB/Generate mounth year strings.vi"/>
+			<Item Name="Generate pulse.vi" Type="VI" URL="../Waform generation/Generate pulse.vi"/>
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../File/File LLB/GenerateUniqueFilename.vi"/>
 			<Item Name="Get HP 53132 Data.vi" Type="VI" URL="../../Instruments/HP/HP53132/Get HP 53132 Data.vi"/>
 			<Item Name="Get Keithley 182 Data.vi" Type="VI" URL="../../Instruments/Keithley/Keithley 182/Get Keithley 182 Data.vi"/>
@@ -343,6 +349,7 @@
 			<Item Name="Open Front Panel Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Root Messages/Open Front Panel Msg/Open Front Panel Msg.lvclass"/>
 			<Item Name="Open menu object parameters Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Interface Messages/Open menu object parameters Msg/Open menu object parameters Msg.lvclass"/>
 			<Item Name="Open nested object parameters Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Base Messages/Open sub-object parameters Msg/Open nested object parameters Msg.lvclass"/>
+			<Item Name="Original Waveform parameters.ctl" Type="VI" URL="../Waform generation/Original Waveform parameters.ctl"/>
 			<Item Name="Oxford clear buffer.vi" Type="VI" URL="../../Instruments/Oxford/Oxford clear buffer.vi"/>
 			<Item Name="Oxford Mercury IPS.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Oxford/Mercury IPS/Oxford Mercury IPS.lvclass"/>
 			<Item Name="Oxford Power Supply.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Oxford/Power supply/Oxford Power Supply.lvclass"/>
@@ -377,12 +384,15 @@
 			<Item Name="RP ADC to Volts 1D.vi" Type="VI" URL="../RP ADC to Volts 1D.vi"/>
 			<Item Name="RP ADC to Volts 2D.vi" Type="VI" URL="../RP ADC to Volts 2D.vi"/>
 			<Item Name="RP ADC to Volts element.vi" Type="VI" URL="../RP ADC to Volts element.vi"/>
+			<Item Name="RP block write.vi" Type="VI" URL="../RP block write.vi"/>
 			<Item Name="RP calculate subset.vi" Type="VI" URL="../RP calculate subset.vi"/>
 			<Item Name="RP Command.ctl" Type="VI" URL="../RP Command.ctl"/>
 			<Item Name="RP convert raw data.vi" Type="VI" URL="../RP convert raw data.vi"/>
 			<Item Name="RP convert sweep.vi" Type="VI" URL="../RP convert sweep.vi"/>
+			<Item Name="RP generate pulse pattern.vi" Type="VI" URL="../RP generate pulse pattern.vi"/>
 			<Item Name="RP get info.vi" Type="VI" URL="../RP get info.vi"/>
 			<Item Name="RP info.ctl" Type="VI" URL="../RP info.ctl"/>
+			<Item Name="RP IV pattern write.vi" Type="VI" URL="../RP IV pattern write.vi"/>
 			<Item Name="RP Lockin Fast Continuous Sweeper.vi" Type="VI" URL="../RP Lockin Fast Continuous Sweeper.vi"/>
 			<Item Name="RP Read RX FIFO Fast.vi" Type="VI" URL="../RP Read RX FIFO Fast.vi"/>
 			<Item Name="RP Read Status.vi" Type="VI" URL="../RP Read Status.vi"/>
@@ -407,11 +417,13 @@
 			<Item Name="Set LakeShore 340 Set Point.vi" Type="VI" URL="../../Instruments/LakeShore/LakeShore340/Set LakeShore 340 Set Point.vi"/>
 			<Item Name="Set Running Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Set Running Msg/Set Running Msg.lvclass"/>
 			<Item Name="Settle Output.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Source/Settle output/Settle Output.lvclass"/>
+			<Item Name="Sine ramps pattern.vi" Type="VI" URL="../Waform generation/Sine ramps pattern.vi"/>
 			<Item Name="Source.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Source/Source.lvclass"/>
 			<Item Name="Spectrum Analyzer.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Spectrum Analyzer/Spectrum Analyzer.lvclass"/>
 			<Item Name="Stanford Research.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Stanford Research/Stanford Research.lvclass"/>
 			<Item Name="Start measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Start measurements Msg/Start measurements Msg.lvclass"/>
 			<Item Name="Stop all measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Stop all measurements Msg/Stop all measurements Msg.lvclass"/>
+			<Item Name="Sub_2016_05_04_SinBias.vi" Type="VI" URL="../Waform generation/Sub_2016_05_04_SinBias.vi"/>
 			<Item Name="T controller parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Hardware/Temperarture Controller/T controller parameters.ctl"/>
 			<Item Name="TDMS channel info.ctl" Type="VI" URL="../../File/Controls/TDMS channel info.ctl"/>
 			<Item Name="TDMS delete channel.vi" Type="VI" URL="../../File/TDMS delete channel.vi"/>

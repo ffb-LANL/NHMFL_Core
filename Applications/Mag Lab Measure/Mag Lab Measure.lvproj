@@ -165,6 +165,7 @@
 					<Item Name="Open Front Panel Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Root Messages/Open Front Panel Msg/Open Front Panel Msg.lvclass"/>
 					<Item Name="Write CFG File Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Root Messages/Write CFG File Msg/Write CFG File Msg.lvclass"/>
 					<Item Name="Read CFG File Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Root Messages/Read CFG File Msg/Read CFG File Msg.lvclass"/>
+					<Item Name="Arm Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Root Messages/Arm Msg/Arm Msg.lvclass"/>
 				</Item>
 				<Item Name="Mag Lab Root.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Root/Mag Lab Root.lvclass"/>
 			</Item>
@@ -255,6 +256,7 @@
 			<Item Name="Test Interface.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Test/Test Interface/Test Interface.lvclass"/>
 		</Item>
 		<Item Name="Meassure Pulse" Type="Folder">
+			<Item Name="Messages" Type="Folder"/>
 			<Item Name="Measure Pulse.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Measure Pulse/Measure Pulse.lvclass"/>
 		</Item>
 		<Item Name="Launch Common Measurements.vi" Type="VI" URL="../Launch Common Measurements.vi"/>
@@ -545,7 +547,6 @@
 			<Item Name="Filter Device List.vi" Type="VI" URL="../../../Libraries/Instruments/Device/Filter Device List.vi"/>
 			<Item Name="Device type.ctl" Type="VI" URL="../../../Libraries/Instruments/Device/Device type.ctl"/>
 			<Item Name="RUS Parameters.ctl" Type="VI" URL="../../../Libraries/Mag Lab Measure/Measurements/RUS Measurement/RUS Parameters.ctl"/>
-			<Item Name="Arm Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Mag Lab Digitizer Messages/Arm Msg/Arm Msg.lvclass"/>
 			<Item Name="RP Command.ctl" Type="VI" URL="../../../Libraries/Red Pitaya/RP Command.ctl"/>
 			<Item Name="RP Write Command.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP Write Command.vi"/>
 			<Item Name="RP Read RX FIFO.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP Read RX FIFO.vi"/>
