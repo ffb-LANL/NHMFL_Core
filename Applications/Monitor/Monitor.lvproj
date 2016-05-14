@@ -324,7 +324,7 @@
 			<Item Name="RP ADC to Volts element.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP ADC to Volts element.vi"/>
 			<Item Name="RP calculate subset.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP calculate subset.vi"/>
 			<Item Name="RP Command.ctl" Type="VI" URL="../../../Libraries/Red Pitaya/RP Command.ctl"/>
-			<Item Name="RP convert raw data.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP convert raw data.vi"/>
+			<Item Name="RP convert raw data WFM.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP convert raw data WFM.vi"/>
 			<Item Name="RP get info.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP get info.vi"/>
 			<Item Name="RP info.ctl" Type="VI" URL="../../../Libraries/Red Pitaya/RP info.ctl"/>
 			<Item Name="RP Read Status.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP Read Status.vi"/>
