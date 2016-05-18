@@ -93,6 +93,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -130,6 +131,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -185,6 +187,7 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="1D wfm (DBL) Result.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/1D wfm (DBL) Result/1D wfm (DBL) Result.lvclass"/>
+			<Item Name="Abbreviate TDMS Group Channel.vi" Type="VI" URL="../../File/Abbreviate TDMS Group Channel.vi"/>
 			<Item Name="Acquire Result Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measurement Messages/Acquire Result Msg/Acquire Result Msg.lvclass"/>
 			<Item Name="ADC to Volts.vi" Type="VI" URL="../ADC to Volts.vi"/>
 			<Item Name="Add file Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Add file Msg/Add file Msg.lvclass"/>
@@ -217,8 +220,11 @@
 			<Item Name="Empty buffer.vi" Type="VI" URL="../../Instruments/GPIB/Empty buffer.vi"/>
 			<Item Name="File formats.ctl" Type="VI" URL="../../File/Controls/File formats.ctl"/>
 			<Item Name="File updated Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/File updated Msg/File updated Msg.lvclass"/>
+			<Item Name="File_Group_Chan_Abbr.ctl" Type="VI" URL="../../File/File_Group_Chan_Abbr.ctl"/>
 			<Item Name="Filter Device List.vi" Type="VI" URL="../../Instruments/Device/Filter Device List.vi"/>
 			<Item Name="Find control by label.vi" Type="VI" URL="../../Mag Lab Measure/Controls/Find control by label.vi"/>
+			<Item Name="Find Peaks Result.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/Find Peaks Result/Find Peaks Result.lvclass"/>
+			<Item Name="Find peaks.vi" Type="VI" URL="../../RUS/Find peaks.vi"/>
 			<Item Name="Generate mounth year strings.vi" Type="VI" URL="../../File/File LLB/Generate mounth year strings.vi"/>
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../File/File LLB/GenerateUniqueFilename.vi"/>
 			<Item Name="Get HP 53132 Data.vi" Type="VI" URL="../../Instruments/HP/HP53132/Get HP 53132 Data.vi"/>
@@ -317,6 +323,7 @@
 			<Item Name="Oxford visa write read.vi" Type="VI" URL="../../Instruments/Oxford/Oxford visa write read.vi"/>
 			<Item Name="Pause measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Pause measurements Msg/Pause measurements Msg.lvclass"/>
 			<Item Name="Payload.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/Payload/Payload.lvclass"/>
+			<Item Name="Plot Indexes.ctl" Type="VI" URL="../../Mag Lab Measure/Mag Lab Graph/Plot Indexes.ctl"/>
 			<Item Name="Populate Mag Lab Hardware List.vi" Type="VI" URL="../../Mag Lab Measure/Hardware/Populate Mag Lab Hardware List.vi"/>
 			<Item Name="Pupulate and conf serial bus.vi" Type="VI" URL="../../Instruments/Instrument/Pupulate and conf serial bus.vi"/>
 			<Item Name="Queued Listbox.xctl" Type="XControl" URL="../../Mag Lab Measure/Queued Listbox/Queued Listbox.xctl"/>
@@ -354,18 +361,22 @@
 			<Item Name="RP Read Temperature.vi" Type="VI" URL="../RP Read Temperature.vi"/>
 			<Item Name="RP Save Data.vi" Type="VI" URL="../RP Save Data.vi"/>
 			<Item Name="RP set frequency batch.vi" Type="VI" URL="../RP set frequency batch.vi"/>
+			<Item Name="RP sweep skip old data.vi" Type="VI" URL="../RP sweep skip old data.vi"/>
 			<Item Name="RP Write Command.vi" Type="VI" URL="../RP Write Command.vi"/>
 			<Item Name="RP write file.vi" Type="VI" URL="../RP write file.vi"/>
 			<Item Name="RUS Parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Measurements/RUS Measurement/RUS Parameters.ctl"/>
 			<Item Name="Save defaults Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Save defaults Msg/Save defaults Msg.lvclass"/>
 			<Item Name="Save keep old plots Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Save keep old plots Msg/Save keep old plots Msg.lvclass"/>
 			<Item Name="Scaled I32 Array Result.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/Scaled I32 Array Result/Scaled I32 Array Result.lvclass"/>
+			<Item Name="Select File Group Channel Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Select File Group Channel Msg/Select File Group Channel Msg.lvclass"/>
+			<Item Name="Select Graph Channels Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Base Messages/Select Graph Channels Msg/Select Graph Channels Msg.lvclass"/>
 			<Item Name="Select menu measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Select menu measurements Msg/Select menu measurements Msg.lvclass"/>
 			<Item Name="Select multiplexer LR700.vi" Type="VI" URL="../../Instruments/LR-700/Select multiplexer LR700.vi"/>
 			<Item Name="Send Receive.vi" Type="VI" URL="../../Instruments/GPIB/Send Receive.vi"/>
 			<Item Name="Sequencer Measurement.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Measurements/Sequencer Measurement/Sequencer Measurement.lvclass"/>
 			<Item Name="Set LakeShore 340 Ramp.vi" Type="VI" URL="../../Instruments/LakeShore/LakeShore340/Set LakeShore 340 Ramp.vi"/>
 			<Item Name="Set LakeShore 340 Set Point.vi" Type="VI" URL="../../Instruments/LakeShore/LakeShore340/Set LakeShore 340 Set Point.vi"/>
+			<Item Name="Set Running Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Set Running Msg/Set Running Msg.lvclass"/>
 			<Item Name="Settle Output.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Source/Settle output/Settle Output.lvclass"/>
 			<Item Name="Source.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Source/Source.lvclass"/>
 			<Item Name="Spectrum Analyzer.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Spectrum Analyzer/Spectrum Analyzer.lvclass"/>
@@ -389,6 +400,7 @@
 			<Item Name="Write Duration Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Spectrum Analyzer Messages/Write Duration Msg/Write Duration Msg.lvclass"/>
 			<Item Name="Write File Path Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Write File Path Msg/Write File Path Msg.lvclass"/>
 			<Item Name="Write Frequencies Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Spectrum Analyzer Messages/Write Frequencies Msg/Write Frequencies Msg.lvclass"/>
+			<Item Name="Write Group Name Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Spectrum Analyzer Messages/Write Group Name Msg/Write Group Name Msg.lvclass"/>
 			<Item Name="Write menu object array values.vi" Type="VI" URL="../../Mag Lab Measure/Menu object array/Write menu object array values.vi"/>
 			<Item Name="Write menu object names Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Menu object array Messages/Write menu object names Msg/Write menu object names Msg.lvclass"/>
 			<Item Name="Write object names.vi" Type="VI" URL="../../Mag Lab Measure/Menu object array/Write object names.vi"/>

@@ -262,6 +262,7 @@
 		<Item Name="Abbreviate TDMS Group Channel.vi" Type="VI" URL="../../../Libraries/File/Abbreviate TDMS Group Channel.vi"/>
 		<Item Name="File_Group_Chan_Abbr.ctl" Type="VI" URL="../../../Libraries/File/File_Group_Chan_Abbr.ctl"/>
 		<Item Name="Plot Indexes.ctl" Type="VI" URL="../../../Libraries/Mag Lab Measure/Mag Lab Graph/Plot Indexes.ctl"/>
+		<Item Name="Measure.cfg" Type="Document" URL="../data/Measure.cfg"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -391,6 +392,7 @@
 				<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -611,7 +613,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{671217FE-C50E-4253-BB59-9D25976E9F62}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Measure.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure/Measure.exe</Property>
@@ -620,7 +622,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D892D0CD-4924-43C6-90F1-CCB65457D3FC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{239630B0-29E0-4E60-8BB8-E6E668C24DF6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Common Measurements.vi</Property>
@@ -654,7 +656,10 @@
 				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Measure.cfg</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">Los Alamos National Laboratory</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Measure</Property>
 				<Property Name="TgtF_internalName" Type="Str">Measure</Property>
