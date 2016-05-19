@@ -41,7 +41,9 @@
 			<Item Name="Write COE file.vi" Type="VI" URL="../Waform generation/Write COE file.vi"/>
 		</Item>
 		<Item Name="Frequency to phase word DBL.vi" Type="VI" URL="../Frequency to phase word DBL.vi"/>
+		<Item Name="I-V to Waveform parameters.vi" Type="VI" URL="../Waform generation/I-V to Waveform parameters.vi"/>
 		<Item Name="Lock-in detector.vi" Type="VI" URL="../Lock-in detector.vi"/>
+		<Item Name="Read IV.vi" Type="VI" URL="../Waform generation/Read IV.vi"/>
 		<Item Name="Red Pitaya Control.vi" Type="VI" URL="../Red Pitaya Control.vi"/>
 		<Item Name="Red Pitaya Lockin Sweep.vi" Type="VI" URL="../Red Pitaya Lockin Sweep.vi"/>
 		<Item Name="Red Pitaya Lockin.vi" Type="VI" URL="../Red Pitaya Lockin.vi"/>
@@ -277,6 +279,7 @@
 			<Item Name="HP counter.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/HP Counter/HP counter.lvclass"/>
 			<Item Name="HP87NN.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/HP/HP87NN/HP87NN.lvclass"/>
 			<Item Name="HPNeworkAnalyzer.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/HP/HPNetworkAnalyzer/HPNeworkAnalyzer.lvclass"/>
+			<Item Name="I-V parameters.ctl" Type="VI" URL="../Waform generation/I-V parameters.ctl"/>
 			<Item Name="Identify Neocera.vi" Type="VI" URL="../../Instruments/Neocera/Identify Neocera.vi"/>
 			<Item Name="Identify Oxford.vi" Type="VI" URL="../../Instruments/Oxford/Identify Oxford.vi"/>
 			<Item Name="IdentifyAndReadInstr.vi" Type="VI" URL="../../Instruments/IdentifyAndReadInstr.vi"/>
