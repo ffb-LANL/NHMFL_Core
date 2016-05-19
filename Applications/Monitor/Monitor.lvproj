@@ -294,7 +294,7 @@
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../../Libraries/File/File LLB/GenerateUniqueFilename.vi"/>
 			<Item Name="Get NI-DAQ Data.vi" Type="VI" URL="../../../Libraries/NI-DAQ/Get NI-DAQ Data.vi"/>
 			<Item Name="Get TDMS channel info.vi" Type="VI" URL="../../../Libraries/File/Get TDMS channel info.vi"/>
-			<Item Name="Idot match record.ctl" Type="VI" URL="../../../Libraries/Mag Lab Measure/Mag Lab Measure Controller/Cap Bank Server/Idot match record.ctl"/>
+			<Item Name="Idot match record.ctl" Type="VI" URL="../../../Libraries/User Cap Bank/Labview/Library/Idot match record.ctl"/>
 			<Item Name="Idot Recorder.vi" Type="VI" URL="../../../Libraries/Monitor/Idot Recorder.vi"/>
 			<Item Name="Initialize NI-DAQ continuous recorder.vi" Type="VI" URL="../../../Libraries/NI-DAQ/Initialize NI-DAQ continuous recorder.vi"/>
 			<Item Name="Integrate channel from file.vi" Type="VI" URL="../../../Libraries/File/File LLB/Integrate channel from file.vi"/>
@@ -314,7 +314,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read last shots from log.vi" Type="VI" URL="../../../Libraries/Mag Lab Measure/Mag Lab Measure Controller/Cap Bank Server/Cap Bank Interface/Read last shots from log.vi"/>
+			<Item Name="Read last shots from log.vi" Type="VI" URL="../../../Libraries/User Cap Bank/Labview/Library/Read last shots from log.vi"/>
 			<Item Name="Recieve Idot Result utility.vi" Type="VI" URL="../../../Libraries/User Cap Bank/Labview/Library/Recieve Idot Result utility.vi"/>
 			<Item Name="Red Pitaya Parameters.ctl" Type="VI" URL="../../../Libraries/Red Pitaya/Red Pitaya Parameters.ctl"/>
 			<Item Name="remote time.vi" Type="VI" URL="../../../Libraries/Utilities/remote time.vi"/>
