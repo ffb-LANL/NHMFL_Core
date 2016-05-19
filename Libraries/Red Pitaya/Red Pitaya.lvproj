@@ -12,22 +12,47 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Digitizer Actor" Type="Folder">
 			<Item Name="Messages" Type="Folder">
-				<Item Name="Arm Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Mag Lab Digitizer Messages/Arm Msg/Arm Msg.lvclass"/>
+				<Item Name="Arm Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Root Messages/Arm Msg/Arm Msg.lvclass"/>
 			</Item>
 			<Item Name="Mag Lab Digitizer.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Digitizer/Mag Lab Digitizer.lvclass"/>
 		</Item>
 		<Item Name="Red Pitaya Actor" Type="Folder">
-			<Item Name="Red Pitaya.lvclass" Type="LVClass" URL="../Red Pitaya.lvclass"/>
+			<Item Name="Messages" Type="Folder">
+				<Item Name="Record Msg.lvclass" Type="LVClass" URL="../Actors/Red Pitaya Messages/Record Msg/Record Msg.lvclass"/>
+			</Item>
+			<Item Name="Result" Type="Folder">
+				<Item Name="Recording.lvclass" Type="LVClass" URL="../Actors/Recording/Recording.lvclass"/>
+			</Item>
+			<Item Name="Red Pitaya.lvclass" Type="LVClass" URL="../Actors/Red Pitaya/Red Pitaya.lvclass"/>
 		</Item>
-		<Item Name="Calibrate from file.vi" Type="VI" URL="../Calibrate from file.vi"/>
-		<Item Name="FIR calculator.vi" Type="VI" URL="../FIR calculator.vi"/>
-		<Item Name="Magnet Idot Monitor.vi" Type="VI" URL="../../../Applications/Monitor/Magnet Idot Monitor.vi"/>
-		<Item Name="Red Pitaya Parameters.ctl" Type="VI" URL="../Red Pitaya Parameters.ctl"/>
+		<Item Name="Red Pitaya Tester" Type="Folder">
+			<Item Name="Launch RP Tester.vi" Type="VI" URL="../Actors/Launch RP Tester.vi"/>
+			<Item Name="Red Pitaya Tester.lvclass" Type="LVClass" URL="../Actors/Red Pitaya Tester/Red Pitaya Tester.lvclass"/>
+		</Item>
+		<Item Name="RP RUS" Type="Folder">
+			<Item Name="RP RUS.lvclass" Type="LVClass" URL="../Actors/RP RUS/RP RUS.lvclass"/>
+		</Item>
+		<Item Name="RUS" Type="Folder">
+			<Item Name="RUS Measurement.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Measurements/RUS Measurement/RUS Measurement.lvclass"/>
+		</Item>
+		<Item Name="Waveform generator" Type="Folder">
+			<Item Name="Set current step.vi" Type="VI" URL="../Waform generation/Set current step.vi"/>
+			<Item Name="Waveform parameters.ctl" Type="VI" URL="../Waform generation/Waveform parameters.ctl"/>
+			<Item Name="Write COE file.vi" Type="VI" URL="../Waform generation/Write COE file.vi"/>
+		</Item>
+		<Item Name="Frequency to phase word DBL.vi" Type="VI" URL="../Frequency to phase word DBL.vi"/>
+		<Item Name="I-V to Waveform parameters.vi" Type="VI" URL="../Waform generation/I-V to Waveform parameters.vi"/>
+		<Item Name="Lock-in detector.vi" Type="VI" URL="../Lock-in detector.vi"/>
+		<Item Name="Read IV.vi" Type="VI" URL="../Waform generation/Read IV.vi"/>
+		<Item Name="Red Pitaya Control.vi" Type="VI" URL="../Red Pitaya Control.vi"/>
+		<Item Name="Red Pitaya Lockin Sweep.vi" Type="VI" URL="../Red Pitaya Lockin Sweep.vi"/>
+		<Item Name="Red Pitaya Lockin.vi" Type="VI" URL="../Red Pitaya Lockin.vi"/>
+		<Item Name="RP compress sweep.vi" Type="VI" URL="../RP compress sweep.vi"/>
+		<Item Name="RP Lockin Sweeper.vi" Type="VI" URL="../RP Lockin Sweeper.vi"/>
 		<Item Name="RP proccess data.vi" Type="VI" URL="../RP proccess data.vi"/>
-		<Item Name="RP Read Subset.vi" Type="VI" URL="../RP Read Subset.vi"/>
-		<Item Name="RP Read Temperature.vi" Type="VI" URL="../RP Read Temperature.vi"/>
-		<Item Name="RP recorder.vi" Type="VI" URL="../RP recorder.vi"/>
-		<Item Name="RP Save Data.vi" Type="VI" URL="../RP Save Data.vi"/>
+		<Item Name="RP Read RX FIFO.vi" Type="VI" URL="../RP Read RX FIFO.vi"/>
+		<Item Name="RP read signal channel.vi" Type="VI" URL="../RP read signal channel.vi"/>
+		<Item Name="RP set frequency.vi" Type="VI" URL="../RP set frequency.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -119,10 +144,13 @@
 				<Item Name="Get Waveform Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Waveform Subset.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -188,6 +216,7 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="1D wfm (DBL) Result.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/1D wfm (DBL) Result/1D wfm (DBL) Result.lvclass"/>
+			<Item Name="Abbreviate TDMS Group Channel.vi" Type="VI" URL="../../File/Abbreviate TDMS Group Channel.vi"/>
 			<Item Name="Acquire Result Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measurement Messages/Acquire Result Msg/Acquire Result Msg.lvclass"/>
 			<Item Name="ADC to Volts.vi" Type="VI" URL="../ADC to Volts.vi"/>
 			<Item Name="Add file Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Add file Msg/Add file Msg.lvclass"/>
@@ -217,15 +246,19 @@
 			<Item Name="DBL Payload.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/Payload/DBL Payload/DBL Payload.lvclass"/>
 			<Item Name="DBL Result.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/DBL Result/DBL Result.lvclass"/>
 			<Item Name="DBL to Result.vi" Type="VI" URL="../../Mag Lab Measure/Mag Lab Result/DBL to Result.vi"/>
-			<Item Name="Device type.ctl" Type="VI" URL="../../OO Devices/Device/Device type.ctl"/>
+			<Item Name="Device type.ctl" Type="VI" URL="../../Instruments/Device/Device type.ctl"/>
 			<Item Name="Empty buffer.vi" Type="VI" URL="../../Instruments/GPIB/Empty buffer.vi"/>
 			<Item Name="File formats.ctl" Type="VI" URL="../../File/Controls/File formats.ctl"/>
 			<Item Name="File updated Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/File updated Msg/File updated Msg.lvclass"/>
-			<Item Name="Filter Device List.vi" Type="VI" URL="../../OO Devices/Dynamic Device List/Filter Device List.vi"/>
+			<Item Name="File_Group_Chan_Abbr.ctl" Type="VI" URL="../../File/File_Group_Chan_Abbr.ctl"/>
+			<Item Name="Filter Device List.vi" Type="VI" URL="../../Instruments/Device/Filter Device List.vi"/>
 			<Item Name="Filter.vi" Type="VI" URL="../../Utilities/Waveform/Filter.vi"/>
 			<Item Name="Find control by label.vi" Type="VI" URL="../../Mag Lab Measure/Controls/Find control by label.vi"/>
+			<Item Name="Find Peaks Result.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/Find Peaks Result/Find Peaks Result.lvclass"/>
+			<Item Name="Find peaks.vi" Type="VI" URL="../../RUS/Find peaks.vi"/>
 			<Item Name="FIR Filter.vi" Type="VI" URL="../../Utilities/Waveform/FIR Filter.vi"/>
 			<Item Name="Generate mounth year strings.vi" Type="VI" URL="../../File/File LLB/Generate mounth year strings.vi"/>
+			<Item Name="Generate pulse.vi" Type="VI" URL="../Waform generation/Generate pulse.vi"/>
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../File/File LLB/GenerateUniqueFilename.vi"/>
 			<Item Name="Get HP 53132 Data.vi" Type="VI" URL="../../Instruments/HP/HP53132/Get HP 53132 Data.vi"/>
 			<Item Name="Get Keithley 182 Data.vi" Type="VI" URL="../../Instruments/Keithley/Keithley 182/Get Keithley 182 Data.vi"/>
@@ -246,6 +279,7 @@
 			<Item Name="HP counter.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/HP Counter/HP counter.lvclass"/>
 			<Item Name="HP87NN.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/HP/HP87NN/HP87NN.lvclass"/>
 			<Item Name="HPNeworkAnalyzer.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/HP/HPNetworkAnalyzer/HPNeworkAnalyzer.lvclass"/>
+			<Item Name="I-V parameters.ctl" Type="VI" URL="../Waform generation/I-V parameters.ctl"/>
 			<Item Name="Identify Neocera.vi" Type="VI" URL="../../Instruments/Neocera/Identify Neocera.vi"/>
 			<Item Name="Identify Oxford.vi" Type="VI" URL="../../Instruments/Oxford/Identify Oxford.vi"/>
 			<Item Name="IdentifyAndReadInstr.vi" Type="VI" URL="../../Instruments/IdentifyAndReadInstr.vi"/>
@@ -272,7 +306,7 @@
 			<Item Name="Letter to number.vi" Type="VI" URL="../../Utilities/Letter to number.vi"/>
 			<Item Name="Linear Research Parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Hardware/Linear Research/Linear Research Parameters.ctl"/>
 			<Item Name="Linear Research.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Linear Research/Linear Research.lvclass"/>
-			<Item Name="Lock-in detector.vi" Type="VI" URL="../Lock-in detector.vi"/>
+			<Item Name="Linear step array.vi" Type="VI" URL="../../Utilities/Linear step array.vi"/>
 			<Item Name="Log Status Update Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Log Status Update Msg/Log Status Update Msg.lvclass"/>
 			<Item Name="Log time.ctl" Type="VI" URL="../../Mag Lab Measure/Measurement Timer/Log time.ctl"/>
 			<Item Name="LowPassFilter.vi" Type="VI" URL="../../Utilities/Waveform/LowPassFilter.vi"/>
@@ -318,6 +352,7 @@
 			<Item Name="Open Front Panel Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Root Messages/Open Front Panel Msg/Open Front Panel Msg.lvclass"/>
 			<Item Name="Open menu object parameters Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Interface Messages/Open menu object parameters Msg/Open menu object parameters Msg.lvclass"/>
 			<Item Name="Open nested object parameters Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Base Messages/Open sub-object parameters Msg/Open nested object parameters Msg.lvclass"/>
+			<Item Name="Original Waveform parameters.ctl" Type="VI" URL="../Waform generation/Original Waveform parameters.ctl"/>
 			<Item Name="Oxford clear buffer.vi" Type="VI" URL="../../Instruments/Oxford/Oxford clear buffer.vi"/>
 			<Item Name="Oxford Mercury IPS.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Oxford/Mercury IPS/Oxford Mercury IPS.lvclass"/>
 			<Item Name="Oxford Power Supply.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Oxford/Power supply/Oxford Power Supply.lvclass"/>
@@ -325,6 +360,7 @@
 			<Item Name="Oxford visa write read.vi" Type="VI" URL="../../Instruments/Oxford/Oxford visa write read.vi"/>
 			<Item Name="Pause measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Pause measurements Msg/Pause measurements Msg.lvclass"/>
 			<Item Name="Payload.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/Payload/Payload.lvclass"/>
+			<Item Name="Plot Indexes.ctl" Type="VI" URL="../../Mag Lab Measure/Mag Lab Graph/Plot Indexes.ctl"/>
 			<Item Name="Populate Mag Lab Hardware List.vi" Type="VI" URL="../../Mag Lab Measure/Hardware/Populate Mag Lab Hardware List.vi"/>
 			<Item Name="Pupulate and conf serial bus.vi" Type="VI" URL="../../Instruments/Instrument/Pupulate and conf serial bus.vi"/>
 			<Item Name="Queued Listbox.xctl" Type="XControl" URL="../../Mag Lab Measure/Queued Listbox/Queued Listbox.xctl"/>
@@ -340,6 +376,7 @@
 			<Item Name="Recieve Response with Result Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Root Messages/Recieve Response with Result Msg/Recieve Response with Result Msg.lvclass"/>
 			<Item Name="Recieve Result Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Recieve Result Msg/Recieve Result Msg.lvclass"/>
 			<Item Name="Recieve Timer Tick Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Base Messages/Recieve Timer Tick Msg/Recieve Timer Tick Msg.lvclass"/>
+			<Item Name="Red Pitaya Parameters.ctl" Type="VI" URL="../Red Pitaya Parameters.ctl"/>
 			<Item Name="Reduce WFRM.vi" Type="VI" URL="../../Utilities/Reduce WFRM.vi"/>
 			<Item Name="Replot Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Replot Msg/Replot Msg.lvclass"/>
 			<Item Name="Result to DBL.vi" Type="VI" URL="../../Mag Lab Measure/Mag Lab Result/Result to DBL.vi"/>
@@ -350,34 +387,53 @@
 			<Item Name="RP ADC to Volts 1D.vi" Type="VI" URL="../RP ADC to Volts 1D.vi"/>
 			<Item Name="RP ADC to Volts 2D.vi" Type="VI" URL="../RP ADC to Volts 2D.vi"/>
 			<Item Name="RP ADC to Volts element.vi" Type="VI" URL="../RP ADC to Volts element.vi"/>
+			<Item Name="RP block write.vi" Type="VI" URL="../RP block write.vi"/>
 			<Item Name="RP calculate subset.vi" Type="VI" URL="../RP calculate subset.vi"/>
 			<Item Name="RP Command.ctl" Type="VI" URL="../RP Command.ctl"/>
 			<Item Name="RP convert raw data.vi" Type="VI" URL="../RP convert raw data.vi"/>
+			<Item Name="RP convert sweep.vi" Type="VI" URL="../RP convert sweep.vi"/>
+			<Item Name="RP generate pulse pattern.vi" Type="VI" URL="../RP generate pulse pattern.vi"/>
 			<Item Name="RP get info.vi" Type="VI" URL="../RP get info.vi"/>
 			<Item Name="RP info.ctl" Type="VI" URL="../RP info.ctl"/>
-			<Item Name="RP read signal channel.vi" Type="VI" URL="../RP read signal channel.vi"/>
+			<Item Name="RP IV pattern write.vi" Type="VI" URL="../RP IV pattern write.vi"/>
+			<Item Name="RP Lockin Fast Continuous Sweeper.vi" Type="VI" URL="../RP Lockin Fast Continuous Sweeper.vi"/>
+			<Item Name="RP Read RX FIFO Fast.vi" Type="VI" URL="../RP Read RX FIFO Fast.vi"/>
 			<Item Name="RP Read Status.vi" Type="VI" URL="../RP Read Status.vi"/>
+			<Item Name="RP Read Subset.vi" Type="VI" URL="../RP Read Subset.vi"/>
+			<Item Name="RP Read Temperature.vi" Type="VI" URL="../RP Read Temperature.vi"/>
+			<Item Name="RP Save Data.vi" Type="VI" URL="../RP Save Data.vi"/>
+			<Item Name="RP set frequency batch.vi" Type="VI" URL="../RP set frequency batch.vi"/>
+			<Item Name="RP sweep skip old data.vi" Type="VI" URL="../RP sweep skip old data.vi"/>
 			<Item Name="RP Write Command.vi" Type="VI" URL="../RP Write Command.vi"/>
 			<Item Name="RP write file.vi" Type="VI" URL="../RP write file.vi"/>
+			<Item Name="RUS Parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Measurements/RUS Measurement/RUS Parameters.ctl"/>
 			<Item Name="Save defaults Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Save defaults Msg/Save defaults Msg.lvclass"/>
 			<Item Name="Save keep old plots Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Save keep old plots Msg/Save keep old plots Msg.lvclass"/>
+			<Item Name="Scaled I32 Array Result.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/Scaled I32 Array Result/Scaled I32 Array Result.lvclass"/>
+			<Item Name="Select File Group Channel Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/MagLabGraph Messages/Select File Group Channel Msg/Select File Group Channel Msg.lvclass"/>
+			<Item Name="Select Graph Channels Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Base Messages/Select Graph Channels Msg/Select Graph Channels Msg.lvclass"/>
 			<Item Name="Select menu measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Select menu measurements Msg/Select menu measurements Msg.lvclass"/>
 			<Item Name="Select multiplexer LR700.vi" Type="VI" URL="../../Instruments/LR-700/Select multiplexer LR700.vi"/>
 			<Item Name="Send Receive.vi" Type="VI" URL="../../Instruments/GPIB/Send Receive.vi"/>
 			<Item Name="Sequencer Measurement.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Measurements/Sequencer Measurement/Sequencer Measurement.lvclass"/>
 			<Item Name="Set LakeShore 340 Ramp.vi" Type="VI" URL="../../Instruments/LakeShore/LakeShore340/Set LakeShore 340 Ramp.vi"/>
 			<Item Name="Set LakeShore 340 Set Point.vi" Type="VI" URL="../../Instruments/LakeShore/LakeShore340/Set LakeShore 340 Set Point.vi"/>
+			<Item Name="Set Running Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Set Running Msg/Set Running Msg.lvclass"/>
 			<Item Name="Settle Output.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Source/Settle output/Settle Output.lvclass"/>
+			<Item Name="Sine ramps pattern.vi" Type="VI" URL="../Waform generation/Sine ramps pattern.vi"/>
 			<Item Name="Source.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Source/Source.lvclass"/>
+			<Item Name="Spectrum Analyzer.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Spectrum Analyzer/Spectrum Analyzer.lvclass"/>
 			<Item Name="Stanford Research.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Stanford Research/Stanford Research.lvclass"/>
 			<Item Name="Start measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Start measurements Msg/Start measurements Msg.lvclass"/>
 			<Item Name="Stop all measurements Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Controller Messages/Stop all measurements Msg/Stop all measurements Msg.lvclass"/>
+			<Item Name="Sub_2016_05_04_SinBias.vi" Type="VI" URL="../Waform generation/Sub_2016_05_04_SinBias.vi"/>
 			<Item Name="T controller parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Hardware/Temperarture Controller/T controller parameters.ctl"/>
 			<Item Name="TDMS channel info.ctl" Type="VI" URL="../../File/Controls/TDMS channel info.ctl"/>
 			<Item Name="TDMS delete channel.vi" Type="VI" URL="../../File/TDMS delete channel.vi"/>
 			<Item Name="Thermopower Measurement.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Thermopower/Termopower Measurement/Thermopower Measurement.lvclass"/>
 			<Item Name="Tick count to time stamp.vi" Type="VI" URL="../../Mag Lab Measure/Measurement Timer/Tick count to time stamp.vi"/>
 			<Item Name="Timer Parameters.ctl" Type="VI" URL="../../Mag Lab Measure/Measurement Timer/Timer Parameters.ctl"/>
+			<Item Name="Transmit Message Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Measure Base Messages/Transmit Message Msg/Transmit Message Msg.lvclass"/>
 			<Item Name="TryAgain.vi" Type="VI" URL="../../File/File LLB/TryAgain.vi"/>
 			<Item Name="Update time Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Update time Msg/Update time Msg.lvclass"/>
 			<Item Name="VISA  Send Receive.vi" Type="VI" URL="../../Instruments/GPIB/VISA  Send Receive.vi"/>
@@ -386,7 +442,10 @@
 			<Item Name="Waveform Array Result.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Result/Waveform Array Result/Waveform Array Result.lvclass"/>
 			<Item Name="Write CFG File Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Mag Lab Root Messages/Write CFG File Msg/Write CFG File Msg.lvclass"/>
 			<Item Name="Write Default channels Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements Messages/Write Default channels Msg/Write Default channels Msg.lvclass"/>
+			<Item Name="Write Duration Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Spectrum Analyzer Messages/Write Duration Msg/Write Duration Msg.lvclass"/>
 			<Item Name="Write File Path Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Write File Path Msg/Write File Path Msg.lvclass"/>
+			<Item Name="Write Frequencies Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Spectrum Analyzer Messages/Write Frequencies Msg/Write Frequencies Msg.lvclass"/>
+			<Item Name="Write Group Name Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Hardware/Spectrum Analyzer Messages/Write Group Name Msg/Write Group Name Msg.lvclass"/>
 			<Item Name="Write menu object array values.vi" Type="VI" URL="../../Mag Lab Measure/Menu object array/Write menu object array values.vi"/>
 			<Item Name="Write menu object names Msg.lvclass" Type="LVClass" URL="../../Mag Lab Measure/Menu object array Messages/Write menu object names Msg/Write menu object names Msg.lvclass"/>
 			<Item Name="Write object names.vi" Type="VI" URL="../../Mag Lab Measure/Menu object array/Write object names.vi"/>
@@ -419,7 +478,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{F71FC750-E580-4884-856B-F2C59A96AFE9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Magnet Idot Monitor.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
@@ -461,13 +520,13 @@
 				<Property Name="Source[0].itemID" Type="Str">{E619321B-8C22-4DB5-97C5-107A9B550CD2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Magnet Idot Monitor.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/RP proccess data.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>

@@ -21,6 +21,7 @@
 					<Item Name="Write File Path Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Write File Path Msg/Write File Path Msg.lvclass"/>
 					<Item Name="Update time Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Update time Msg/Update time Msg.lvclass"/>
 					<Item Name="Select menu measurements Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Select menu measurements Msg/Select menu measurements Msg.lvclass"/>
+					<Item Name="Set Running Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Common Measurements/Common Measurements Interface Messages/Set Running Msg/Set Running Msg.lvclass"/>
 				</Item>
 				<Item Name="Common Measurements Interface.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Common Measurements/Common Measurements Interface/Common Measurements Interface.lvclass"/>
 			</Item>
@@ -40,6 +41,8 @@
 					<Item Name="Launch graph Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Measure Base Messages/Launch graph Msg/Launch graph Msg.lvclass"/>
 					<Item Name="Graph Closed Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Measure Base Messages/Graph Closed Msg/Graph Closed Msg.lvclass"/>
 					<Item Name="Recieve Timer Tick Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Measure Base Messages/Recieve Timer Tick Msg/Recieve Timer Tick Msg.lvclass"/>
+					<Item Name="Transmit Message Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Measure Base Messages/Transmit Message Msg/Transmit Message Msg.lvclass"/>
+					<Item Name="Select Graph Channels Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Measure Base Messages/Select Graph Channels Msg/Select Graph Channels Msg.lvclass"/>
 				</Item>
 				<Item Name="Mag Lab Parameters" Type="Folder">
 					<Item Name="Mag Lab Parameters.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Properties/Mag Lab Parameters.lvclass"/>
@@ -124,6 +127,14 @@
 					<Item Name="Software Lock-in.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Software Lock-in/Software Lock-in.lvclass"/>
 					<Item Name="Lock-in worker.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Software Lock-in/Lock-in worker/Lock-in worker.lvclass"/>
 				</Item>
+				<Item Name="Spectrum Analyzer" Type="Folder">
+					<Item Name="Messages" Type="Folder">
+						<Item Name="Write Duration Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Spectrum Analyzer Messages/Write Duration Msg/Write Duration Msg.lvclass"/>
+						<Item Name="Write Frequencies Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Spectrum Analyzer Messages/Write Frequencies Msg/Write Frequencies Msg.lvclass"/>
+						<Item Name="Write Group Name Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Spectrum Analyzer Messages/Write Group Name Msg/Write Group Name Msg.lvclass"/>
+					</Item>
+					<Item Name="Spectrum Analyzer.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Spectrum Analyzer/Spectrum Analyzer.lvclass"/>
+				</Item>
 				<Item Name="Mag Lab Hardware.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Mag Lab Hardware.lvclass"/>
 				<Item Name="Mag Lab Digitizer.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Digitizer/Mag Lab Digitizer.lvclass"/>
 				<Item Name="Counter.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Counter/Counter.lvclass"/>
@@ -138,6 +149,7 @@
 				<Item Name="Timestamp Result.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Result/Timestamp/Timestamp Result.lvclass"/>
 				<Item Name="1D wfm (DBL) Result.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Result/1D wfm (DBL) Result/1D wfm (DBL) Result.lvclass"/>
 				<Item Name="DBL Result.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Result/DBL Result/DBL Result.lvclass"/>
+				<Item Name="Scaled I32 Array Result.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Result/Scaled I32 Array Result/Scaled I32 Array Result.lvclass"/>
 			</Item>
 			<Item Name="Mag Lab Root" Type="Folder">
 				<Item Name="Messages" Type="Folder">
@@ -156,9 +168,13 @@
 				</Item>
 				<Item Name="Mag Lab Root.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Root/Mag Lab Root.lvclass"/>
 			</Item>
+			<Item Name="Message with names" Type="Folder">
+				<Item Name="Message with Names.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Message with Names/Message with Names.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Graph" Type="Folder">
 			<Item Name="Messages" Type="Folder">
+				<Item Name="Select File Group Channel Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/MagLabGraph Messages/Select File Group Channel Msg/Select File Group Channel Msg.lvclass"/>
 				<Item Name="Save defaults Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/MagLabGraph Messages/Save defaults Msg/Save defaults Msg.lvclass"/>
 				<Item Name="File updated Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/MagLabGraph Messages/File updated Msg/File updated Msg.lvclass"/>
 				<Item Name="Replot Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/MagLabGraph Messages/Replot Msg/Replot Msg.lvclass"/>
@@ -176,6 +192,9 @@
 			</Item>
 			<Item Name="Cryo-Con" Type="Folder">
 				<Item Name="Cryo-Con.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Cryo-Con/Cryo-Con.lvclass"/>
+			</Item>
+			<Item Name="Red Pitaya" Type="Folder">
+				<Item Name="Red Pitaya.lvclass" Type="LVClass" URL="../../../Libraries/Red Pitaya/Actors/Red Pitaya/Red Pitaya.lvclass"/>
 			</Item>
 			<Item Name="LakeShore T Controller.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/LakeShore/Lake Shore Temperature Controller/LakeShore T Controller.lvclass"/>
 			<Item Name="Neocera.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Neocera/Neocera.lvclass"/>
@@ -219,6 +238,9 @@
 				<Item Name="Compound Measurement.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Compound Measurement/Compound Measurement.lvclass"/>
 			</Item>
 			<Item Name="Lock-in" Type="Folder"/>
+			<Item Name="RUS" Type="Folder">
+				<Item Name="RUS Measurement.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Measurements/RUS Measurement/RUS Measurement.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Measurement Controller App" Type="Folder">
 			<Item Name="Measurement Controller UI" Type="Folder">
@@ -234,6 +256,13 @@
 		</Item>
 		<Item Name="Launch Common Measurements.vi" Type="VI" URL="../Launch Common Measurements.vi"/>
 		<Item Name="Launch Two Common Measurements.vi" Type="VI" URL="../Launch Two Common Measurements.vi"/>
+		<Item Name="Test format.vi" Type="VI" URL="../../../Libraries/Mag Lab Measure/Mag Lab Result/Scaled I32 Array Result/Test format.vi"/>
+		<Item Name="RP sweep skip old data.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP sweep skip old data.vi"/>
+		<Item Name="Find peaks.vi" Type="VI" URL="../../../Libraries/RUS/Find peaks.vi"/>
+		<Item Name="Abbreviate TDMS Group Channel.vi" Type="VI" URL="../../../Libraries/File/Abbreviate TDMS Group Channel.vi"/>
+		<Item Name="File_Group_Chan_Abbr.ctl" Type="VI" URL="../../../Libraries/File/File_Group_Chan_Abbr.ctl"/>
+		<Item Name="Plot Indexes.ctl" Type="VI" URL="../../../Libraries/Mag Lab Measure/Mag Lab Graph/Plot Indexes.ctl"/>
+		<Item Name="Measure.cfg" Type="Document" URL="../data/Measure.cfg"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -312,6 +341,58 @@
 				<Item Name="ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ClearError.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="ScaleGetErr.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ScaleGetErr.vi"/>
+				<Item Name="TDMS Create Scaling Information (Linear).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Linear).vi"/>
+				<Item Name="TDMS Create Scaling Information (Reciprocal).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Reciprocal).vi"/>
+				<Item Name="TDMS Create Scaling Information (Strain Config).ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Strain Config).ctl"/>
+				<Item Name="TDMS Create Scaling Information (Strain).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Strain).vi"/>
+				<Item Name="TDMS Creating Scaling Information (Thermistor Excitation Type).ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Creating Scaling Information (Thermistor Excitation Type).ctl"/>
+				<Item Name="TDMS Create Scaling Information (RTD Resistance Configuration).ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (RTD Resistance Configuration).ctl"/>
+				<Item Name="TDMS Create Scaling Information (Thermistor).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Thermistor).vi"/>
+				<Item Name="TDMS Create Scaling Information (Table).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Table).vi"/>
+				<Item Name="TDMS Create Scaling Information (RTD).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (RTD).vi"/>
+				<Item Name="TDMS Create Scaling Information (Thermocouple Type).ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Thermocouple Type).ctl"/>
+				<Item Name="TDMS Create Scaling Information (Thermocouple).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Thermocouple).vi"/>
+				<Item Name="TDMS Create Scaling Information (Polynomial).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Polynomial).vi"/>
+				<Item Name="TDMS Create Scaling Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information.vi"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="GoTo.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/GoTo.vi"/>
+				<Item Name="UpdateListBoxAfterKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateListBoxAfterKeyEvent.vi"/>
+				<Item Name="UpdateScrollbarBeforeKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateScrollbarBeforeKeyEvent.vi"/>
+				<Item Name="setListBoxColumnWidths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/setListBoxColumnWidths.vi"/>
+				<Item Name="fileViewerConfigData.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/fileViewerConfigData.ctl"/>
+				<Item Name="LoadBufferForMultiListBoxAndFormat.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/LoadBufferForMultiListBoxAndFormat.vi"/>
+				<Item Name="Clear-68016.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/Clear-68016.vi"/>
+				<Item Name="getChannelList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/getChannelList.vi"/>
+				<Item Name="getNamesFromPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/getNamesFromPath.vi"/>
+				<Item Name="UpdateBufferForMultiListBoxIfNecessary.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateBufferForMultiListBoxIfNecessary.vi"/>
+				<Item Name="TDMSFileViewer_LaunchHelp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMSFileViewer_LaunchHelp.vi"/>
+				<Item Name="configureNumberOfValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/configureNumberOfValues.vi"/>
+				<Item Name="loadAndFormatValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/loadAndFormatValues.vi"/>
+				<Item Name="InitScrollbarAndListBox.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/InitScrollbarAndListBox.vi"/>
+				<Item Name="AsciiToInt.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/AsciiToInt.vi"/>
+				<Item Name="ExtractSubstring.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ExtractSubstring.vi"/>
+				<Item Name="LogicalSort.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/LogicalSort.vi"/>
+				<Item Name="TDMSFileViewerLocalizedText.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMSFileViewerLocalizedText.vi"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="Type Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Enum.ctl"/>
+				<Item Name="VariantType to Type Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/VariantType to Type Code.vi"/>
+				<Item Name="Get Type of Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Get Type of Variant.vi"/>
+				<Item Name="formatPropertyList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/formatPropertyList.vi"/>
+				<Item Name="InitFromConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/InitFromConfiguration.vi"/>
+				<Item Name="panelResize_tdms.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/panelResize_tdms.vi"/>
+				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
+				<Item Name="initTabValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initTabValues.vi"/>
+				<Item Name="initHelpButtonVisibility.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initHelpButtonVisibility.vi"/>
+				<Item Name="initFileContentsTree.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initFileContentsTree.vi"/>
+				<Item Name="status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/status.vi"/>
+				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
+				<Item Name="sizeaction.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/sizeaction.ctl"/>
+				<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -362,7 +443,6 @@
 			</Item>
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../../Libraries/File/File LLB/MakeDataFileNames.vi"/>
 			<Item Name="Obtain top dispatch vi.vi" Type="VI" URL="../../../Libraries/Utilities/Obtain top dispatch vi.vi"/>
-			<Item Name="Filter Device List.vi" Type="VI" URL="../../../Libraries/OO Devices/Dynamic Device List/Filter Device List.vi"/>
 			<Item Name="Write menu object array values.vi" Type="VI" URL="../../../Libraries/Mag Lab Measure/Menu object array/Write menu object array values.vi"/>
 			<Item Name="Read object names.vi" Type="VI" URL="../../../Libraries/Mag Lab Measure/Menu object array/Read object names.vi"/>
 			<Item Name="Write object names.vi" Type="VI" URL="../../../Libraries/Mag Lab Measure/Menu object array/Write object names.vi"/>
@@ -393,7 +473,6 @@
 			<Item Name="Create plots - ring selector.vi" Type="VI" URL="../../../Libraries/File/Create plots - ring selector.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Get ring selector waveform.vi" Type="VI" URL="../../../Libraries/File/Get ring selector waveform.vi"/>
-			<Item Name="Device type.ctl" Type="VI" URL="../../../Libraries/OO Devices/Device/Device type.ctl"/>
 			<Item Name="VISA  Send Receive.vi" Type="VI" URL="../../../Libraries/Instruments/GPIB/VISA  Send Receive.vi"/>
 			<Item Name="GPIB Send Receive.vi" Type="VI" URL="../../../Libraries/Instruments/GPIB/GPIB Send Receive.vi"/>
 			<Item Name="Send Receive.vi" Type="VI" URL="../../../Libraries/Instruments/GPIB/Send Receive.vi"/>
@@ -462,6 +541,19 @@
 			<Item Name="Is gage installed.vi" Type="VI" URL="../../../Libraries/GaGe-DAQ/Is gage installed.vi"/>
 			<Item Name="File formats.ctl" Type="VI" URL="../../../Libraries/File/Controls/File formats.ctl"/>
 			<Item Name="Any file exists.vi" Type="VI" URL="../../../Libraries/File/Any file exists.vi"/>
+			<Item Name="Filter Device List.vi" Type="VI" URL="../../../Libraries/Instruments/Device/Filter Device List.vi"/>
+			<Item Name="Device type.ctl" Type="VI" URL="../../../Libraries/Instruments/Device/Device type.ctl"/>
+			<Item Name="RUS Parameters.ctl" Type="VI" URL="../../../Libraries/Mag Lab Measure/Measurements/RUS Measurement/RUS Parameters.ctl"/>
+			<Item Name="Arm Msg.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Hardware/Mag Lab Digitizer Messages/Arm Msg/Arm Msg.lvclass"/>
+			<Item Name="RP Command.ctl" Type="VI" URL="../../../Libraries/Red Pitaya/RP Command.ctl"/>
+			<Item Name="RP Write Command.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP Write Command.vi"/>
+			<Item Name="RP Read RX FIFO.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP Read RX FIFO.vi"/>
+			<Item Name="RP Read Status.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP Read Status.vi"/>
+			<Item Name="Record Msg.lvclass" Type="LVClass" URL="../../../Libraries/Red Pitaya/Actors/Red Pitaya Messages/Record Msg/Record Msg.lvclass"/>
+			<Item Name="Linear step array.vi" Type="VI" URL="../../../Libraries/Utilities/Linear step array.vi"/>
+			<Item Name="RP set frequency batch.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP set frequency batch.vi"/>
+			<Item Name="RP Read RX FIFO Fast.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP Read RX FIFO Fast.vi"/>
+			<Item Name="Find Peaks Result.lvclass" Type="LVClass" URL="../../../Libraries/Mag Lab Measure/Mag Lab Result/Find Peaks Result/Find Peaks Result.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Test Path" Type="EXE">
@@ -521,7 +613,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{671217FE-C50E-4253-BB59-9D25976E9F62}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Measure.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure/Measure.exe</Property>
@@ -530,7 +622,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Measure/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D892D0CD-4924-43C6-90F1-CCB65457D3FC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{239630B0-29E0-4E60-8BB8-E6E668C24DF6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Launch Common Measurements.vi</Property>
@@ -564,7 +656,10 @@
 				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Measure.cfg</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 				<Property Name="TgtF_companyName" Type="Str">Los Alamos National Laboratory</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Measure</Property>
 				<Property Name="TgtF_internalName" Type="Str">Measure</Property>

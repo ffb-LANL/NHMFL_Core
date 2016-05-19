@@ -11,6 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Integrate channel from file.vi" Type="VI" URL="../../../Libraries/File/File LLB/Integrate channel from file.vi"/>
 		<Item Name="Magnet Idot Monitor.vi" Type="VI" URL="../Magnet Idot Monitor.vi"/>
 		<Item Name="Monitor Viewer.vi" Type="VI" URL="../Monitor Viewer.vi"/>
 		<Item Name="Monitor.vi" Type="VI" URL="../Monitor.vi"/>
@@ -294,10 +295,9 @@
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../../Libraries/File/File LLB/GenerateUniqueFilename.vi"/>
 			<Item Name="Get NI-DAQ Data.vi" Type="VI" URL="../../../Libraries/NI-DAQ/Get NI-DAQ Data.vi"/>
 			<Item Name="Get TDMS channel info.vi" Type="VI" URL="../../../Libraries/File/Get TDMS channel info.vi"/>
-			<Item Name="Idot match record.ctl" Type="VI" URL="../../../Libraries/Mag Lab Measure/Mag Lab Measure Controller/Cap Bank Server/Idot match record.ctl"/>
+			<Item Name="Idot match record.ctl" Type="VI" URL="../../../Libraries/User Cap Bank/Labview/Library/Idot match record.ctl"/>
 			<Item Name="Idot Recorder.vi" Type="VI" URL="../../../Libraries/Monitor/Idot Recorder.vi"/>
 			<Item Name="Initialize NI-DAQ continuous recorder.vi" Type="VI" URL="../../../Libraries/NI-DAQ/Initialize NI-DAQ continuous recorder.vi"/>
-			<Item Name="Integrate channel from file.vi" Type="VI" URL="../../../Libraries/File/File LLB/Integrate channel from file.vi"/>
 			<Item Name="Integrate channel.ctl" Type="VI" URL="../../../Libraries/Utilities/Controls/Integrate channel.ctl"/>
 			<Item Name="IntegrateWaveForm.vi" Type="VI" URL="../../../Libraries/Utilities/Waveform/IntegrateWaveForm.vi"/>
 			<Item Name="is NI_DAQ Resuslt Ready.vi" Type="VI" URL="../../../Libraries/NI-DAQ/is NI_DAQ Resuslt Ready.vi"/>
@@ -314,7 +314,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read last shots from log.vi" Type="VI" URL="../../../Libraries/Mag Lab Measure/Mag Lab Measure Controller/Cap Bank Server/Cap Bank Interface/Read last shots from log.vi"/>
+			<Item Name="Read last shots from log.vi" Type="VI" URL="../../../Libraries/User Cap Bank/Labview/Library/Read last shots from log.vi"/>
 			<Item Name="Recieve Idot Result utility.vi" Type="VI" URL="../../../Libraries/User Cap Bank/Labview/Library/Recieve Idot Result utility.vi"/>
 			<Item Name="Red Pitaya Parameters.ctl" Type="VI" URL="../../../Libraries/Red Pitaya/Red Pitaya Parameters.ctl"/>
 			<Item Name="remote time.vi" Type="VI" URL="../../../Libraries/Utilities/remote time.vi"/>
@@ -324,7 +324,7 @@
 			<Item Name="RP ADC to Volts element.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP ADC to Volts element.vi"/>
 			<Item Name="RP calculate subset.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP calculate subset.vi"/>
 			<Item Name="RP Command.ctl" Type="VI" URL="../../../Libraries/Red Pitaya/RP Command.ctl"/>
-			<Item Name="RP convert raw data.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP convert raw data.vi"/>
+			<Item Name="RP convert raw data WFM.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP convert raw data WFM.vi"/>
 			<Item Name="RP get info.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP get info.vi"/>
 			<Item Name="RP info.ctl" Type="VI" URL="../../../Libraries/Red Pitaya/RP info.ctl"/>
 			<Item Name="RP Read Status.vi" Type="VI" URL="../../../Libraries/Red Pitaya/RP Read Status.vi"/>
@@ -338,6 +338,49 @@
 			<Item Name="TDMS delete channel.vi" Type="VI" URL="../../../Libraries/File/TDMS delete channel.vi"/>
 			<Item Name="TryAgain.vi" Type="VI" URL="../../../Libraries/File/File LLB/TryAgain.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Integrate" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{76E57D2E-FF36-41F2-BF3C-7BCB78B92511}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6FF35727-966F-4371-8F77-62322FF14E6B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BFC23E3A-C0C5-4BC7-8349-214FAF3B6355}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Integrate</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Utilities</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A0075A4D-E210-45E8-A89E-4A1053EE96FC}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Integrate.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Utilities/Integrate.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Utilities/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FDA745FB-1AFF-440A-BBAF-D4FBB187D9C6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Integrate channel from file.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Los Alamos National Laboratory</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Integrate</Property>
+				<Property Name="TgtF_internalName" Type="Str">Integrate</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Los Alamos National Laboratory</Property>
+				<Property Name="TgtF_productName" Type="Str">Integrate</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{FFB3F007-94EE-42B1-99E8-5E326577819E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Integrate.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
