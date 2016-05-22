@@ -1,5 +1,0 @@
-Arcady main programs, as of April 11 2016:
-
-C:\ProjectLocker\NHMFL\LANL\Libraries\maglab ultrasound -- arkady\App - temperature sweep -- Pgg2.vi
-C:\ProjectLocker\NHMFL\LANL\Libraries\maglab ultrasound -- arkady\app - monitor RUS scan.vi
-C:\ProjectLocker\NHMFL\LANL\Libraries\maglab ultrasound -- arkady\App - RUS scan V2.vi
