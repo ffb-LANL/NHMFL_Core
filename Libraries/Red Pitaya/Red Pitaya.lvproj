@@ -10,7 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Red Pitaya Tester" Type="Folder"/>
+		<Item Name="Red Pitaya Tester" Type="Folder">
+			<Item Name="Red Pitaya Test.vi" Type="VI" URL="../Test/Red Pitaya Test.vi"/>
+		</Item>
 		<Item Name="Waveform generator" Type="Folder">
 			<Item Name="Set current step.vi" Type="VI" URL="../Waform generation/Set current step.vi"/>
 			<Item Name="Waveform parameters.ctl" Type="VI" URL="../Waform generation/Waveform parameters.ctl"/>
@@ -147,7 +149,6 @@
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../File/File LLB/MakeDataFileNames.vi"/>
 			<Item Name="MakePath.vi" Type="VI" URL="../../File/File LLB/MakePath.vi"/>
 			<Item Name="Mode.ctl" Type="VI" URL="../Mode.ctl"/>
-			<Item Name="Original Waveform parameters.ctl" Type="VI" URL="../Waform generation/Original Waveform parameters.ctl"/>
 			<Item Name="Red Pitaya Parameters.ctl" Type="VI" URL="../Red Pitaya Parameters.ctl"/>
 			<Item Name="Reverse waveform.vi" Type="VI" URL="../../Utilities/Waveform/Reverse waveform.vi"/>
 			<Item Name="ReverseWaveforms.vi" Type="VI" URL="../../Utilities/Waveform/ReverseWaveforms.vi"/>
