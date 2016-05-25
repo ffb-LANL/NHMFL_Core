@@ -13,11 +13,16 @@
 		<Item Name="Red Pitaya Tester" Type="Folder">
 			<Item Name="Red Pitaya Test.vi" Type="VI" URL="../Test/Red Pitaya Test.vi"/>
 		</Item>
+		<Item Name="RP Core" Type="Folder">
+			<Item Name="Control RP.vi" Type="VI" URL="../RP Core/Control RP.vi"/>
+			<Item Name="RP Communicator.lvclass" Type="LVClass" URL="../RP Core/RP Communicator/RP Communicator.lvclass"/>
+		</Item>
 		<Item Name="Waveform generator" Type="Folder">
 			<Item Name="Set current step.vi" Type="VI" URL="../Waform generation/Set current step.vi"/>
 			<Item Name="Waveform parameters.ctl" Type="VI" URL="../Waform generation/Waveform parameters.ctl"/>
 			<Item Name="Write COE file.vi" Type="VI" URL="../Waform generation/Write COE file.vi"/>
 		</Item>
+		<Item Name="Client Type.ctl" Type="VI" URL="../Controls/Client Type.ctl"/>
 		<Item Name="Frequency to phase word DBL.vi" Type="VI" URL="../Frequency to phase word DBL.vi"/>
 		<Item Name="I-V to Waveform parameters.vi" Type="VI" URL="../Waform generation/I-V to Waveform parameters.vi"/>
 		<Item Name="Lock-in detector.vi" Type="VI" URL="../Lock-in detector.vi"/>
