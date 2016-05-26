@@ -14,8 +14,10 @@
 			<Item Name="Red Pitaya Test.vi" Type="VI" URL="../Test/Red Pitaya Test.vi"/>
 		</Item>
 		<Item Name="RP Core" Type="Folder">
-			<Item Name="Control RP.vi" Type="VI" URL="../RP Core/Control RP.vi"/>
 			<Item Name="RP Communicator.lvclass" Type="LVClass" URL="../RP Core/RP Communicator/RP Communicator.lvclass"/>
+		</Item>
+		<Item Name="RP Transceiver" Type="Folder">
+			<Item Name="RP Transceiver.lvclass" Type="LVClass" URL="../RP Core/RP Lockin/RP Transceiver.lvclass"/>
 		</Item>
 		<Item Name="Waveform generator" Type="Folder">
 			<Item Name="Set current step.vi" Type="VI" URL="../Waform generation/Set current step.vi"/>
@@ -177,6 +179,7 @@
 			<Item Name="RP Read Temperature.vi" Type="VI" URL="../RP Read Temperature.vi"/>
 			<Item Name="RP Save Data.vi" Type="VI" URL="../RP Save Data.vi"/>
 			<Item Name="RP set frequency batch.vi" Type="VI" URL="../RP set frequency batch.vi"/>
+			<Item Name="RP Transmit Data.vi" Type="VI" URL="../RP Transmit Data.vi"/>
 			<Item Name="RP Write Command.vi" Type="VI" URL="../RP Write Command.vi"/>
 			<Item Name="RP write file.vi" Type="VI" URL="../RP write file.vi"/>
 			<Item Name="Sine ramps pattern.vi" Type="VI" URL="../Waform generation/Sine ramps pattern.vi"/>
