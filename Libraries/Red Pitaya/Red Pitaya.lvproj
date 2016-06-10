@@ -18,6 +18,7 @@
 		</Item>
 		<Item Name="RP Transceiver" Type="Folder">
 			<Item Name="RP Transceiver.lvclass" Type="LVClass" URL="../RP Core/RP Transceiver/RP Transceiver.lvclass"/>
+			<Item Name="RP trx test.vi" Type="VI" URL="../RP Core/RP Transceiver/RP trx test.vi"/>
 		</Item>
 		<Item Name="Waveform generator" Type="Folder">
 			<Item Name="Set current step.vi" Type="VI" URL="../Waform generation/Set current step.vi"/>
