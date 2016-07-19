@@ -16,6 +16,13 @@
 		<Item Name="RP Core" Type="Folder">
 			<Item Name="RP Communicator.lvclass" Type="LVClass" URL="../RP Core/RP Communicator/RP Communicator.lvclass"/>
 		</Item>
+		<Item Name="RP Digitizer" Type="Folder">
+			<Item Name="RP Digitizer.lvclass" Type="LVClass" URL="../RP Core/RP Digitizer/RP Digitizer.lvclass"/>
+		</Item>
+		<Item Name="RP Instrument" Type="Folder">
+			<Item Name="RP instrument test.vi" Type="VI" URL="../RP Core/RP Instrument/RP instrument test.vi"/>
+			<Item Name="RP Instrument.lvclass" Type="LVClass" URL="../RP Core/RP Instrument/RP Instrument.lvclass"/>
+		</Item>
 		<Item Name="RP Transceiver" Type="Folder">
 			<Item Name="RP Transceiver.lvclass" Type="LVClass" URL="../RP Core/RP Transceiver/RP Transceiver.lvclass"/>
 			<Item Name="RP trx test.vi" Type="VI" URL="../RP Core/RP Transceiver/RP trx test.vi"/>
@@ -136,6 +143,11 @@
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
 				<Item Name="WDT Waveform Duration DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform Duration DBL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 			<Item Name="ADC to Volts.vi" Type="VI" URL="../ADC to Volts.vi"/>
 			<Item Name="Any file exists.vi" Type="VI" URL="../../File/Any file exists.vi"/>
@@ -157,6 +169,7 @@
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../File/File LLB/MakeDataFileNames.vi"/>
 			<Item Name="MakePath.vi" Type="VI" URL="../../File/File LLB/MakePath.vi"/>
 			<Item Name="Mode.ctl" Type="VI" URL="../Mode.ctl"/>
+			<Item Name="Receiver format.ctl" Type="VI" URL="../RP Core/RP Transceiver/Receiver format.ctl"/>
 			<Item Name="Red Pitaya Parameters.ctl" Type="VI" URL="../Red Pitaya Parameters.ctl"/>
 			<Item Name="Reverse waveform.vi" Type="VI" URL="../../Utilities/Waveform/Reverse waveform.vi"/>
 			<Item Name="ReverseWaveforms.vi" Type="VI" URL="../../Utilities/Waveform/ReverseWaveforms.vi"/>
