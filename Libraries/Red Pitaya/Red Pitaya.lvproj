@@ -10,6 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Red Pitaya Digitizer" Type="Folder">
+			<Item Name="Red Pitaya Digitizer.lvclass" Type="LVClass" URL="../Red Pitaya Digitizer/Red Pitaya Digitizer.lvclass"/>
+		</Item>
 		<Item Name="Red Pitaya Tester" Type="Folder">
 			<Item Name="Red Pitaya Test.vi" Type="VI" URL="../Test/Red Pitaya Test.vi"/>
 		</Item>
@@ -169,6 +172,8 @@
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../File/File LLB/MakeDataFileNames.vi"/>
 			<Item Name="MakePath.vi" Type="VI" URL="../../File/File LLB/MakePath.vi"/>
 			<Item Name="Mode.ctl" Type="VI" URL="../Mode.ctl"/>
+			<Item Name="Pulse Driver.lvclass" Type="LVClass" URL="../../Instruments/Pulse Driver/Pulse Driver.lvclass"/>
+			<Item Name="Pusle Driver Configuration.ctl" Type="VI" URL="../../Instruments/Pulse Driver/Pusle Driver Configuration.ctl"/>
 			<Item Name="Receiver format.ctl" Type="VI" URL="../RP Core/RP Transceiver/Receiver format.ctl"/>
 			<Item Name="Red Pitaya Parameters.ctl" Type="VI" URL="../Red Pitaya Parameters.ctl"/>
 			<Item Name="Reverse waveform.vi" Type="VI" URL="../../Utilities/Waveform/Reverse waveform.vi"/>
@@ -197,6 +202,7 @@
 			<Item Name="RP Write Command.vi" Type="VI" URL="../RP Write Command.vi"/>
 			<Item Name="RP write file.vi" Type="VI" URL="../RP write file.vi"/>
 			<Item Name="Sine ramps pattern.vi" Type="VI" URL="../Waform generation/Sine ramps pattern.vi"/>
+			<Item Name="StartFastChannelStreaming.vi" Type="VI" URL="../../File/Streamer/StartFastChannelStreaming.vi"/>
 			<Item Name="Sub_2016_05_04_SinBias.vi" Type="VI" URL="../Waform generation/Sub_2016_05_04_SinBias.vi"/>
 			<Item Name="TDMS delete channel.vi" Type="VI" URL="../../File/TDMS delete channel.vi"/>
 			<Item Name="TryAgain.vi" Type="VI" URL="../../File/File LLB/TryAgain.vi"/>
