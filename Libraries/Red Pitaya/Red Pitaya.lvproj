@@ -36,19 +36,12 @@
 			<Item Name="Write COE file.vi" Type="VI" URL="../Waform generation/Write COE file.vi"/>
 		</Item>
 		<Item Name="Client Type.ctl" Type="VI" URL="../Controls/Client Type.ctl"/>
-		<Item Name="Frequency to phase word DBL.vi" Type="VI" URL="../Frequency to phase word DBL.vi"/>
-		<Item Name="I-V to Waveform parameters.vi" Type="VI" URL="../Waform generation/I-V to Waveform parameters.vi"/>
 		<Item Name="Lock-in detector.vi" Type="VI" URL="../Lock-in detector.vi"/>
-		<Item Name="Read IV.vi" Type="VI" URL="../Waform generation/Read IV.vi"/>
 		<Item Name="Red Pitaya Control.vi" Type="VI" URL="../Red Pitaya Control.vi"/>
 		<Item Name="Red Pitaya Lockin Sweep.vi" Type="VI" URL="../Red Pitaya Lockin Sweep.vi"/>
 		<Item Name="Red Pitaya Lockin.vi" Type="VI" URL="../Red Pitaya Lockin.vi"/>
-		<Item Name="RP compress sweep.vi" Type="VI" URL="../RP compress sweep.vi"/>
 		<Item Name="RP Lockin Sweeper.vi" Type="VI" URL="../RP Lockin Sweeper.vi"/>
 		<Item Name="RP proccess data.vi" Type="VI" URL="../RP proccess data.vi"/>
-		<Item Name="RP Read RX FIFO.vi" Type="VI" URL="../RP Read RX FIFO.vi"/>
-		<Item Name="RP read signal channel.vi" Type="VI" URL="../RP read signal channel.vi"/>
-		<Item Name="RP set frequency.vi" Type="VI" URL="../RP set frequency.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -161,10 +154,12 @@
 			<Item Name="File formats.ctl" Type="VI" URL="../../File/Controls/File formats.ctl"/>
 			<Item Name="Filter.vi" Type="VI" URL="../../Utilities/Waveform/Filter.vi"/>
 			<Item Name="FIR Filter.vi" Type="VI" URL="../../Utilities/Waveform/FIR Filter.vi"/>
+			<Item Name="Frequency to phase word DBL.vi" Type="VI" URL="../Frequency to phase word DBL.vi"/>
 			<Item Name="Generate mounth year strings.vi" Type="VI" URL="../../File/File LLB/Generate mounth year strings.vi"/>
 			<Item Name="Generate pulse.vi" Type="VI" URL="../Waform generation/Generate pulse.vi"/>
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../File/File LLB/GenerateUniqueFilename.vi"/>
 			<Item Name="I-V parameters.ctl" Type="VI" URL="../Waform generation/I-V parameters.ctl"/>
+			<Item Name="I-V to Waveform parameters.vi" Type="VI" URL="../Waform generation/I-V to Waveform parameters.vi"/>
 			<Item Name="IIR Filter parameters.ctl" Type="VI" URL="../../Utilities/Waveform/IIR Filter parameters.ctl"/>
 			<Item Name="Linear step array.vi" Type="VI" URL="../../Utilities/Linear step array.vi"/>
 			<Item Name="LowPassFilter.vi" Type="VI" URL="../../Utilities/Waveform/LowPassFilter.vi"/>
@@ -185,6 +180,7 @@
 			<Item Name="RP block write.vi" Type="VI" URL="../RP block write.vi"/>
 			<Item Name="RP calculate subset.vi" Type="VI" URL="../RP calculate subset.vi"/>
 			<Item Name="RP Command.ctl" Type="VI" URL="../RP Command.ctl"/>
+			<Item Name="RP Config Offsets.ctl" Type="VI" URL="../RP Config Offsets.ctl"/>
 			<Item Name="RP convert raw data.vi" Type="VI" URL="../RP convert raw data.vi"/>
 			<Item Name="RP convert sweep.vi" Type="VI" URL="../RP convert sweep.vi"/>
 			<Item Name="RP generate pulse pattern.vi" Type="VI" URL="../RP generate pulse pattern.vi"/>
@@ -193,11 +189,15 @@
 			<Item Name="RP IV pattern write.vi" Type="VI" URL="../RP IV pattern write.vi"/>
 			<Item Name="RP Lockin Fast Continuous Sweeper.vi" Type="VI" URL="../RP Lockin Fast Continuous Sweeper.vi"/>
 			<Item Name="RP Read RX FIFO Fast.vi" Type="VI" URL="../RP Read RX FIFO Fast.vi"/>
+			<Item Name="RP Read RX FIFO.vi" Type="VI" URL="../RP Read RX FIFO.vi"/>
+			<Item Name="RP read signal channel.vi" Type="VI" URL="../RP read signal channel.vi"/>
 			<Item Name="RP Read Status.vi" Type="VI" URL="../RP Read Status.vi"/>
 			<Item Name="RP Read Subset.vi" Type="VI" URL="../RP Read Subset.vi"/>
 			<Item Name="RP Read Temperature.vi" Type="VI" URL="../RP Read Temperature.vi"/>
 			<Item Name="RP Save Data.vi" Type="VI" URL="../RP Save Data.vi"/>
 			<Item Name="RP set frequency batch.vi" Type="VI" URL="../RP set frequency batch.vi"/>
+			<Item Name="RP set frequency.vi" Type="VI" URL="../RP set frequency.vi"/>
+			<Item Name="RP Status Offsets.ctl" Type="VI" URL="../RP Status Offsets.ctl"/>
 			<Item Name="RP Transmit Data.vi" Type="VI" URL="../RP Transmit Data.vi"/>
 			<Item Name="RP Write Command.vi" Type="VI" URL="../RP Write Command.vi"/>
 			<Item Name="RP write file.vi" Type="VI" URL="../RP write file.vi"/>
