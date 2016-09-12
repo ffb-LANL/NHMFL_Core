@@ -145,10 +145,13 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="Acquired Result.lvclass" Type="LVClass" URL="../../../../Measure_core/Results/Acquired Result/Acquired Result.lvclass"/>
 			<Item Name="ADC to Volts.vi" Type="VI" URL="../ADC to Volts.vi"/>
 			<Item Name="Any file exists.vi" Type="VI" URL="../../File/Any file exists.vi"/>
 			<Item Name="AppendPathSeparator.vi" Type="VI" URL="../../File/File LLB/AppendPathSeparator.vi"/>
 			<Item Name="CheckFileExist.vi" Type="VI" URL="../../File/File LLB/CheckFileExist.vi"/>
+			<Item Name="Clear Errors from Array.vi" Type="VI" URL="../../Utilities/Clear Errors from Array.vi"/>
+			<Item Name="Clear Single Error.vi" Type="VI" URL="../../Utilities/Clear Single Error.vi"/>
 			<Item Name="ClearErrorNum.vi" Type="VI" URL="../../Utilities/ClearErrorNum.vi"/>
 			<Item Name="Create folder if not exist.vi" Type="VI" URL="../../File/File LLB/Create folder if not exist.vi"/>
 			<Item Name="File formats.ctl" Type="VI" URL="../../File/Controls/File formats.ctl"/>
@@ -161,12 +164,15 @@
 			<Item Name="I-V parameters.ctl" Type="VI" URL="../Waform generation/I-V parameters.ctl"/>
 			<Item Name="I-V to Waveform parameters.vi" Type="VI" URL="../Waform generation/I-V to Waveform parameters.vi"/>
 			<Item Name="IIR Filter parameters.ctl" Type="VI" URL="../../Utilities/Waveform/IIR Filter parameters.ctl"/>
+			<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../Instruments/Instrument Driver/Instrument Driver.lvclass"/>
+			<Item Name="Is Valid File.vi" Type="VI" URL="../../File/Is Valid File.vi"/>
 			<Item Name="Linear step array.vi" Type="VI" URL="../../Utilities/Linear step array.vi"/>
 			<Item Name="LowPassFilter.vi" Type="VI" URL="../../Utilities/Waveform/LowPassFilter.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../File/File LLB/MakeDataFileNames.vi"/>
 			<Item Name="MakePath.vi" Type="VI" URL="../../File/File LLB/MakePath.vi"/>
 			<Item Name="Mode.ctl" Type="VI" URL="../Mode.ctl"/>
+			<Item Name="Number list to array.vi" Type="VI" URL="../../Utilities/Number list to array.vi"/>
 			<Item Name="Pulse Driver.lvclass" Type="LVClass" URL="../../Instruments/Pulse Driver/Pulse Driver.lvclass"/>
 			<Item Name="Pusle Driver Configuration.ctl" Type="VI" URL="../../Instruments/Pulse Driver/Pusle Driver Configuration.ctl"/>
 			<Item Name="Receiver format.ctl" Type="VI" URL="../RP Core/RP Transceiver/Receiver format.ctl"/>
@@ -195,6 +201,7 @@
 			<Item Name="RP Read Subset.vi" Type="VI" URL="../RP Read Subset.vi"/>
 			<Item Name="RP Read Temperature.vi" Type="VI" URL="../RP Read Temperature.vi"/>
 			<Item Name="RP Save Data.vi" Type="VI" URL="../RP Save Data.vi"/>
+			<Item Name="RP Scale.vi" Type="VI" URL="../RP Scale.vi"/>
 			<Item Name="RP set frequency batch.vi" Type="VI" URL="../RP set frequency batch.vi"/>
 			<Item Name="RP set frequency.vi" Type="VI" URL="../RP set frequency.vi"/>
 			<Item Name="RP Status Offsets.ctl" Type="VI" URL="../RP Status Offsets.ctl"/>
@@ -202,7 +209,7 @@
 			<Item Name="RP Write Command.vi" Type="VI" URL="../RP Write Command.vi"/>
 			<Item Name="RP write file.vi" Type="VI" URL="../RP write file.vi"/>
 			<Item Name="Sine ramps pattern.vi" Type="VI" URL="../Waform generation/Sine ramps pattern.vi"/>
-			<Item Name="StartFastChannelStreaming.vi" Type="VI" URL="../../File/Streamer/StartFastChannelStreaming.vi"/>
+			<Item Name="Skip white spaces.vi" Type="VI" URL="../../Utilities/Skip white spaces.vi"/>
 			<Item Name="Sub_2016_05_04_SinBias.vi" Type="VI" URL="../Waform generation/Sub_2016_05_04_SinBias.vi"/>
 			<Item Name="TDMS delete channel.vi" Type="VI" URL="../../File/TDMS delete channel.vi"/>
 			<Item Name="TryAgain.vi" Type="VI" URL="../../File/File LLB/TryAgain.vi"/>
