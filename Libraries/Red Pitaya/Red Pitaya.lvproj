@@ -335,7 +335,6 @@
 			<Item Name="RP Config Offsets.ctl" Type="VI" URL="../RP Config Offsets.ctl"/>
 			<Item Name="RP convert raw data.vi" Type="VI" URL="../RP convert raw data.vi"/>
 			<Item Name="RP convert sweep.vi" Type="VI" URL="../RP convert sweep.vi"/>
-			<Item Name="RP generate pulse pattern.vi" Type="VI" URL="../RP generate pulse pattern.vi"/>
 			<Item Name="RP get info.vi" Type="VI" URL="../RP get info.vi"/>
 			<Item Name="RP info.ctl" Type="VI" URL="../RP info.ctl"/>
 			<Item Name="RP IV pattern write.vi" Type="VI" URL="../RP IV pattern write.vi"/>
