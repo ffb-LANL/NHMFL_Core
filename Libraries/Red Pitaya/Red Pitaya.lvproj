@@ -30,7 +30,9 @@
 			<Item Name="RP Transceiver.lvclass" Type="LVClass" URL="../RP Core/RP Transceiver/RP Transceiver.lvclass"/>
 			<Item Name="RP trx test.vi" Type="VI" URL="../RP Core/RP Transceiver/RP trx test.vi"/>
 		</Item>
-		<Item Name="Utilities" Type="Folder"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Smooth Background.vi" Type="VI" URL="../../Utilities/Fit/Smooth Background.vi"/>
+		</Item>
 		<Item Name="Waveform generator" Type="Folder">
 			<Item Name="Set current step.vi" Type="VI" URL="../Waform generation/Set current step.vi"/>
 			<Item Name="Waveform parameters.ctl" Type="VI" URL="../Waform generation/Waveform parameters.ctl"/>
@@ -417,6 +419,9 @@
 			<Item Name="RP write file.vi" Type="VI" URL="../RP write file.vi"/>
 			<Item Name="Sine ramps pattern.vi" Type="VI" URL="../Waform generation/Sine ramps pattern.vi"/>
 			<Item Name="Skip white spaces.vi" Type="VI" URL="../../Utilities/Skip white spaces.vi"/>
+			<Item Name="Smooth Background CDBL.vi" Type="VI" URL="../../Utilities/Fit/Smooth Background CDBL.vi"/>
+			<Item Name="Smooth Background DBL.vi" Type="VI" URL="../../Utilities/Fit/Smooth Background DBL.vi"/>
+			<Item Name="Smooth Background WFRM DBL.vi" Type="VI" URL="../../Utilities/Fit/Smooth Background WFRM DBL.vi"/>
 			<Item Name="Sub_2016_05_04_SinBias.vi" Type="VI" URL="../Waform generation/Sub_2016_05_04_SinBias.vi"/>
 			<Item Name="TDMS delete channel.vi" Type="VI" URL="../../File/TDMS delete channel.vi"/>
 			<Item Name="TryAgain.vi" Type="VI" URL="../../File/File LLB/TryAgain.vi"/>
