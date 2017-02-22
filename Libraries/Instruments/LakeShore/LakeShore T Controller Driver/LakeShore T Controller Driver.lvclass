@@ -25,6 +25,15 @@
 	<Item Name="LakeShore T Controller Driver.ctl" Type="Class Private Data" URL="LakeShore T Controller Driver.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Set Point.vi" Type="VI" URL="../Set Point.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Q!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;*!=!!?!!!H*5RB;W64;'^S:3"5)%.P&lt;H2S&lt;WRM:8)A2(*J&gt;G6S,GRW9WRB=X-!)5RB;W64;'^S:3"5)%.P&lt;H2S&lt;WRM:8)A2(*J&gt;G6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!^!#A!*5W6U)("P;7ZU!&amp;*!=!!?!!!H*5RB;W64;'^S:3"5)%.P&lt;H2S&lt;WRM:8)A2(*J&gt;G6S,GRW9WRB=X-!)%RB;W64;'^S:3"5)%.P&lt;H2S&lt;WRM:8)A2(*J&gt;G6S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!EA!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
 	<Item Name="Simple Reader.vi" Type="VI" URL="../Simple Reader.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'#!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!V!#A!(4H6N:8*J9Q!51%!!!@````]!"1&gt;4;7&gt;O97RT!&amp;*!=!!?!!!H*5RB;W64;'^S:3"5)%.P&lt;H2S&lt;WRM:8)A2(*J&gt;G6S,GRW9WRB=X-!)5RB;W64;'^S:3"5)%.P&lt;H2S&lt;WRM:8)A2(*J&gt;G6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;*!=!!?!!!H*5RB;W64;'^S:3"5)%.P&lt;H2S&lt;WRM:8)A2(*J&gt;G6S,GRW9WRB=X-!)%RB;W64;'^S:3"5)%.P&lt;H2S&lt;WRM:8)A2(*J&gt;G6S)'FO!!"5!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
