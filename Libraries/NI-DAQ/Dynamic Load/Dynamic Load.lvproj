@@ -20,6 +20,7 @@
 		<Item Name="App.lvlib" Type="Library" URL="../App/App.lvlib"/>
 		<Item Name="DAQmx Digitizer.lvlib" Type="Library" URL="../DAQmx Digitizer/DAQmx Digitizer.lvlib"/>
 		<Item Name="Dynamic Instrument.lvlib" Type="Library" URL="../Dynamic Instrument/Dynamic Instrument.lvlib"/>
+		<Item Name="List Software.vi" Type="VI" URL="../List Software.vi"/>
 		<Item Name="NI-Scope Digitizer.lvlib" Type="Library" URL="../NI-Scope Digitizer/NI-Scope Digitizer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -51,6 +52,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -65,9 +67,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Dynamic Load" Type="EXE">
@@ -84,7 +83,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0928E574-E8E5-4530-8E1C-7620015699B7}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dynamic Load.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/github/builds/NI_AB_PROJECTNAME/Dynamic Load.exe</Property>
@@ -117,6 +116,46 @@
 				<Property Name="TgtF_productName" Type="Str">Dynamic Load</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{80B01AB7-BDC2-4B47-97FC-2862AF061B8E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Dynamic Load.exe</Property>
+			</Item>
+			<Item Name="List Software" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{3E43B348-B0C7-4972-A9A7-31BCA0A781EE}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{98188450-940D-459E-B128-A83C9AE978C7}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{693BC5F6-E99F-471E-B409-0DD49DA52EE0}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">List Software</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F7AD1582-91F7-48A7-BD44-AA4E1458D9D1}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">List Software.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/github/builds/NI_AB_PROJECTNAME/List Software.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/github/builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1C045411-8A9D-4809-8E38-9B9706F17783}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/List Software.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Los Alamos National Laboratory</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">List Software</Property>
+				<Property Name="TgtF_internalName" Type="Str">List Software</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Los Alamos National Laboratory</Property>
+				<Property Name="TgtF_productName" Type="Str">List Software</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E07CA9FA-4E82-433D-A729-9E81027920E2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">List Software.exe</Property>
 			</Item>
 		</Item>
 	</Item>
