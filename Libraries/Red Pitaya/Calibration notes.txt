@@ -16,3 +16,16 @@ float cmn_CnvCntToV(uint32_t field_len, uint32_t cnts, float adc_max_v, uint32_t
     int32_t calib_cnts = cmn_CalibCnts(field_len, cnts, calib_dc_off);
     return cmn_CnvCalibCntToV(field_len, calib_cnts, adc_max_v, cmn_CalibFullScaleToVoltage(calibScale), user_dc_off);
 }
+
+int32_t cmn_CalibCnts(uint32_t field_len, uint32_t cnts, int calib_dc_off)
+{
+return cnts -= calib_dc_off;
+}
+
+float cmn_CalibFullScaleToVoltage(uint32_t fullScaleGain) {
+
+    return (float) ((float)fullScaleGain  * 100.0 / ((uint64_t)1<<32));
+}
+
+float cmn_CnvCalibCntToV(uint32_t field_len, int32_t calib_cnts, float adc_max_v, float calibScale, float user_dc_off)
+{
