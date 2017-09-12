@@ -12,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ConvertToLakeShore340Format.vi" Type="VI" URL="../ConvertToLakeShore340Format.vi"/>
+		<Item Name="NeoceraLoadCalibration.vi" Type="VI" URL="../NeoceraLoadCalibration.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -56,7 +57,10 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="ReadAnyASCII.vi" Type="VI" URL="../../../Libraries/File/ReadAnyASCII.vi"/>
+			<Item Name="ScanWrapper.vi" Type="VI" URL="../../../Libraries/File/ScanWrapper.vi"/>
 			<Item Name="Skip Header.vi" Type="VI" URL="../../../Libraries/File/File LLB/Skip Header.vi"/>
+			<Item Name="Sort 2D Array.vi" Type="VI" URL="../../../Libraries/Utilities/Sort 2D Array.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="340Converter" Type="EXE">
@@ -105,6 +109,50 @@
 				<Property Name="TgtF_productName" Type="Str">340Converter</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{9D009A45-06E4-4CBC-9086-12207B316F7B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">340Converter.exe</Property>
+			</Item>
+			<Item Name="Neocera Load Calibration" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{8AAD6456-CCC6-4E0E-9EAE-9F9F51A940B6}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{E28AD031-6A39-4823-82A8-74654F5E2D24}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LANL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3740208A-B48A-4365-874A-88FEF98B464F}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Neocera Load Calibration</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{D005F8E9-484E-4F12-AF69-96F3E3F7BA82}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Neocera Load Calibration.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/github/builds/NI_AB_PROJECTNAME/Neocera Load Calibration.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/github/builds/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{821943CA-EAF9-4C2B-9178-C9814A2ED572}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NeoceraLoadCalibration.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LANL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Neocera Load Calibration</Property>
+				<Property Name="TgtF_internalName" Type="Str">Neocera Load Calibration</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 LANL</Property>
+				<Property Name="TgtF_productName" Type="Str">Neocera Load Calibration</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{67DCF8A3-5823-4568-A1D4-3D61A73EA7DD}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Neocera Load Calibration.exe</Property>
 			</Item>
 		</Item>
 	</Item>
