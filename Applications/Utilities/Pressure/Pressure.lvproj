@@ -15,9 +15,17 @@
 			<Item Name="PIcam" Type="Folder">
 				<Item Name="PIcam.lvclass" Type="LVClass" URL="../../../../Libraries/Instruments/PIcam/PIcam.lvclass"/>
 			</Item>
+			<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../../../Libraries/Instruments/Instrument Driver/Instrument Driver.lvclass"/>
 		</Item>
 		<Item Name="Pressure.vi" Type="VI" URL="../Pressure.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+			</Item>
+			<Item Name="Acquired Result.lvclass" Type="LVClass" URL="../../../../Libraries/Instruments/Results/Acquired Result/Acquired Result.lvclass"/>
+			<Item Name="Worker State.ctl" Type="VI" URL="../../../../Libraries/Instruments/Instrument Driver/Worker State.ctl"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
