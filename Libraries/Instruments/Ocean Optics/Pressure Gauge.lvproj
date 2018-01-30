@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Fit Real Lorentzian.vi" Type="VI" URL="../../../Utilities/Fit/Fit Real Lorentzian.vi"/>
 		<Item Name="Pressure Gage.lvclass" Type="LVClass" URL="../Pressure Gage.lvclass"/>
+		<Item Name="TestRubyFit.vi" Type="VI" URL="../../../Utilities/Fit/TestRubyFit.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Ocean Optics 2000 4000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Ocean Optics 2000 4000/Ocean Optics 2000 4000.lvlib"/>
@@ -105,6 +106,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GitHub/builds/NI_AB_PROJECTNAME/OO_Spectra</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6E3AC2EF-D292-422C-911E-0E912B045FFE}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">OO_Spectra.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/NI_AB_PROJECTNAME/OO_Spectra/OO_Spectra.exe</Property>
