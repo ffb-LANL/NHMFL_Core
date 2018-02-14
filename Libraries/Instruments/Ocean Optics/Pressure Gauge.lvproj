@@ -77,7 +77,6 @@
 			<Item Name="Generate mounth year strings.vi" Type="VI" URL="../../../File/File LLB/Generate mounth year strings.vi"/>
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../../File/File LLB/GenerateUniqueFilename.vi"/>
 			<Item Name="Get All Peaks.vi" Type="VI" URL="../../../Utilities/Fit/Get All Peaks.vi"/>
-			<Item Name="Get Background.vi" Type="VI" URL="../../../Utilities/Fit/Get Background.vi"/>
 			<Item Name="Is Valid File.vi" Type="VI" URL="../../../File/Is Valid File.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../../File/File LLB/MakeDataFileNames.vi"/>
