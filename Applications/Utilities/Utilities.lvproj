@@ -99,11 +99,13 @@
 			</Item>
 			<Item Name="Any file exists.vi" Type="VI" URL="../../../Libraries/File/Any file exists.vi"/>
 			<Item Name="Append unique suffix.vi" Type="VI" URL="../../../Libraries/File/File LLB/Append unique suffix.vi"/>
+			<Item Name="BinAvg3.vi" Type="VI" URL="../../../Libraries/Utilities/BinAvg3.vi"/>
 			<Item Name="BinAvgSub3.vi" Type="VI" URL="../../../Libraries/Utilities/BinAvgSub3.vi"/>
 			<Item Name="BinF_ReadData.vi" Type="VI" URL="../../../Libraries/File/File LLB/BinF_ReadData.vi"/>
 			<Item Name="BinF_ReadHeader.vi" Type="VI" URL="../../../Libraries/File/File LLB/BinF_ReadHeader.vi"/>
 			<Item Name="ChangeFileExtention.vi" Type="VI" URL="../../../Libraries/File/File LLB/ChangeFileExtention.vi"/>
 			<Item Name="Circuit Impedance Correction.vi" Type="VI" URL="../../../Libraries/Utilities/Model/Circuit Impedance Correction.vi"/>
+			<Item Name="Clip ends.vi" Type="VI" URL="../../../Libraries/Utilities/Clip ends.vi"/>
 			<Item Name="Data window.ctl" Type="VI" URL="../../../Libraries/File/Data window.ctl"/>
 			<Item Name="Data window.ctl" Type="VI" URL="../../../Libraries/File/File LLB/Data window.ctl"/>
 			<Item Name="ErrorHandler.vi" Type="VI" URL="../../../Libraries/PulsedMagnetDAQLib/PulsedMagtetLLB/ErrorHandler.vi"/>
@@ -124,6 +126,7 @@
 			<Item Name="ScaleWaveForm.vi" Type="VI" URL="../../../Libraries/Utilities/Waveform/ScaleWaveForm.vi"/>
 			<Item Name="ScanWrapper.vi" Type="VI" URL="../../../Libraries/File/ScanWrapper.vi"/>
 			<Item Name="Skip Header.vi" Type="VI" URL="../../../Libraries/File/File LLB/Skip Header.vi"/>
+			<Item Name="Smooth.vi" Type="VI" URL="../../../Libraries/Utilities/Smooth.vi"/>
 			<Item Name="Sort 2D Array.vi" Type="VI" URL="../../../Libraries/Utilities/Sort 2D Array.vi"/>
 			<Item Name="Subtract background.vi" Type="VI" URL="../../../Libraries/Utilities/Model/PDO solve/Subtract background.vi"/>
 		</Item>
