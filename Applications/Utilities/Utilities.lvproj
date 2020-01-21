@@ -19,6 +19,7 @@
 		<Item Name="Hall.vi" Type="VI" URL="../Hall.vi"/>
 		<Item Name="Impedance Correction.vi" Type="VI" URL="../Impedance Correction.vi"/>
 		<Item Name="NeoceraLoadCalibration.vi" Type="VI" URL="../NeoceraLoadCalibration.vi"/>
+		<Item Name="Phase Rotation.vi" Type="VI" URL="../Phase Rotation.vi"/>
 		<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
 		<Item Name="TDOanalysis.vi" Type="VI" URL="../TDOanalysis.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -400,6 +401,49 @@
 				<Property Name="TgtF_productName" Type="Str">Neocera Load Calibration</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{67DCF8A3-5823-4568-A1D4-3D61A73EA7DD}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Neocera Load Calibration.exe</Property>
+			</Item>
+			<Item Name="Phase Rotation" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{AFCE60A4-5A3E-45B4-B325-5AE048B226FE}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{CDC9664E-5522-4443-907A-BB965FA1656B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{4E397FB6-5B26-4A97-B86B-D3A812DF74A7}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Phase Rotation</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/LabActor</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B931A7FE-0965-4FDE-BAC7-DA382893EB30}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Phase Rotation.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/github/builds/LabActor/Phase Rotation.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/github/builds/LabActor/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2CB6702D-93C7-4385-A649-0652E3645CC6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Phase Rotation.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Phase Rotation</Property>
+				<Property Name="TgtF_internalName" Type="Str">Phase Rotation</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 </Property>
+				<Property Name="TgtF_productName" Type="Str">Phase Rotation</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{05C17C32-8988-49EE-8DAD-0216C76B7BEB}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Phase Rotation.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="TDMS - File Viewer" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
