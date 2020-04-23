@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
+<Project Type="Project" LVVersion="19008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -20,12 +20,19 @@
 		<Item Name="Impedance Correction.vi" Type="VI" URL="../Impedance Correction.vi"/>
 		<Item Name="NeoceraLoadCalibration.vi" Type="VI" URL="../NeoceraLoadCalibration.vi"/>
 		<Item Name="Phase Rotation.vi" Type="VI" URL="../Phase Rotation.vi"/>
+		<Item Name="Pressure Gage.lvclass" Type="LVClass" URL="../../../Libraries/Instruments/Ocean Optics/Pressure Gage.lvclass"/>
 		<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
 		<Item Name="TDOanalysis.vi" Type="VI" URL="../TDOanalysis.vi"/>
+		<Item Name="Time-Frequency.vi" Type="VI" URL="../Time-Frequency.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Ocean Optics 2000 4000.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Ocean Optics 2000 4000/Ocean Optics 2000 4000.lvlib"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AsciiToInt.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/AsciiToInt.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
+				<Item Name="Check for multiple of dt.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for multiple of dt.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -39,6 +46,13 @@
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
+				<Item Name="DTbl Digital Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Subset.vi"/>
+				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
+				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
+				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
+				<Item Name="DWDT Get Waveform Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Waveform Subset.vi"/>
+				<Item Name="DWDT Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Waveform Duration.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -56,12 +70,13 @@
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="Get Type of Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Get Type of Variant.vi"/>
+				<Item Name="Get Waveform Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Waveform Subset.vi"/>
 				<Item Name="getChannelList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/getChannelList.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="getNamesFromPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/getNamesFromPath.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="GoTo.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/GoTo.vi"/>
+				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="initFileContentsTree.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initFileContentsTree.vi"/>
 				<Item Name="InitFromConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/InitFromConfiguration.vi"/>
 				<Item Name="initHelpButtonVisibility.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initHelpButtonVisibility.vi"/>
@@ -75,12 +90,16 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
@@ -114,13 +133,19 @@
 				<Item Name="TDMSFileViewerLocalizedText.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMSFileViewerLocalizedText.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Type Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Enum.ctl"/>
 				<Item Name="UpdateBufferForMultiListBoxIfNecessary.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateBufferForMultiListBoxIfNecessary.vi"/>
 				<Item Name="UpdateListBoxAfterKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateListBoxAfterKeyEvent.vi"/>
 				<Item Name="UpdateScrollbarBeforeKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateScrollbarBeforeKeyEvent.vi"/>
-				<Item Name="VariantType to Type Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/VariantType to Type Code.vi"/>
-				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Duration.vi"/>
+				<Item Name="WDT Get Waveform Subset CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset CDB.vi"/>
+				<Item Name="WDT Get Waveform Subset DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset DBL.vi"/>
+				<Item Name="WDT Get Waveform Subset EXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset EXT.vi"/>
+				<Item Name="WDT Get Waveform Subset I8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset I8.vi"/>
+				<Item Name="WDT Get Waveform Subset I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset I16.vi"/>
+				<Item Name="WDT Get Waveform Subset I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset I32.vi"/>
+				<Item Name="WDT Get Waveform Subset SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset SGL.vi"/>
 				<Item Name="WDT Number of Waveform Samples CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples CDB.vi"/>
 				<Item Name="WDT Number of Waveform Samples DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples DBL.vi"/>
 				<Item Name="WDT Number of Waveform Samples EXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples EXT.vi"/>
@@ -128,6 +153,7 @@
 				<Item Name="WDT Number of Waveform Samples I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I16.vi"/>
 				<Item Name="WDT Number of Waveform Samples I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I32.vi"/>
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
+				<Item Name="WDT Waveform Duration DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform Duration DBL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
@@ -145,31 +171,53 @@
 			<Item Name="BinAvgSub3.vi" Type="VI" URL="../../../Libraries/Utilities/BinAvgSub3.vi"/>
 			<Item Name="BinF_ReadData.vi" Type="VI" URL="../../../Libraries/File/File LLB/BinF_ReadData.vi"/>
 			<Item Name="BinF_ReadHeader.vi" Type="VI" URL="../../../Libraries/File/File LLB/BinF_ReadHeader.vi"/>
+			<Item Name="Calculate Padding Buffer Size.vi" Type="VI" URL="../../../Libraries/Utilities/Fit/Calculate Padding Buffer Size.vi"/>
 			<Item Name="ChangeFileExtention.vi" Type="VI" URL="../../../Libraries/File/File LLB/ChangeFileExtention.vi"/>
+			<Item Name="CheckFileExist.vi" Type="VI" URL="../../../Libraries/File/File LLB/CheckFileExist.vi"/>
 			<Item Name="Circuit Impedance Correction.vi" Type="VI" URL="../../../Libraries/Utilities/Model/Circuit Impedance Correction.vi"/>
+			<Item Name="ClearErrorNum.vi" Type="VI" URL="../../../Libraries/Utilities/ClearErrorNum.vi"/>
 			<Item Name="Clip ends.vi" Type="VI" URL="../../../Libraries/Utilities/Clip ends.vi"/>
+			<Item Name="Create folder if not exist.vi" Type="VI" URL="../../../Libraries/File/File LLB/Create folder if not exist.vi"/>
 			<Item Name="Data window.ctl" Type="VI" URL="../../../Libraries/File/Data window.ctl"/>
-			<Item Name="Data window.ctl" Type="VI" URL="../../../Libraries/File/File LLB/Data window.ctl"/>
-			<Item Name="ErrorHandler.vi" Type="VI" URL="../../../Libraries/PulsedMagnetDAQLib/PulsedMagtetLLB/ErrorHandler.vi"/>
+			<Item Name="ErrorHandler.vi" Type="VI" URL="../../../Libraries/Utilities/ErrorHandler.vi"/>
+			<Item Name="File formats.ctl" Type="VI" URL="../../../Libraries/File/Controls/File formats.ctl"/>
+			<Item Name="Fit Multi-Gaus Peaks.vi" Type="VI" URL="../../../Libraries/Utilities/Fit/Fit Multi-Gaus Peaks.vi"/>
+			<Item Name="Fit Real Lorentzian.vi" Type="VI" URL="../../../Libraries/Utilities/Fit/Fit Real Lorentzian.vi"/>
 			<Item Name="FreqPeakFit.vi" Type="VI" URL="../../../Libraries/Utilities/FreqPeakFit.vi"/>
+			<Item Name="Gaus Function.vi" Type="VI" URL="../../../Libraries/Utilities/Fit/Gaus Function.vi"/>
+			<Item Name="Generate mounth year strings.vi" Type="VI" URL="../../../Libraries/File/File LLB/Generate mounth year strings.vi"/>
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../../Libraries/File/File LLB/GenerateUniqueFilename.vi"/>
+			<Item Name="Get All Peaks.vi" Type="VI" URL="../../../Libraries/Utilities/Fit/Get All Peaks.vi"/>
+			<Item Name="IIR Filter parameters.ctl" Type="VI" URL="../../../Libraries/Utilities/Waveform/IIR Filter parameters.ctl"/>
 			<Item Name="Is Valid File.vi" Type="VI" URL="../../../Libraries/File/Is Valid File.vi"/>
-			<Item Name="LowPassFilter.vi" Type="VI" URL="../../../Libraries/Utilities/WaveForm.llb/LowPassFilter.vi"/>
+			<Item Name="LowPassFilter.vi" Type="VI" URL="../../../Libraries/Utilities/Waveform/LowPassFilter.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../../Libraries/File/File LLB/MakeDataFileNames.vi"/>
+			<Item Name="MakePath.vi" Type="VI" URL="../../../Libraries/File/File LLB/MakePath.vi"/>
 			<Item Name="Modified Read From SGL File.vi" Type="VI" URL="../../../Libraries/File/File LLB/Modified Read From SGL File.vi"/>
+			<Item Name="Multi-peak Parameters.ctl" Type="VI" URL="../../../Libraries/Utilities/Fit/Multi-peak Parameters.ctl"/>
+			<Item Name="Peak Parameters.ctl" Type="VI" URL="../../../Libraries/Utilities/Fit/Peak Parameters.ctl"/>
 			<Item Name="Read any file Waveform 1ch.vi" Type="VI" URL="../../../Libraries/File/File LLB/Read any file Waveform 1ch.vi"/>
 			<Item Name="Read any file waveform.vi" Type="VI" URL="../../../Libraries/File/File LLB/Read any file waveform.vi"/>
 			<Item Name="Read Any Poly.vi" Type="VI" URL="../../../Libraries/File/File LLB/Read Any Poly.vi"/>
 			<Item Name="ReadAnyASCII.vi" Type="VI" URL="../../../Libraries/File/ReadAnyASCII.vi"/>
 			<Item Name="ReadBinaryWaveformFile.vi" Type="VI" URL="../../../Libraries/File/File LLB/ReadBinaryWaveformFile.vi"/>
 			<Item Name="ReadTektronixISF.vi" Type="VI" URL="../../../Libraries/File/File LLB/ReadTektronixISF.vi"/>
+			<Item Name="Real Lorentzian Function.vi" Type="VI" URL="../../../Libraries/Utilities/Fit/Test functions/Real Lorentzian Function.vi"/>
 			<Item Name="Remove NAN rows.vi" Type="VI" URL="../../../Libraries/Utilities/Remove NAN rows.vi"/>
+			<Item Name="Reverse waveform.vi" Type="VI" URL="../../../Libraries/Utilities/Waveform/Reverse waveform.vi"/>
+			<Item Name="ReverseWaveforms.vi" Type="VI" URL="../../../Libraries/Utilities/Waveform/ReverseWaveforms.vi"/>
 			<Item Name="Rotate Lockin Phase.vi" Type="VI" URL="../../../Libraries/SoftwareLockin/Rotate Lockin Phase.vi"/>
 			<Item Name="ScanWrapper.vi" Type="VI" URL="../../../Libraries/File/ScanWrapper.vi"/>
 			<Item Name="Skip Header.vi" Type="VI" URL="../../../Libraries/File/File LLB/Skip Header.vi"/>
+			<Item Name="Smooth Background CDBL.vi" Type="VI" URL="../../../Libraries/Utilities/Fit/Smooth Background CDBL.vi"/>
+			<Item Name="Smooth Background DBL.vi" Type="VI" URL="../../../Libraries/Utilities/Fit/Smooth Background DBL.vi"/>
+			<Item Name="Smooth Background WFRM DBL.vi" Type="VI" URL="../../../Libraries/Utilities/Fit/Smooth Background WFRM DBL.vi"/>
+			<Item Name="Smooth Background.vi" Type="VI" URL="../../../Libraries/Utilities/Fit/Smooth Background.vi"/>
 			<Item Name="Smooth.vi" Type="VI" URL="../../../Libraries/Utilities/Smooth.vi"/>
 			<Item Name="Sort 2D Array.vi" Type="VI" URL="../../../Libraries/Utilities/Sort 2D Array.vi"/>
 			<Item Name="Subtract background.vi" Type="VI" URL="../../../Libraries/Utilities/Model/PDO solve/Subtract background.vi"/>
+			<Item Name="TryAgain.vi" Type="VI" URL="../../../Libraries/File/File LLB/TryAgain.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="340Converter" Type="EXE">
@@ -186,7 +234,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/LabActor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{14FD7073-4B11-4FB6-8A4C-FE3B2AFD8E85}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">340Converter.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/github/builds/LabActor/340Converter.exe</Property>
@@ -235,7 +283,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/LabActor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B137CE43-808F-4507-BF18-4DC9ECD52220}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Defragment TDMS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/github/builds/LabActor/Defragment TDMS.exe</Property>
@@ -329,7 +377,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/LabActor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BD9EA821-7080-4A40-B7CE-DD920EC99240}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Impedance Correction.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/github/builds/LabActor/Impedance Correction.exe</Property>
@@ -402,6 +450,59 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{67DCF8A3-5823-4568-A1D4-3D61A73EA7DD}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Neocera Load Calibration.exe</Property>
 			</Item>
+			<Item Name="OO_Spectra" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{FD0D8BF9-C2C6-439B-854A-1515B2A01D99}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6B8E5697-5DDA-42FF-979B-8020BB46AE3B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F6E84ADD-9FD3-4D57-978F-0AC88819F87B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">OO_Spectra</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/LabActor</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{32502375-9CAF-4C84-8021-F9B92D26544C}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">OO_Spectra.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/github/builds/LabActor/OO_Spectra.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/github/builds/LabActor/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{26E33D66-6106-4EFF-BB83-9472729F961D}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ConvertToLakeShore340Format.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[1].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Pressure Gage.lvclass/OO_Spectra.vi</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Los Alamos National Laboratory</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">340Converter</Property>
+				<Property Name="TgtF_internalName" Type="Str">340Converter</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Los Alamos National Laboratory</Property>
+				<Property Name="TgtF_productName" Type="Str">340Converter</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{9307D746-EC0A-4300-8448-44A07F10F61A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">OO_Spectra.exe</Property>
+			</Item>
 			<Item Name="Phase Rotation" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{AFCE60A4-5A3E-45B4-B325-5AE048B226FE}</Property>
@@ -416,7 +517,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/LabActor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B931A7FE-0965-4FDE-BAC7-DA382893EB30}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Phase Rotation.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/github/builds/LabActor/Phase Rotation.exe</Property>
@@ -427,7 +528,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/github/builds/LabActor/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2CB6702D-93C7-4385-A649-0652E3645CC6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8DFE9C98-3A3B-4287-A511-3327D31059C2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Phase Rotation.vi</Property>
@@ -460,7 +561,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/LabActor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6518E2BE-8446-427A-8078-BD5F35648F62}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TDMS - File Viewer.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/github/builds/LabActor/TDMS - File Viewer.exe</Property>
