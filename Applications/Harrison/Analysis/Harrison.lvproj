@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -105,25 +105,25 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/github/2018/builds/LabActor</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GitHub/builds/LabActor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D9D57F8B-2FC1-4B07-B586-3A067A569581}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Harrison.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/github/2018/builds/LabActor/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/LabActor/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/github/2018/builds/LabActor/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GitHub/builds/LabActor/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/github/2018/builds/LabActor</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/GitHub/builds/LabActor</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CBD0F7C9-3C5D-43F3-AA2B-181C14FF71E3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{38C7A79F-358C-44D9-9409-7D6F62791601}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dingle fitter.vi</Property>
