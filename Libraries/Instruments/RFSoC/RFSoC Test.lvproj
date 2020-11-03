@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../Instrument Driver/Instrument Driver.lvclass"/>
 		<Item Name="Pulse Driver.lvclass" Type="LVClass" URL="../../Pulse Driver/Pulse Driver.lvclass"/>
+		<Item Name="Pulse Parameters.ctl" Type="VI" URL="../Pulse Parameters.ctl"/>
 		<Item Name="RFSoC Driver.lvclass" Type="LVClass" URL="../RFSoC Driver.lvclass"/>
 		<Item Name="RFSoC_test.vi" Type="VI" URL="../RFSoC_test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -83,6 +84,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AAL_MathFunc.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_AAL_MathFunc.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -116,6 +118,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Acquired Result.lvclass" Type="LVClass" URL="../../Results/Acquired Result/Acquired Result.lvclass"/>
+			<Item Name="build_waveform.lvclass" Type="LVClass" URL="../../../../../PulseEcho/PulsedFieldEcho/Create_Pulse/Create_waveform/build_waveform.lvclass"/>
 			<Item Name="Extend Array.vim" Type="VI" URL="../../../Utilities/Extend Array.vim"/>
 			<Item Name="Find Syncronous Frequency.vi" Type="VI" URL="../../../SoftwareLockin/Find Syncronous Frequency.vi"/>
 			<Item Name="Frequency to phase word DBL.vi" Type="VI" URL="../../../Red Pitaya/Frequency to phase word DBL.vi"/>
