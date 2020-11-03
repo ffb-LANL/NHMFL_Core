@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -51,6 +51,7 @@
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
 				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
+				<Item Name="DWDT Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Final Time Value.vi"/>
 				<Item Name="DWDT Get Waveform Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Waveform Subset.vi"/>
 				<Item Name="DWDT Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Waveform Duration.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -67,6 +68,7 @@
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Final Time Value.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
@@ -139,6 +141,7 @@
 				<Item Name="UpdateListBoxAfterKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateListBoxAfterKeyEvent.vi"/>
 				<Item Name="UpdateScrollbarBeforeKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateScrollbarBeforeKeyEvent.vi"/>
 				<Item Name="Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Duration.vi"/>
+				<Item Name="WDT Get Final Time Value DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Final Time Value DBL.vi"/>
 				<Item Name="WDT Get Waveform Subset CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset CDB.vi"/>
 				<Item Name="WDT Get Waveform Subset DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset DBL.vi"/>
 				<Item Name="WDT Get Waveform Subset EXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset EXT.vi"/>
@@ -225,6 +228,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{5DCEA3DA-FA57-4CC4-BC1C-3488DBB0F60F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{92FF29F1-22BD-44B4-AE2D-04B5D2070675}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{B56278FC-DDC1-4394-A116-3A89BF178E0D}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">340Converter</Property>
@@ -273,6 +277,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{40F7EC70-883C-4951-B1C4-334B37B832D9}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Defragment TDMS.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LANL.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{63240F39-6448-4480-99D3-49D23F8C6B33}</Property>
@@ -317,6 +322,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{5BC2F4C8-D55C-4D27-83C7-3AC79BBD9F15}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{C5B46294-7464-4F4B-A972-F50CA5C0EA3B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LANL.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{23A8789D-8B2A-4FD2-8743-2A8238D4ECD8}</Property>
@@ -367,6 +373,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{D30925FC-0DBF-404D-9835-1B1292830D4F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{AFE1B25C-265E-4A5F-88F7-76BE56B71AE5}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LANL.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{948B71A4-EC96-431F-917C-7F9812572EB5}</Property>
@@ -411,6 +418,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{8AAD6456-CCC6-4E0E-9EAE-9F9F51A940B6}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{E28AD031-6A39-4823-82A8-74654F5E2D24}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LANL.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3740208A-B48A-4365-874A-88FEF98B464F}</Property>
@@ -455,6 +463,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{FD0D8BF9-C2C6-439B-854A-1515B2A01D99}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{6B8E5697-5DDA-42FF-979B-8020BB46AE3B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{F6E84ADD-9FD3-4D57-978F-0AC88819F87B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">OO_Spectra</Property>
@@ -508,6 +517,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{AFCE60A4-5A3E-45B4-B325-5AE048B226FE}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{CDC9664E-5522-4443-907A-BB965FA1656B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{4E397FB6-5B26-4A97-B86B-D3A812DF74A7}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Phase Rotation</Property>
@@ -551,6 +561,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{EDF3B0A3-F87E-405D-87C1-5C2D3F1DC545}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{9F8D02D4-8999-43E2-9237-E5E432A5A7F5}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.LANL.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A40CB5F5-3A58-42F9-95E3-3EFD9683E494}</Property>
@@ -589,6 +600,57 @@
 				<Property Name="TgtF_productName" Type="Str">TDMS - File Viewer</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{BE30F09B-5BA1-4908-9707-E7B14C42FC4A}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">TDMS - File Viewer.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="TDOanalysis" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{52E3DEB0-7185-4994-B5A4-F1577B938AD8}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{50E77D41-7203-42D7-B1AD-C77BFF49298E}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LANL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{DCAEA9BB-8BBC-4FDE-859F-6D27E888789A}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TDOanalysis</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GitHub/builds/LabActor</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{1938EEA5-01FE-4D91-8E58-EAA8D7865F65}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">TDOanalysis.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/LabActor/TDOanalysis.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GitHub/builds/LabActor/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5DDB10FD-B577-409C-AB48-F8A79426A777}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TDOanalysis.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ConvertToLakeShore340Format.vi</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">LANL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TDOanalysis</Property>
+				<Property Name="TgtF_internalName" Type="Str">TDOanalysis</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 LANL</Property>
+				<Property Name="TgtF_productName" Type="Str">TDOanalysis</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{4E384457-1E68-424D-9809-E059992647D1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TDOanalysis.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
