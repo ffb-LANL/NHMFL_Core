@@ -16,45 +16,6 @@
 		<Item Name="RFSoC Driver.lvclass" Type="LVClass" URL="../RFSoC Driver.lvclass"/>
 		<Item Name="RFSoC_test.vi" Type="VI" URL="../RFSoC_test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
-				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
-				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
-				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
-				<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
-				<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
-				<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/Format Variant Into String__ogtk.vi"/>
-				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
-				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
-				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
-				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
-				<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
-				<Item Name="Get PString__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
-				<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
-				<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
-				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
-				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
-				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
-				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
-				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
-				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
-				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
-				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
-				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
-				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
-				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
-				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
-				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
-				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
-				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
-				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
-				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
-				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
-				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
-				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -118,21 +79,58 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Acquired Result.lvclass" Type="LVClass" URL="../../Results/Acquired Result/Acquired Result.lvclass"/>
+			<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
+			<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
+			<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 			<Item Name="build_waveform.lvclass" Type="LVClass" URL="../../../../../PulseEcho/PulsedFieldEcho/Create_Pulse/Create_waveform/build_waveform.lvclass"/>
+			<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
+			<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
 			<Item Name="Extend Array.vim" Type="VI" URL="../../../Utilities/Extend Array.vim"/>
 			<Item Name="Find Syncronous Frequency.vi" Type="VI" URL="../../../SoftwareLockin/Find Syncronous Frequency.vi"/>
+			<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
+			<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/Format Variant Into String__ogtk.vi"/>
 			<Item Name="Frequency to phase word DBL.vi" Type="VI" URL="../../../Red Pitaya/Frequency to phase word DBL.vi"/>
 			<Item Name="Frequency Word to Frequency .vi" Type="VI" URL="../../../SoftwareLockin/Frequency Word to Frequency .vi"/>
+			<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
+			<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
+			<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
+			<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
+			<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
+			<Item Name="Get PString__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
+			<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
+			<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
+			<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
+			<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
+			<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
+			<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+			<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
+			<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Number list to array.vi" Type="VI" URL="../../../Utilities/Number list to array.vi"/>
 			<Item Name="Output Value.lvclass" Type="LVClass" URL="../../../Utilities/Output Value/Output Value.lvclass"/>
+			<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
 			<Item Name="Pusle Driver Configuration.ctl" Type="VI" URL="../../Pulse Driver/Pusle Driver Configuration.ctl"/>
+			<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
+			<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
+			<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
+			<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
 			<Item Name="Set TDMS WFM Properties.vi" Type="VI" URL="../../../File/TDMS/Set TDMS WFM Properties.vi"/>
 			<Item Name="Skip white spaces.vi" Type="VI" URL="../../../Utilities/Skip white spaces.vi"/>
+			<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
 			<Item Name="Start Stream Result.lvclass" Type="LVClass" URL="../../Results/Start Stream Result/Start Stream Result.lvclass"/>
 			<Item Name="Store Metadata in TDMS.vi" Type="VI" URL="../../../File/TDMS/Store Metadata in TDMS.vi"/>
+			<Item Name="Strip Units__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
+			<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
+			<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
+			<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
+			<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
+			<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
+			<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
+			<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 			<Item Name="Variant to Meta Data.vi" Type="VI" URL="../../../File/OO config/Variant to Meta Data.vi"/>
+			<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 			<Item Name="Worker State.ctl" Type="VI" URL="../../Instrument Driver/Worker State.ctl"/>
+			<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
