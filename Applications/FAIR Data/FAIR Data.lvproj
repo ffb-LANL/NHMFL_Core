@@ -12,25 +12,33 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="OSF" Type="Folder">
 			<Item Name="Get JSON Value.vi" Type="VI" URL="../../../Libraries/Utilities/Get JSON Value.vi"/>
+			<Item Name="OSF Append Wiki.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Append Wiki.vi"/>
+			<Item Name="OSF Auth Header.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Auth Header.vi"/>
 			<Item Name="OSF Create Projects.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Create Projects.vi"/>
 			<Item Name="OSF Create Wiki.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Create Wiki.vi"/>
+			<Item Name="OSF Format Exp Wiki.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Format Exp Wiki.vi"/>
 			<Item Name="OSF Read Projects.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Read Projects.vi"/>
 			<Item Name="OSF Read Wikis.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Read Wikis.vi"/>
+			<Item Name="OSF Template.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Template.vi"/>
 			<Item Name="OSF Upload File.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Upload File.vi"/>
 			<Item Name="Parse OSF Project.vi" Type="VI" URL="../../../Libraries/FAIR Data/Parse OSF Project.vi"/>
 			<Item Name="Parse Proposal.vi" Type="VI" URL="../../../Libraries/FAIR Data/Parse Proposal.vi"/>
 			<Item Name="Render TDMS Metatdata.vi" Type="VI" URL="../../../Libraries/File/TDMS/Render TDMS Metatdata.vi"/>
+			<Item Name="Strip String Ends.vi" Type="VI" URL="../../../Libraries/Utilities/Strip String Ends.vi"/>
 		</Item>
 		<Item Name="User Portal" Type="Folder">
+			<Item Name="Calendar" Type="Folder">
+				<Item Name="Parse iCalendar.vi" Type="VI" URL="../../../Libraries/Utilities/iCalendar/Parse iCalendar.vi"/>
+			</Item>
+			<Item Name="Get Selected Experiment.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/Get Selected Experiment.vi"/>
 			<Item Name="UPortal List Items.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/UPortal List Items.vi"/>
+			<Item Name="UPortal Load Calendar.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/UPortal Load Calendar.vi"/>
 			<Item Name="UPortal Load Callback.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/UPortal Load Callback.vi"/>
 			<Item Name="UPortal Login.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/UPortal Login.vi"/>
+			<Item Name="UPortal Open URL.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/UPortal Open URL.vi"/>
 			<Item Name="UPortal Wait on Load.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/UPortal Wait on Load.vi"/>
 		</Item>
 		<Item Name="MagLab OSF Sync .vi" Type="VI" URL="../../../Libraries/FAIR Data/MagLab OSF Sync .vi"/>
-		<Item Name="OSF Format Exp Wiki.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Format Exp Wiki.vi"/>
-		<Item Name="Strip String Ends.vi" Type="VI" URL="../../../Libraries/Utilities/Strip String Ends.vi"/>
-		<Item Name="Untitled 5.vi" Type="VI" URL="../../../../../Users/l121767/Downloads/Untitled 5.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -50,6 +58,7 @@
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -79,17 +88,16 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Extract iCalendar String.ctl" Type="VI" URL="../../../../labview-gcal/Controls/Extract iCalendar String.ctl"/>
-			<Item Name="Extract time from string.vi" Type="VI" URL="../../../../labview-gcal/SubVIs/Extract time from string.vi"/>
-			<Item Name="iCal Get Experiment.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/iCal Get Experiment.vi"/>
+			<Item Name="Extract iCalendar String.ctl" Type="VI" URL="../../../Libraries/Utilities/iCalendar/Extract iCalendar String.ctl"/>
+			<Item Name="Extract time from string.vi" Type="VI" URL="../../../Libraries/Utilities/iCalendar/Extract time from string.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="OSF Append Wiki.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Append Wiki.vi"/>
-			<Item Name="OSF Auth Header.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Auth Header.vi"/>
 			<Item Name="OSF Create Component.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Create Component.vi"/>
 			<Item Name="Parse File.vi" Type="VI" URL="../../../Libraries/FAIR Data/Parse File.vi"/>
-			<Item Name="Read iCalendar File.vi" Type="VI" URL="../../../../labview-gcal/SubVIs/Read iCalendar File.vi"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
