@@ -10,6 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Make file waveform" Type="Folder">
+			<Item Name="Output_single_waveform.vi" Type="VI" URL="../../../../../PulseEcho/PulsedFieldEcho/Create_Pulse/Output_single_waveform.vi"/>
+		</Item>
 		<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../Instrument Driver/Instrument Driver.lvclass"/>
 		<Item Name="Pulse Driver.lvclass" Type="LVClass" URL="../../Pulse Driver/Pulse Driver.lvclass"/>
 		<Item Name="Pulse Parameters.ctl" Type="VI" URL="../Pulse Parameters.ctl"/>
@@ -31,11 +34,13 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -58,6 +63,7 @@
 				<Item Name="SetT0.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Set DDT Attributes/SetT0.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="TDMS Create Scaling Information (Linear).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Linear).vi"/>
 				<Item Name="TDMS Create Scaling Information (Polynomial).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Polynomial).vi"/>
@@ -108,7 +114,9 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Number list to array.vi" Type="VI" URL="../../../Utilities/Number list to array.vi"/>
 			<Item Name="Output Value.lvclass" Type="LVClass" URL="../../../Utilities/Output Value/Output Value.lvclass"/>
+			<Item Name="Pad Array.vi" Type="VI" URL="../../../../../../../../../Utilities/Pad Array.vi"/>
 			<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
+			<Item Name="Pulse Waveform Parameters.ctl" Type="VI" URL="../../../../../../../../../Utilities/Waveform/Pulse Waveform Parameters.ctl"/>
 			<Item Name="Pusle Driver Configuration.ctl" Type="VI" URL="../../Pulse Driver/Pusle Driver Configuration.ctl"/>
 			<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
 			<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
@@ -131,6 +139,7 @@
 			<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 			<Item Name="Worker State.ctl" Type="VI" URL="../../Instrument Driver/Worker State.ctl"/>
 			<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/user.lib/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
+			<Item Name="Write_to_file.lvclass" Type="LVClass" URL="../../../../../PulseEcho/PulsedFieldEcho/Create_Pulse/Write_to_file/Write_to_file.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
