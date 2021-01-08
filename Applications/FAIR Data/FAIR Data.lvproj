@@ -38,6 +38,7 @@
 			<Item Name="UPortal Open URL.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/UPortal Open URL.vi"/>
 			<Item Name="UPortal Wait on Load.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/UPortal Wait on Load.vi"/>
 		</Item>
+		<Item Name="Events to Listbox.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/Events to Listbox.vi"/>
 		<Item Name="MagLab OSF Sync .vi" Type="VI" URL="../../../Libraries/FAIR Data/MagLab OSF Sync .vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
