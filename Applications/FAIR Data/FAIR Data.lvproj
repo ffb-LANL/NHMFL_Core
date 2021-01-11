@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="OSF" Type="Folder">
+			<Item Name="Bullet Markdown.vi" Type="VI" URL="../../../Libraries/FAIR Data/Bullet Markdown.vi"/>
 			<Item Name="Get JSON Value.vi" Type="VI" URL="../../../Libraries/Utilities/Get JSON Value.vi"/>
 			<Item Name="OSF Append Wiki.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Append Wiki.vi"/>
 			<Item Name="OSF Auth Header.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Auth Header.vi"/>
