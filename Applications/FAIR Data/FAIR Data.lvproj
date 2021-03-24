@@ -26,6 +26,9 @@
 			<Item Name="Render TDMS Metatdata.vi" Type="VI" URL="../../../Libraries/File/TDMS/Render TDMS Metatdata.vi"/>
 			<Item Name="Strip String Ends.vi" Type="VI" URL="../../../Libraries/Utilities/Strip String Ends.vi"/>
 		</Item>
+		<Item Name="Test" Type="Folder">
+			<Item Name="Test Proxy.vi" Type="VI" URL="../../../Libraries/FAIR Data/Test/Test Proxy.vi"/>
+		</Item>
 		<Item Name="User Portal" Type="Folder">
 			<Item Name="Calendar" Type="Folder">
 				<Item Name="Parse iCalendar.vi" Type="VI" URL="../../../Libraries/Utilities/iCalendar/Parse iCalendar.vi"/>
