@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="MagX" Type="Folder"/>
 		<Item Name="OSF" Type="Folder">
 			<Item Name="Bullet Markdown.vi" Type="VI" URL="../../../Libraries/FAIR Data/Bullet Markdown.vi"/>
 			<Item Name="Get JSON Value.vi" Type="VI" URL="../../../Libraries/Utilities/Get JSON Value.vi"/>
@@ -42,10 +43,13 @@
 			<Item Name="UPortal Open URL.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/UPortal Open URL.vi"/>
 			<Item Name="UPortal Wait on Load.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/UPortal Wait on Load.vi"/>
 		</Item>
+		<Item Name="Experiment info.ctl" Type="VI" URL="../../../Libraries/FAIR Data/MagX/Experiment info.ctl"/>
 		<Item Name="MagLab OSF Sync .vi" Type="VI" URL="../../../Libraries/FAIR Data/MagLab OSF Sync .vi"/>
+		<Item Name="MagX Get Info.vi" Type="VI" URL="../../../Libraries/FAIR Data/MagX/MagX Get Info.vi"/>
 		<Item Name="OSF Upload File.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Upload File.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/Base64/Base64 Support.lvlib"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -72,6 +76,7 @@
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
 				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
+				<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
 				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
 				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
