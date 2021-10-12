@@ -10,7 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MagX" Type="Folder"/>
+		<Item Name="MagX" Type="Folder">
+			<Item Name="Experiment info.ctl" Type="VI" URL="../../../Libraries/FAIR Data/MagX/Experiment info.ctl"/>
+			<Item Name="MagX Format Date.vi" Type="VI" URL="../../../Libraries/FAIR Data/MagX/MagX Format Date.vi"/>
+			<Item Name="MagX Get Info.vi" Type="VI" URL="../../../Libraries/FAIR Data/MagX/MagX Get Info.vi"/>
+			<Item Name="MagX List.vi" Type="VI" URL="../../../Libraries/FAIR Data/MagX/MagX List.vi"/>
+		</Item>
 		<Item Name="OSF" Type="Folder">
 			<Item Name="Bullet Markdown.vi" Type="VI" URL="../../../Libraries/FAIR Data/Bullet Markdown.vi"/>
 			<Item Name="Get JSON Value.vi" Type="VI" URL="../../../Libraries/Utilities/Get JSON Value.vi"/>
@@ -43,9 +48,7 @@
 			<Item Name="UPortal Open URL.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/UPortal Open URL.vi"/>
 			<Item Name="UPortal Wait on Load.vi" Type="VI" URL="../../../Libraries/FAIR Data/User Portal/UPortal Wait on Load.vi"/>
 		</Item>
-		<Item Name="Experiment info.ctl" Type="VI" URL="../../../Libraries/FAIR Data/MagX/Experiment info.ctl"/>
 		<Item Name="MagLab OSF Sync .vi" Type="VI" URL="../../../Libraries/FAIR Data/MagLab OSF Sync .vi"/>
-		<Item Name="MagX Get Info.vi" Type="VI" URL="../../../Libraries/FAIR Data/MagX/MagX Get Info.vi"/>
 		<Item Name="OSF Upload File.vi" Type="VI" URL="../../../Libraries/FAIR Data/OSF Upload File.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -113,6 +116,7 @@
 			</Item>
 			<Item Name="Extract iCalendar String.ctl" Type="VI" URL="../../../Libraries/Utilities/iCalendar/Extract iCalendar String.ctl"/>
 			<Item Name="Extract time from string.vi" Type="VI" URL="../../../Libraries/Utilities/iCalendar/Extract time from string.vi"/>
+			<Item Name="MagX Events to Listbox.vi" Type="VI" URL="../../../Libraries/FAIR Data/MagX/MagX Events to Listbox.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
