@@ -102,15 +102,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
 	</Item>
-	<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0)GX0WV!!%!!!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
-	</Item>
 	<Item Name="Save Data.vi" Type="VI" URL="../Save Data.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;9!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E!B#%:J&lt;GFT;'6E!!!&lt;1!-!&amp;5.V=H*F&lt;H1A=G6B:#"Q&lt;X.J&gt;'FP&lt;A![1(!!(A!!'BB5:7NU=G^O;8AA2(*J&gt;G6S,GRW9WRB=X-!!"25:7NU=G^O;8AA2(*J&gt;G6S)'^V&gt;!!!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!"I96'6L&gt;(*P&lt;GFY)%2S;8:F=CZM&gt;G.M98.T!!!46'6L&gt;(*P&lt;GFY)%2S;8:F=C"J&lt;A"5!0!!$!!$!!1!"1!'!!=!"Q!(!!=!#!!(!!=!#1-!!(A!!!U)!!!*!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
