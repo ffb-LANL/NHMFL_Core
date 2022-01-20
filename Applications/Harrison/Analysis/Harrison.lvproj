@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="21008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -99,6 +99,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{FD6FD951-D431-4CC0-B91E-DA2E563ADE33}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{65CB0106-5573-4E0B-BAF9-8D6BE10415FC}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{15A80C51-8456-4150-8D88-5D1F1C5DDA67}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Harrison</Property>
