@@ -302,6 +302,15 @@
 			</Item>
 		</Item>
 	</Item>
+	<Item Name="Background Loop Step.vi" Type="VI" URL="../Background Loop Step.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(?!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;5!$!!^/:8BU)(.U:8!A:'6M98E!4A$RXBHB&amp;!!!!!%;1G&amp;D;W&gt;S&lt;X6O:#"-&lt;W^Q)%&amp;D&gt;'FP&lt;CZD&gt;'Q!+U!7!!-&amp;5X2B=H1)1W^O&gt;'FO&gt;75%5X2P=!!+17.U;7^O)'^V&gt;!!!/E"Q!"Y!!"M:37ZT&gt;(*V&lt;76O&gt;#"%=GFW:8)O&lt;(:D&lt;'&amp;T=Q!637ZT&gt;(*V&lt;76O&gt;#"%=GFW:8)A&lt;X6U!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%I!]&gt;Y:Y21!!!!"'E*B9WNH=G^V&lt;G1A4'^P=#""9X2J&lt;WYO9X2M!#&gt;!&amp;A!$"6.U98*U#%.P&lt;H2J&lt;H6F"&amp;.U&lt;X!!"E&amp;D&gt;'FP&lt;A!!/E"Q!"Y!!"M:37ZT&gt;(*V&lt;76O&gt;#"%=GFW:8)O&lt;(:D&lt;'&amp;T=Q!537ZT&gt;(*V&lt;76O&gt;#"%=GFW:8)A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"Q!(!!=!"Q!)!!=!#1!+!A!!?!!!$1A!!!E!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!A!!!#1!!!!!!%!#Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
 	<Item Name="De-Initialize.vi" Type="VI" URL="../De-Initialize.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'5FO=X2S&gt;7VF&lt;H1A2(*J&gt;G6S,GRW9WRB=X-!&amp;5FO=X2S&gt;7VF&lt;H1A2(*J&gt;G6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!&lt;'5FO=X2S&gt;7VF&lt;H1A2(*J&gt;G6S,GRW9WRB=X-!&amp;%FO=X2S&gt;7VF&lt;H1A2(*J&gt;G6S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
