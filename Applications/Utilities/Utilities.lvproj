@@ -616,7 +616,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/LabActor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BD9EA821-7080-4A40-B7CE-DD920EC99240}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Impedance Correction.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/github/builds/LabActor/Impedance Correction.exe</Property>
