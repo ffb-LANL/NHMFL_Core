@@ -16,7 +16,12 @@
 		</Item>
 		<Item Name="Instruments" Type="Folder">
 			<Item Name="CS580 Driver.lvclass" Type="LVClass" URL="../../../../Libraries/Instruments/SRS/CS580 Driver/CS580 Driver.lvclass"/>
+			<Item Name="LabJack Driver.lvclass" Type="LVClass" URL="../../../../Libraries/Instruments/LabJack/LabJack Driver.lvclass"/>
+			<Item Name="LabJackM.dll" Type="Document" URL="../../../../../../Windows/System32/LabJackM.dll"/>
+			<Item Name="LabJackUD.dll" Type="Document" URL="../../../../../../Windows/System32/LabJackUD.dll"/>
+			<Item Name="LabJackWUSB.dll" Type="Document" URL="../../../../../../Windows/System32/LabJackWUSB.dll"/>
 			<Item Name="Magnet Driver.lvclass" Type="LVClass" URL="../../../../Libraries/Instruments/Magnet/Magnet Driver.lvclass"/>
+			<Item Name="Prema Driver.lvclass" Type="LVClass" URL="../../../../Libraries/Instruments/Prema/Prema Driver.lvclass"/>
 			<Item Name="Signal Recovery Driver.lvclass" Type="LVClass" URL="../../../../Libraries/Instruments/EG_G/Signal Recovery Driver/Signal Recovery Driver.lvclass"/>
 			<Item Name="SRS Lockin Driver.lvclass" Type="LVClass" URL="../../../../Libraries/Instruments/SRS/SRS Lockin Driver/SRS Lockin Driver.lvclass"/>
 		</Item>
@@ -71,6 +76,7 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Configure AIN U6.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/Utility VIs/Configure AIN U6.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
@@ -90,6 +96,14 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="LJUD_AddRequestS.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_AddRequestS.vi"/>
+				<Item Name="LJUD_AddRequestSS.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_AddRequestSS.vi"/>
+				<Item Name="LJUD_eGetS.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_eGetS.vi"/>
+				<Item Name="LJUD_ErrorToString.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_ErrorToString.vi"/>
+				<Item Name="LJUD_GetNextResult.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_GetNextResult.vi"/>
+				<Item Name="LJUD_GoOne.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_GoOne.vi"/>
+				<Item Name="LJUD_OpenLabJackS.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_OpenLabJackS.vi"/>
+				<Item Name="LJUD_StringToConstant.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/LabJackUD DLL Functions/LJUD_StringToConstant.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -123,6 +137,7 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="U6 Single AIN Example.vi" Type="VI" URL="/&lt;vilib&gt;/addons/LabVIEW_LJUD/Examples/U6/U6 Single AIN Example.vi"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -141,10 +156,14 @@
 			<Item Name="Information.lvclass" Type="LVClass" URL="../../../../../LabActor/Publish-Subscribe/Interfaces/Information/Information.lvclass"/>
 			<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../../../Libraries/Instruments/Instrument Driver/Instrument Driver.lvclass"/>
 			<Item Name="Is Valid File.vi" Type="VI" URL="../../../../Libraries/File/Is Valid File.vi"/>
+			<Item Name="labjackud.dll" Type="Document" URL="labjackud.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../../../Libraries/File/File LLB/MakeDataFileNames.vi"/>
 			<Item Name="MakePath.vi" Type="VI" URL="../../../../Libraries/File/File LLB/MakePath.vi"/>
 			<Item Name="Metadata.lvclass" Type="LVClass" URL="../../../../Libraries/File/Metadata/Metadata.lvclass"/>
 			<Item Name="Output Value.lvclass" Type="LVClass" URL="../../../../Libraries/Utilities/Output Value/Output Value.lvclass"/>
+			<Item Name="Prema Get Volts.vi" Type="VI" URL="../../../../Libraries/Instruments/Prema/Prema Get Volts.vi"/>
 			<Item Name="Read 2 Traces.vi" Type="VI" URL="../../../../Libraries/Instruments/SRS/sr850/Read 2 Traces.vi"/>
 			<Item Name="Read Value.vi" Type="VI" URL="../../../../Libraries/Instruments/SRS/sr850/Read Value.vi"/>
 			<Item Name="Restore Permissions.vi" Type="VI" URL="../../../../Libraries/File/File LLB/Restore Permissions.vi"/>
@@ -159,6 +178,54 @@
 			<Item Name="VISA Instrument.lvclass" Type="LVClass" URL="../../../../Libraries/Instruments/VISA Instrument/VISA Instrument.lvclass"/>
 			<Item Name="Worker State.ctl" Type="VI" URL="../../../../Libraries/Instruments/Instrument Driver/Worker State.ctl"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="IV" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{31E161A4-36D3-4B37-8066-5967E6430EDB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{328744C3-D3B4-4C69-B233-B5102B4BDA21}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{64FB8C1A-6BF8-4363-9032-6BA5CCB5A2B6}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">IV</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Git/builds</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{DB1DF302-B0CF-438E-B780-5CB0959AD80C}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">IV.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Git/builds/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Git/builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DB1BC438-04EC-4538-A52B-786162BD0395}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/IV.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Instruments/LabJackUD.dll</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">IV</Property>
+				<Property Name="TgtF_internalName" Type="Str">IV</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 </Property>
+				<Property Name="TgtF_productName" Type="Str">IV</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{8BED868F-656F-472D-A052-B4AEA265D0D7}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">IV.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
