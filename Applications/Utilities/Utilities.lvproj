@@ -371,6 +371,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Notch Filter Configuration.ctl" Type="VI" URL="../../../Libraries/Utilities/Filter/Notch Filter Configuration.ctl"/>
 			<Item Name="Pad TAB.vi" Type="VI" URL="../../../Libraries/Utilities/Pad TAB.vi"/>
 			<Item Name="Peak Parameters.ctl" Type="VI" URL="../../../Libraries/Utilities/Fit/Peak Parameters.ctl"/>
 			<Item Name="Plot X-Y with names.vi" Type="VI" URL="../../../Libraries/Utilities/Plot X-Y with names.vi"/>
