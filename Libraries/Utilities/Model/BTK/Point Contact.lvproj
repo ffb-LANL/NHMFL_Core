@@ -146,7 +146,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GitHub/builds/LabActorMini</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4F2B5F73-FB60-4075-95E9-1665D139B520}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Analyze dIdV.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/LabActorMini/Analyze dIdV.exe</Property>
