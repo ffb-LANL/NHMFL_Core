@@ -10,9 +10,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Math" Type="Folder">
+			<Item Name="gama1.vi" Type="VI" URL="../gama1.vi"/>
+			<Item Name="gama2 gama3.vi" Type="VI" URL="../gama2 gama3.vi"/>
+			<Item Name="u0v0.vi" Type="VI" URL="../u0v0.vi"/>
+		</Item>
 		<Item Name="Correction Cfg.ctl" Type="VI" URL="../Controls/Correction Cfg.ctl"/>
 		<Item Name="dIdV State.lvclass" Type="LVClass" URL="../dIdV State/dIdV State.lvclass"/>
 		<Item Name="Fit btk.vi" Type="VI" URL="../Fit btk.vi"/>
+		<Item Name="Parameters 2 band.ctl" Type="VI" URL="../Parameters 2 band.ctl"/>
 		<Item Name="PCS Config.ctl" Type="VI" URL="../Controls/PCS Config.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -117,6 +123,7 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="BTK 2 band Model.vi" Type="VI" URL="../BTK 2 band Model.vi"/>
 			<Item Name="BTK conductivity.vi" Type="VI" URL="../BTK conductivity.vi"/>
 			<Item Name="BTK current.vi" Type="VI" URL="../BTK current.vi"/>
 			<Item Name="BTK Model.vi" Type="VI" URL="../BTK Model.vi"/>
