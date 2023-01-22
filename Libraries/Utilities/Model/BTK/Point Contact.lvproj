@@ -10,16 +10,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Math" Type="Folder">
+		<Item Name="Dependencies" Type="Folder">
+			<Item Name="Correction Cfg.ctl" Type="VI" URL="../Controls/Correction Cfg.ctl"/>
+			<Item Name="Fit btk.vi" Type="VI" URL="../Fit btk.vi"/>
 			<Item Name="gama1.vi" Type="VI" URL="../gama1.vi"/>
 			<Item Name="gama2 gama3.vi" Type="VI" URL="../gama2 gama3.vi"/>
+			<Item Name="Parameters 2 band.ctl" Type="VI" URL="../Parameters 2 band.ctl"/>
+			<Item Name="PCS Config.ctl" Type="VI" URL="../Controls/PCS Config.ctl"/>
 			<Item Name="u0v0.vi" Type="VI" URL="../u0v0.vi"/>
 		</Item>
-		<Item Name="Correction Cfg.ctl" Type="VI" URL="../Controls/Correction Cfg.ctl"/>
-		<Item Name="dIdV State.lvclass" Type="LVClass" URL="../dIdV State/dIdV State.lvclass"/>
-		<Item Name="Fit btk.vi" Type="VI" URL="../Fit btk.vi"/>
-		<Item Name="Parameters 2 band.ctl" Type="VI" URL="../Parameters 2 band.ctl"/>
-		<Item Name="PCS Config.ctl" Type="VI" URL="../Controls/PCS Config.ctl"/>
+		<Item Name="Point Contact Model.lvclass" Type="LVClass" URL="../dIdV State/Point Contact Model.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -138,7 +138,7 @@
 			<Item Name="Z factor.vi" Type="VI" URL="../Z factor.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Analyze dIdV" Type="EXE">
+			<Item Name="Point Contact Model" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{44A6A70D-0E8F-4400-BCC0-6557A9D1A77D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{045A3717-4704-4951-B735-B0382F306279}</Property>
@@ -146,7 +146,7 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3EC0B8C5-24D3-4AC2-A962-CD95B0CAB1A1}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Analyze dIdV</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Point Contact Model</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -155,8 +155,8 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{4F2B5F73-FB60-4075-95E9-1665D139B520}</Property>
 				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Analyze dIdV.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/LabActorMini/Analyze dIdV.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Point Contact Model.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/LabActorMini/Point Contact Model.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -164,22 +164,22 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GitHub/builds/LabActorMini/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DB523010-B929-4482-A45D-9052819CF8FE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9BF16206-1AD0-441E-94B0-85E61690B936}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dIdV State.lvclass/Analyze dIdV.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Point Contact Model.lvclass/Point Contact Model.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Analyze dIdV</Property>
-				<Property Name="TgtF_internalName" Type="Str">Analyze dIdV</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Point Contact Model</Property>
+				<Property Name="TgtF_internalName" Type="Str">Point Contact Model</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 </Property>
-				<Property Name="TgtF_productName" Type="Str">Analyze dIdV</Property>
+				<Property Name="TgtF_productName" Type="Str">Point Contact Model</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F1E617E8-9848-415C-9005-3D21D749A321}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Analyze dIdV.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Point Contact Model.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
