@@ -19,6 +19,8 @@
 			<Item Name="PCS Config.ctl" Type="VI" URL="../Controls/PCS Config.ctl"/>
 			<Item Name="u0v0.vi" Type="VI" URL="../u0v0.vi"/>
 		</Item>
+		<Item Name="Count Groups.vi" Type="VI" URL="../../../../File/TDMS/Count Groups.vi"/>
+		<Item Name="Count Strings.vi" Type="VI" URL="../../../Count Strings.vi"/>
 		<Item Name="Point Contact Model.lvclass" Type="LVClass" URL="../dIdV State/Point Contact Model.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
