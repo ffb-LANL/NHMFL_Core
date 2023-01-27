@@ -89,6 +89,8 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -129,6 +131,7 @@
 			<Item Name="BTK conductivity.vi" Type="VI" URL="../BTK conductivity.vi"/>
 			<Item Name="BTK current.vi" Type="VI" URL="../BTK current.vi"/>
 			<Item Name="BTK Model.vi" Type="VI" URL="../BTK Model.vi"/>
+			<Item Name="ChangeFileExtention.vi" Type="VI" URL="../../../../File/File LLB/ChangeFileExtention.vi"/>
 			<Item Name="Generate step array.vi" Type="VI" URL="../../../Generate step array.vi"/>
 			<Item Name="How Many Steps.vi" Type="VI" URL="../../../How Many Steps.vi"/>
 			<Item Name="Increment mode.ctl" Type="VI" URL="../../../Increment mode.ctl"/>
@@ -136,7 +139,9 @@
 			<Item Name="Load IV Data.vi" Type="VI" URL="../Load IV Data.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Parameters.ctl" Type="VI" URL="../Parameters.ctl"/>
+			<Item Name="Store Metadata in TDMS.vi" Type="VI" URL="../../../../File/TDMS/Store Metadata in TDMS.vi"/>
 			<Item Name="T to Delta.vi" Type="VI" URL="../T to Delta.vi"/>
+			<Item Name="Variant to Meta Data.vi" Type="VI" URL="../../../../File/OO config/Variant to Meta Data.vi"/>
 			<Item Name="Z factor.vi" Type="VI" URL="../Z factor.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
