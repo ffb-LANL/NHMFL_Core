@@ -581,7 +581,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/LabActor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8CFA7BA5-FAF9-4F0E-AE64-3434E32C70EB}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FFT.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/github/builds/LabActor/FFT.exe</Property>
@@ -592,7 +592,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/github/builds/LabActor/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9D6D8382-9ABC-4469-AA66-0D07B7B7BAAF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AC33A50F-D00E-4216-97C8-E30CE5EB09B3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FFT.vi</Property>
