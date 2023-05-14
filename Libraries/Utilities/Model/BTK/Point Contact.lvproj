@@ -19,9 +19,11 @@
 			<Item Name="PCS Config.ctl" Type="VI" URL="../Controls/PCS Config.ctl"/>
 			<Item Name="u0v0.vi" Type="VI" URL="../u0v0.vi"/>
 		</Item>
+		<Item Name="Convert IV Data.vi" Type="VI" URL="../Convert IV Data.vi"/>
 		<Item Name="Count Groups.vi" Type="VI" URL="../../../../File/TDMS/Count Groups.vi"/>
 		<Item Name="Count Strings.vi" Type="VI" URL="../../../Count Strings.vi"/>
 		<Item Name="Point Contact Model.lvclass" Type="LVClass" URL="../dIdV State/Point Contact Model.lvclass"/>
+		<Item Name="Read Scan.vi" Type="VI" URL="../Read Scan.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -127,6 +129,7 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Append suffix.vi" Type="VI" URL="../../../../File/File LLB/Append suffix.vi"/>
 			<Item Name="BTK 2 band Model.vi" Type="VI" URL="../BTK 2 band Model.vi"/>
 			<Item Name="BTK conductivity.vi" Type="VI" URL="../BTK conductivity.vi"/>
 			<Item Name="BTK current.vi" Type="VI" URL="../BTK current.vi"/>
@@ -142,9 +145,54 @@
 			<Item Name="Store Metadata in TDMS.vi" Type="VI" URL="../../../../File/TDMS/Store Metadata in TDMS.vi"/>
 			<Item Name="T to Delta.vi" Type="VI" URL="../T to Delta.vi"/>
 			<Item Name="Variant to Meta Data.vi" Type="VI" URL="../../../../File/OO config/Variant to Meta Data.vi"/>
+			<Item Name="Write Scan.vi" Type="VI" URL="../Write Scan.vi"/>
 			<Item Name="Z factor.vi" Type="VI" URL="../Z factor.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Convert I-V" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A5412C5B-B3F4-47F9-A11F-5A244CC5A0C1}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{A88118E3-E31A-4B4D-8797-CE3CA02488E3}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{128DD6DF-7891-4291-A38C-403C109C85EA}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Convert I-V</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GitHub/builds/Analyze dIdV</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{94AC46F8-FD36-49C0-85BC-656BEEE8B1F8}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">ConverIV.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/Analyze dIdV/ConverIV.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GitHub/builds/Analyze dIdV/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DA98A555-E3E6-4BCA-B8EC-1E65E681B95A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Point Contact Model.lvclass/Convert I-V.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Convert I-V</Property>
+				<Property Name="TgtF_internalName" Type="Str">Convert I-V</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
+				<Property Name="TgtF_productName" Type="Str">Convert I-V</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{ACC786BA-AF28-4A37-861E-3008ABFBC14B}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ConverIV.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Point Contact Model" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{44A6A70D-0E8F-4400-BCC0-6557A9D1A77D}</Property>
@@ -160,7 +208,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GitHub/builds/LabActorMini</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4F2B5F73-FB60-4075-95E9-1665D139B520}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Point Contact Model.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/LabActorMini/Point Contact Model.exe</Property>
