@@ -142,6 +142,7 @@
 			<Item Name="Load IV Data.vi" Type="VI" URL="../Load IV Data.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Parameters.ctl" Type="VI" URL="../Parameters.ctl"/>
+			<Item Name="Save Model Digest.vi" Type="VI" URL="../dIdV State/Save Model Digest.vi"/>
 			<Item Name="Store Metadata in TDMS.vi" Type="VI" URL="../../../../File/TDMS/Store Metadata in TDMS.vi"/>
 			<Item Name="T to Delta.vi" Type="VI" URL="../T to Delta.vi"/>
 			<Item Name="Variant to Meta Data.vi" Type="VI" URL="../../../../File/OO config/Variant to Meta Data.vi"/>
