@@ -1,0 +1,3 @@
+7003 Red Pitaya Ram Error
+7010 Input channel not present
+7011 Output channel not present
