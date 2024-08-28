@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Name="Template - Generic.lvproj" Type="Project" LVVersion="15008000" URL="/&lt;instrlib&gt;/_Template - Generic/Template - Generic.lvproj">
+<Project Name="Template - Generic.lvproj" Type="Project" LVVersion="24008000" URL="/&lt;instrlib&gt;/_Template - Generic/Template - Generic.lvproj">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Project.Description" Type="Str">This project is used by developers to edit API and example files for LabVIEW Plug and Play instrument drivers.</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -58,6 +58,12 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
 			</Item>
 			<Item Name="Graph.ctl" Type="VI" URL="../../Graph.ctl"/>
 			<Item Name="Save strain data.vi" Type="VI" URL="../../Save strain data.vi"/>
@@ -66,11 +72,11 @@
 			<Item Name="MakePath.vi" Type="VI" URL="../../../File/File LLB/MakePath.vi"/>
 			<Item Name="Generate mounth year strings.vi" Type="VI" URL="../../../File/File LLB/Generate mounth year strings.vi"/>
 			<Item Name="Create folder if not exist.vi" Type="VI" URL="../../../File/File LLB/Create folder if not exist.vi"/>
-			<Item Name="AppendPathSeparator.vi" Type="VI" URL="../../../File/File LLB/AppendPathSeparator.vi"/>
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../../File/File LLB/GenerateUniqueFilename.vi"/>
 			<Item Name="Any file exists.vi" Type="VI" URL="../../../File/Any file exists.vi"/>
 			<Item Name="CheckFileExist.vi" Type="VI" URL="../../../File/File LLB/CheckFileExist.vi"/>
 			<Item Name="TryAgain.vi" Type="VI" URL="../../../File/File LLB/TryAgain.vi"/>
+			<Item Name="Is Valid File.vi" Type="VI" URL="../../../File/Is Valid File.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
