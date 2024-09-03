@@ -43,6 +43,7 @@ Micron Opics sm130 Optical Sensing Interrogator.</Property>
 			<Item Name="Read Peaks and Levels.vi" Type="VI" URL="../Public/Data/Read Peaks and Levels.vi"/>
 			<Item Name="Read Streaming Peaks and Levels.vi" Type="VI" URL="../Public/Data/Read Streaming Peaks and Levels.vi"/>
 			<Item Name="Data.mnu" Type="Document" URL="../Public/Data/Data.mnu"/>
+			<Item Name="Read Buffer Count.vi" Type="VI" URL="../Public/Data/Read Buffer Count.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Conversion" Type="Folder">
