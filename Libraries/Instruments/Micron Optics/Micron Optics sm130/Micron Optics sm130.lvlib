@@ -36,6 +36,7 @@ Micron Opics sm130 Optical Sensing Interrogator.</Property>
 			<Item Name="Configure Time and Date.vi" Type="VI" URL="../Public/Configure/Configure Time and Date.vi"/>
 			<Item Name="Configure Streaming.vi" Type="VI" URL="../Public/Configure/Configure Streaming.vi"/>
 			<Item Name="Configure.mnu" Type="Document" URL="../Public/Configure/Configure.mnu"/>
+			<Item Name="Configure Buffering.vi" Type="VI" URL="../Public/Configure/Configure Buffering.vi"/>
 		</Item>
 		<Item Name="Data" Type="Folder">
 			<Item Name="Read Spectrum Data.vi" Type="VI" URL="../Public/Data/Read Spectrum Data.vi"/>
