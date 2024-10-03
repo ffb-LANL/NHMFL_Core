@@ -27,7 +27,7 @@
 		<Item Name="TDOanalysis.vi" Type="VI" URL="../TDOanalysis.vi"/>
 		<Item Name="Templates.21.0.1.png" Type="Document" URL="../../../../../Data/Icon Templates/Templates.21.0.1.png"/>
 		<Item Name="Time-Frequency.vi" Type="VI" URL="../Time-Frequency.vi"/>
-		<Item Name="Up Down Hall.vi" Type="VI" URL="../Up Down Hall.vi"/>
+		<Item Name="Up Down Hall.vi" Type="VI" URL="../../Model/Hall/Up Down Hall.vi"/>
 		<Item Name="View TDMS.vi" Type="VI" URL="../View TDMS.vi"/>
 		<Item Name="ViewTDMS.ico" Type="Document" URL="../ViewTDMS.ico"/>
 		<Item Name="ViewTDMS.ini" Type="Document" URL="../ViewTDMS.ini"/>
@@ -308,10 +308,6 @@
 				<Item Name="panelResize_tdms.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/panelResize_tdms.vi"/>
 				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
 				<Item Name="Progress Bar Dialog.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ProgressBar/Progress Bar Dialog.lvclass"/>
-				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
-				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read File+ [SGL].vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ [SGL].vi"/>
 				<Item Name="Read From SGL File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From SGL File.vi"/>
@@ -319,7 +315,6 @@
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
 				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
-				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
