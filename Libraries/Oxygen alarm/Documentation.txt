@@ -1,0 +1,15 @@
+3/26/14
+
+294 LN2 valve connectes to RLY 422@6 CH2 terminals 11,12 true - valve closed  false - open
+
+Outside LN2 valve connectes to RLY 420@5 CH3 terminals 7,8 true - valve open?   false - closed?
+
+Removed solid state relay from main valve circuit and connected it directly to 420@5 CH3 terminals 7,8
+
+3/27/14
+
+Enabled network watchdog in FieldPoint (Sart NI MAX,  browse in left panel to Remote systems->O2 sensing->FP2015@0 Bank
+Set watchdog timeout to 5000ms (default)
+Enabled watchdog for device 420@5 ( browse to  Remote systems->O2 sensing->FP2015@0 Bank-> FP-RLY-420, select device tab and check watchdog )
+Enabled watchdog value for CH3 on 420@5 (main valve, browse to  Remote systems->O2 sensing->FP2015@0 Bank-> FP-RLY-420 @ 5, select channle tab -> Channel 3, check watchdog and set value to 0)
+set the same for 422@6 CH2, but set watchdog value to 1, need to figure out what's up with that)  
