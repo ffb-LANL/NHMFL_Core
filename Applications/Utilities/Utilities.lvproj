@@ -885,7 +885,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GitHub/builds/LabActor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1938EEA5-01FE-4D91-8E58-EAA8D7865F65}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TDOanalysis.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/LabActor/TDOanalysis.exe</Property>
@@ -896,7 +896,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/GitHub/builds/LabActor/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{47A89649-05F3-4005-B2D3-58417C1EC4FD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1E64FB3D-CE8E-43DB-9C4B-F2DC7B8C9A17}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TDOanalysis.vi</Property>
