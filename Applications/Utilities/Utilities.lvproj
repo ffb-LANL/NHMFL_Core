@@ -16,6 +16,8 @@
 		<Item Name="Defragment TDMS.ini" Type="Document" URL="../Defragment TDMS.ini"/>
 		<Item Name="Defragment TDMS.vi" Type="VI" URL="../Defragment TDMS.vi"/>
 		<Item Name="FFT.vi" Type="VI" URL="../FFT.vi"/>
+		<Item Name="Fit Cernox.vi" Type="VI" URL="../Fit Cernox.vi"/>
+		<Item Name="Fit Mutiple Cernox Files.vi" Type="VI" URL="../Fit Mutiple Cernox Files.vi"/>
 		<Item Name="Fit SC Hall.vi" Type="VI" URL="../../../Libraries/Utilities/Fit/Fit SC Hall.vi"/>
 		<Item Name="Generate Test Pattern.vi" Type="VI" URL="../../../Libraries/NI-DAQ/Generate Test Pattern.vi"/>
 		<Item Name="Hall.vi" Type="VI" URL="../Hall.vi"/>
@@ -223,6 +225,104 @@
 				<Property Name="TgtF_productName" Type="Str">FFT</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8D017985-C90A-46AC-AF46-5EEB8F0BAC5E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">FFT.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Fit Cernox" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{1D2CEBBA-6F57-4043-A56B-6679CC434AC7}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{8A7E0CF5-D05B-4427-A421-79DE22E9830F}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LANL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{C797942E-B0B8-4F81-9D19-35C124DE932B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Fit Cernox</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GitHub/builds/LabActor</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{AB642275-B299-4337-8CE4-D6953DAE97DA}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">FitCernox.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/LabActor/FitCernox.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GitHub/builds/LabActor/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{28DC9D3D-2216-41BB-B40D-7521444EAF48}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Fit Mutiple Cernox Files.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Fit Cernox.vi</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">LANL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Fit Multi Cernox</Property>
+				<Property Name="TgtF_internalName" Type="Str">Fit Multi Cernox</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 LANL</Property>
+				<Property Name="TgtF_productName" Type="Str">Fit Multi Cernox</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E019F616-D521-46DC-9E60-C199FEE68079}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">FitCernox.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Fit Multi Cernox" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{51D0DDF2-710A-40A6-B1F2-3DF975A3113A}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{ED8E45B1-2AD9-4800-A3F2-1235870312D6}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.LANL.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{52A438E8-CDAD-4057-AF74-269D689DB4C4}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Fit Multi Cernox</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/GitHub/builds/LabActor</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{4354375B-ED75-4210-84E6-5DCD42F1B1D3}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">FitMultiCernox.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/LabActor/FitMultiCernox.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/GitHub/builds/LabActor/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{28DC9D3D-2216-41BB-B40D-7521444EAF48}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Fit Mutiple Cernox Files.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LANL</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Fit Multi Cernox</Property>
+				<Property Name="TgtF_internalName" Type="Str">Fit Multi Cernox</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 LANL</Property>
+				<Property Name="TgtF_productName" Type="Str">Fit Multi Cernox</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D95B9E11-8A55-436B-B002-013877046E54}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">FitMultiCernox.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Impedance Correction" Type="EXE">
@@ -525,7 +625,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GitHub/builds/LabActor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0719B0FD-C06F-4216-BCA6-E3A06AB1FFA9}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Up Down Hall.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/LabActor/Up Down Hall.exe</Property>
@@ -570,7 +670,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/GitHub/builds/LabActor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3E1A7DD7-D4BB-4576-A907-6272FB54D8D1}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ViewTDMS.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/GitHub/builds/LabActor/ViewTDMS.exe</Property>
