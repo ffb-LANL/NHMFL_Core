@@ -16,7 +16,9 @@
 		<Item Name="Extract subset.vi" Type="VI" URL="../Extract subset.vi"/>
 		<Item Name="Fit DC Hall.vi" Type="VI" URL="../Fit DC Hall.vi"/>
 		<Item Name="Fit Hall.vi" Type="VI" URL="../Fit Hall.vi"/>
+		<Item Name="Load Subset.vi" Type="VI" URL="../Load Subset.vi"/>
 		<Item Name="Locate Subset by Code.vi" Type="VI" URL="../Locate Subset by Code.vi"/>
+		<Item Name="Locate Subset by Value.vi" Type="VI" URL="../Locate Subset by Value.vi"/>
 		<Item Name="Locate Subset.vi" Type="VI" URL="../Locate Subset.vi"/>
 		<Item Name="Split Fit PPMS Hall.vi" Type="VI" URL="../Split Fit PPMS Hall.vi"/>
 		<Item Name="Split hall file.vi" Type="VI" URL="../Split hall file.vi"/>
